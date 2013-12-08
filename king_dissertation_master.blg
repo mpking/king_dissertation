@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: king_dissertation_master.aux
+A level-1 auxiliary file: tex/chap_1.aux
+A level-1 auxiliary file: tex/chap_2.aux
+A level-1 auxiliary file: tex/chap_3.aux
+A level-1 auxiliary file: tex/chap_4.aux
+A level-1 auxiliary file: tex/chap_5.aux
+The style file: ieeetr.bst
+Database file #1: library.bib
+Warning--empty journal in garrett2012galileo
+Warning--empty year in Salvat:ue
+Warning--empty journal in Knoll:2010vq
+Warning--empty journal in Chunxiang:1985uo
+You've used 106 entries,
+            1876 wiz_defined-function locations,
+            1088 strings with 24773 characters,
+and the built_in function-call counts, 36932 in all, are:
+= -- 3753
+> -- 1626
+< -- 0
++ -- 584
+- -- 478
+* -- 2870
+:= -- 5142
+add.period$ -- 109
+call.type$ -- 106
+change.case$ -- 103
+chr.to.int$ -- 0
+cite$ -- 110
+duplicate$ -- 1747
+empty$ -- 3021
+format.name$ -- 478
+if$ -- 8852
+int.to.chr$ -- 0
+int.to.str$ -- 106
+missing$ -- 107
+newline$ -- 324
+num.names$ -- 106
+pop$ -- 182
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1487
+stack$ -- 0
+substring$ -- 3156
+swap$ -- 927
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 364
+width$ -- 109
+write$ -- 1080
+(There were 4 warnings)

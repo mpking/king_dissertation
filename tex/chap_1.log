@@ -1,0 +1,54 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 AUG 2013 22:41
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**chap_1.tex
+(./chap_1.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../king_dissertation_master.tex'
+(../king_dissertation_master.tex
+
+! LaTeX Error: File `AreaPaper.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+../king_dissertation_master.tex:2: Emergency stop.
+<read *> 
+         
+l.2 ^^M
+       
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 58 strings out of 493488
+ 1195 string characters out of 3141326
+ 49432 words of memory out of 3000000
+ 3451 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 18i,0n,17p,181b,16s stack positions out of 5000i,500n,10000p,200000b,50000s
+../king_dissertation_master.tex:2:  ==> Fatal error occurred, no output PDF fil
+e produced!

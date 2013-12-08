@@ -1,0 +1,560 @@
+\begin{thebibliography}{100}
+
+\bibitem{garrett2012galileo}
+H.~Garrett, M.~Kokorowski, I.~Jun, and R.~Evans, ``Galileo interim radiation
+  electron model: update2012,'' 2012.
+
+\bibitem{Rodbell:2007vl}
+K.~P. Rodbell, D.~F. Heidel, H.~Tang, M.~Gordon, P.~Oldiges, and C.~Murray,
+  ``{Low-energy proton-induced single-event-upsets in 65 nm node,
+  silicon-on-insulator, latches and memory cells},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~54, pp.~2474--2479, Dec. 2007.
+
+\bibitem{Sierawski:2010cj}
+B.~D. Sierawski, M.~H. Mendenhall, R.~A. Reed, M.~A. Clemens, R.~A. Weller,
+  R.~D. Schrimpf, E.~W. Blackmore, M.~Trinczek, B.~Hitti, J.~A. Pellish, R.~C.
+  Baumann, S.-J. Wen, R.~Wong, and N.~Tam, ``{Muon-induced single event upsets
+  in deep-submicron technology},'' {\em IEEE Trans. Nucl. Sci.}, vol.~57,
+  pp.~3273--3278, Dec. 2010.
+
+\bibitem{Bourdarie:kj}
+S.~Bourdarie and M.~Xapsos, ``{The near-earth space radiation environment},''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~55, pp.~1810--1832, Aug. 2008.
+
+\bibitem{Xapsos:2013cu}
+M.~Xapsos, P.~M. O'Neill, and T.~P. O'Brien, ``{Near-earth space radiation
+  models},'' {\em IEEE Trans. Nucl. Sci.}, vol.~60, pp.~1691--1705, June 2013.
+
+\bibitem{Weller:2003je}
+R.~A. Weller, A.~L. Sternberg, L.~W. Massengill, R.~D. Schrimpf, and D.~M.
+  Fleetwood, ``{Evaluating average and atypical response in radiation effects
+  simulations},'' {\em IEEE Trans. Nucl. Sci.}, vol.~50, pp.~2265--2271, Dec.
+  2003.
+
+\bibitem{Raine:2010cna}
+M.~Raine, M.~Gaillardin, J.-E. Sauvestre, O.~Flament, A.~Bournel, and
+  V.~Aubry-Fortuna, ``{Effect of the ion mass and energy on the response of
+  70-nm SOI transistors to the ion deposited charge by direct ionization},''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~57, pp.~1892--1899, Aug. 2010.
+
+\bibitem{Raine:gk}
+M.~Raine, G.~Hubert, M.~Gaillardin, L.~Artola, P.~Paillet, S.~Girard, J.-E.
+  Sauvestre, and A.~Bournel, ``{Impact of the radial ionization profile on SEE
+  prediction for SOI transistors and SRAMs beyond the 32-nm technological
+  node},'' {\em IEEE Trans. Nucl. Sci.}, vol.~58, pp.~840--847, June 2011.
+
+\bibitem{Raine:2012gi}
+M.~Raine, A.~Valentin, M.~Gaillardin, and P.~Paillet, ``{Improved simulation of
+  ion track structures using new Geant4 models{--}impact on the modeling of
+  advanced technologies response},'' {\em IEEE Trans. Nucl. Sci.}, vol.~59,
+  pp.~2697--2703, Dec. 2012.
+
+\bibitem{King:2010cu}
+M.~P. King, R.~A. Reed, R.~A. Weller, M.~H. Mendenhall, R.~D. Schrimpf, M.~L.
+  Alles, E.~C. Auden, S.~E. Armstrong, and M.~Asai, ``{The impact of delta-rays
+  on single-event upsets in highly scaled SOI SRAMs},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~57, pp.~3169--3175, Jan. 2010.
+
+\bibitem{King:2012cb}
+M.~P. King, R.~A. Reed, R.~A. Weller, M.~H. Mendenhall, R.~D. Schrimpf, N.~D.
+  Pate, E.~C. Auden, and S.~L. Weeden-Wright, ``{Radial characteristics of
+  heavy-ion track structure and implications of delta-ray events for
+  microelectronics},'' {\em Appl. Phys. Lett.}, vol.~101,
+  pp.~053509--053509--3, Aug. 2012.
+
+\bibitem{Barak:2012im}
+J.~Barak, M.~Murat, and A.~Akkerman, ``{SEU due to electrons in silicon devices
+  with nanometric sensitive volumes and small critical charge},'' {\em Nucl.
+  Instrum. Meth. B}, vol.~287, pp.~113--119, Sept. 2012.
+
+\bibitem{Heidel:2008vf}
+D.~F. Heidel, P.~W. Marshall, K.~A. LaBel, J.~R. Schwank, K.~P. Rodbell, M.~C.
+  Hakey, M.~D. Berg, P.~E. Dodd, M.~R. Friendlich, A.~D. Phan, C.~M. Seidleck,
+  M.~R. Shaneyfelt, and M.~A. Xapsos, ``{Low energy proton single-event-upset
+  test results on 65 nm SOI SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~55,
+  pp.~3394--3400, Dec. 2008.
+
+\bibitem{Heidel:2009vx}
+D.~F. Heidel, P.~W. Marshall, J.~A. Pellish, K.~P. Rodbell, K.~A. LaBel, J.~R.
+  Schwank, S.~Rauch, M.~C. Hakey, M.~D. Berg, and C.~Castaneda, ``{Single-event
+  upsets and multiple-bit upsets on a 45 nm SOI SRAM},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~56, pp.~3499--3504, Dec. 2009.
+
+\bibitem{Sierawski:2009ka}
+B.~D. Sierawski, J.~A. Pellish, R.~A. Reed, R.~D. Schrimpf, K.~M. Warren, R.~A.
+  Weller, M.~H. Mendenhall, J.~D. Black, A.~D. Tipton, M.~A. Xapsos, R.~C.
+  Baumann, X.~Deng, M.~J. Campola, M.~R. Friendlich, H.~S. Kim, A.~M. Phan, and
+  C.~M. Seidleck, ``{Impact of low-energy proton induced upsets on test methods
+  and rate predictions},'' {\em IEEE Trans. Nucl. Sci.}, vol.~56,
+  pp.~3085--3092, Dec. 2009.
+
+\bibitem{Sierawski:2011bn}
+B.~D. Sierawski, R.~A. Reed, M.~H. Mendenhall, R.~A. Weller, R.~D. Schrimpf,
+  S.~Wen, R.~Wong, N.~Tam, and R.~C. Baumann, ``{Effects of scaling on
+  muon-induced soft errors},'' {\em 2011 IEEE International Reliability Physics
+  Symposium}, p.~3, April 2011.
+
+\bibitem{ziegler2010srim}
+J.~F. Ziegler, M.~D. Ziegler, and J.~P. Biersack, ``Srim--the stopping and
+  range of ions in matter (2010),'' {\em Nuclear Instruments and Methods in
+  Physics Research Section B: Beam Interactions with Materials and Atoms},
+  vol.~268, no.~11, pp.~1818--1823, 2010.
+
+\bibitem{bichsel2010passage}
+H.~Bichsel, D.~Groom, and S.~Klein, ``Passage of particles through matter,''
+  {\em Physics Letters B}, vol.~592, p.~2004, 2010.
+
+\bibitem{bichsel1988straggling}
+H.~Bichsel, ``Straggling in thin silicon detectors,'' {\em Reviews of Modern
+  Physics}, vol.~60, no.~3, p.~663, 1988.
+
+\bibitem{Stapor:1988ws}
+W.~Stapor and P.~McDonald, ``{Practical approach to ion track energy
+  distribution},'' {\em J. Appl. Phys.}, vol.~64, p.~4430, 1988.
+
+\bibitem{HowardJr:2002vg}
+J.~W. Howard, R.~C. Block, H.~Dussault, W.~Stapor, P.~McDonald, A.~Knudson, and
+  M.~R. Pinto, ``{A novel approach for measuring the radial distribution of
+  charge in a heavy-ion track},'' {\em IEEE Trans. Nucl. Sci.}, vol.~41,
+  pp.~2077--2084, Jan. 2002.
+
+\bibitem{Kobayashi:2004dg}
+A.~S. Kobayashi, A.~L. Sternberg, L.~W. Massengill, R.~D. Schrimpf, and R.~A.
+  Weller, ``{Spatial and temporal characteristics of energy deposition by
+  protons and alpha particles in silicon},'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~51, no.~6, pp.~3312--3317, 2004.
+
+\bibitem{Dodd:1998tn}
+P.~E. Dodd, O.~Musseau, M.~R. Shaneyfelt, F.~W. Sexton, C.~D'hose, G.~Hash,
+  M.~Martinez, R.~Loemker, J.~Leray, and P.~Winokur, ``{Impact of Ion Energy on
+  Single-EventUpset},'' {\em IEEE Trans. Nucl. Sci.}, vol.~45, no.~6,
+  pp.~2483--2491, 1998.
+
+\bibitem{Dodd:1998ua}
+P.~E. Dodd, ``{Mechanisms and modeling of single-event upset},'' {\em
+  osti.gov}, Jan. 1998.
+
+\bibitem{Dodd:2001tx}
+P.~E. Dodd, A.~Shaneyfelt, K.~Horn, D.~Walsh, G.~L. Hash, T.~A. Hill, B.~L.
+  Draper, J.~R. Schwank, F.~Sexton, and P.~Winokur, ``{SEU-sensitive volumes in
+  bulk and SOI SRAMs from first-principles calculations and experiments},''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~48, no.~6, pp.~1893--1903, 2001.
+
+\bibitem{Reed:2002wn}
+R.~A. Reed, P.~W. Marshall, H.~Kim, P.~McNulty, B.~Fodness, T.~Jordan,
+  R.~Reedy, C.~Tabbert, M.~Liu, and W.~Heikkila, ``{Evidence for angular
+  effects in proton-induced single-event upsets},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~49, no.~6, pp.~3038--3044, 2002.
+
+\bibitem{Kobayashi:2005jt}
+A.~S. Kobayashi, D.~R. Ball, K.~M. Warren, R.~A. Reed, N.~Haddad, M.~H.
+  Mendenhall, R.~D. Schrimpf, and R.~A. Weller, ``{The effect of metallization
+  Layers on single event susceptibility},'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~52, pp.~2189--2193, Dec. 2005.
+
+\bibitem{Reed:2006cx}
+R.~A. Reed, R.~A. Weller, R.~D. Schrimpf, M.~H. Mendenhall, K.~M. Warren, and
+  L.~W. Massengill, ``{Implications of Nuclear Reactions for Single Event
+  Effects Test Methods and Analysis},'' {\em IEEE Trans. Nucl. Sci.}, vol.~53,
+  no.~6, pp.~3356--3362, 2006.
+
+\bibitem{Reed:2007vz}
+R.~A. Reed, R.~A. Weller, M.~H. Mendenhall, J.~Lauenstein, K.~Warren,
+  J.~Pellish, R.~D. Schrimpf, B.~D. Sierawski, L.~W. Massengill, and P.~E.
+  Dodd, ``{Impact of ion energy and species on single event effects
+  analysis},'' {\em IEEE Trans. Nucl. Sci.}, vol.~54, no.~6, pp.~2312--2321,
+  2007.
+
+\bibitem{Warren:2007ca}
+K.~M. Warren, R.~A. Weller, B.~D. Sierawski, R.~A. Reed, M.~H. Mendenhall,
+  R.~D. Schrimpf, L.~W. Massengill, M.~E. Porter, J.~D. Wilkinson, K.~A. LaBel,
+  and J.~H. Adams, ``{Application of RADSAFE to Model the Single Event Upset
+  Response of a 0.25 μm CMOS SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~54,
+  no.~4, pp.~898--903, 2007.
+
+\bibitem{bethe1930theorie}
+H.~Bethe, ``Zur theorie des durchgangs schneller korpuskularstrahlen durch
+  materie,'' {\em Annalen der Physik}, vol.~397, no.~3, pp.~325--400, 1930.
+
+\bibitem{bethe1932bremsformel}
+H.~Bethe, ``Bremsformel f{\"u}r elektronen relativistischer geschwindigkeit,''
+  {\em Zeitschrift f{\"u}r Physik}, vol.~76, no.~5-6, pp.~293--299, 1932.
+
+\bibitem{fano1964penetration}
+U.~Fano, ``Penetration of protons, alpha particles, and mesons,'' {\em Studies
+  in Penetration of Charged Particles in Matter}, no.~39, p.~287, 1964.
+
+\bibitem{Salvat:ue}
+F.~Salvat, J.~Fern{\'a}ndez-Varea, and J.~Sempau, ``{PENELOPE-2008: A code
+  system for Monte Carlo simulation of electron and photon transport},'' {\em
+  [Online] http://www.oecd-nea.org/science/pubs/2009/nea6416-penelope.pdf}.
+
+\bibitem{Knoll:2010vq}
+G.~Knoll, ``{Radiation detection and measurement},'' 2010.
+
+\bibitem{alpen1997radiation}
+E.~L. Alpen, {\em Radiation biophysics}.
+\newblock Access Online via Elsevier, 1997.
+
+\bibitem{Henke:1993tq}
+B.~L. Henke, E.~M. Gullikson, and J.~C. Davis, ``{X-Ray Interactions:
+  Photoabsorption, Scattering, Transmission, and Reflection at E = 50-30,000
+  eV, Z = 1-92},'' {\em Atomic data and nuclear data tables}, 1993.
+
+\bibitem{semeraro:2002dvfs}
+G.~Semeraro, G.~Magklis, R.~Balasubramonian, D.~H. Albonesi, S.~Dwarkadas, and
+  M.~L. Scott, ``Energy-efficient processor design using multiple clock domains
+  with dynamic voltage and frequency scaling,'' in {\em IEEE International
+  Symposium on High-Performance Computer Architecture}, pp.~29--40, IEEE, 2002.
+
+\bibitem{david:2011dvfs}
+H.~David, C.~Fallin, E.~Gorbatov, U.~R. Hanebutte, and O.~Mutlu, ``Memory power
+  management via dynamic voltage/frequency scaling,'' in {\em Proceedings of
+  the 8th ACM International Conference on Autonomic Computing}, pp.~31--40,
+  ACM, 2011.
+
+\bibitem{Haran:2008ta}
+B.~Haran, A.~Kumar, L.~Adam, J.~Chang, V.~Basker, S.~Kanakasabapathy, D.~Horak,
+  S.~Fan, J.~Chen, and J.~Faltermeier, ``{22 nm technology compatible fully
+  functional 0.1 m 2 6T-SRAM cell},'' {\em IEEE International Electron Devices
+  Meeting, 2008. IEDM 2008}, pp.~1--4, 2008.
+
+\bibitem{mclean1982charge}
+F.~McLean and T.~Oldham, ``Charge funneling in n-and p-type si substrates,''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~29, no.~6, pp.~2017--2023, 1982.
+
+\bibitem{oldham1983charge}
+T.~Oldham and F.~McLean, ``Charge collection measurements for heavy ions
+  incident on n-and p-type silicon,'' {\em IEEE Trans. Nucl. Sci.}, vol.~30,
+  no.~6, pp.~4493--4500, 1983.
+
+\bibitem{oldham1986revised}
+T.~Oldham, F.~McLean, and J.~Hartman, ``Revised funnel calculations for heavy
+  particles with high de/dx,'' {\em IEEE Trans. Nucl. Sci.}, vol.~33, no.~6,
+  pp.~1646--1650, 1986.
+
+\bibitem{dodd1994three}
+P.~Dodd, F.~Sexton, and P.~Winokur, ``Three-dimensional simulation of charge
+  collection and multiple-bit upset in si devices,'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~41, no.~6, pp.~2005--2017, 1994.
+
+\bibitem{edmonds1997charge}
+L.~D. Edmonds, ``Charge collection from ion tracks in simple epi diodes,'' {\em
+  IEEE Trans. Nucl. Sci.}, vol.~44, no.~3, pp.~1448--1463, 1997.
+
+\bibitem{edmonds1998electric}
+L.~D. Edmonds, ``Electric currents through ion tracks in silicon devices,''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~45, no.~6, pp.~3153--3164, 1998.
+
+\bibitem{hubert2000study}
+G.~Hubert, J.-M. Palau, P.~Roche, B.~Sagnes, J.~Gasiot, and M.~Calvet, ``Study
+  of basic mechanisms induced by an ionizing particle on simple structures,''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~47, no.~3, pp.~519--526, 2000.
+
+\bibitem{edmonds2010theoretical}
+L.~D. Edmonds, ``A theoretical analysis of steady-state charge collection in
+  simple diodes under high-injection conditions,'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~57, no.~2, pp.~818--830, 2010.
+
+\bibitem{edmonds2011proposed}
+L.~D. Edmonds, ``A proposed transient version of the adc charge-collection
+  model tested against tcad,'' {\em IEEE Trans. Nucl. Sci.}, vol.~58, no.~1,
+  pp.~296--304, 2011.
+
+\bibitem{edmonds2011theoretical}
+L.~D. Edmonds, ``A theoretical analysis of the role of ambipolar diffusion in
+  charge-carrier transport in a quasi-neutral region under high injection,''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~58, no.~5, pp.~2459--2469, 2011.
+
+\bibitem{edmonds2011extension}
+L.~D. Edmonds, ``Extension of the adc charge-collection model to include
+  multiple junctions,'' {\em IEEE Trans. Nucl. Sci.}, vol.~58, no.~6,
+  pp.~3333--3342, 2011.
+
+\bibitem{hooten2012significance}
+N.~Hooten, L.~Edmonds, W.~Bennett, J.~Ahlbin, N.~Dodds, R.~Reed, R.~Schrimpf,
+  and R.~Weller, ``The significance of high-level carrier generation conditions
+  for charge collection in irradiated devices,'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~59, no.~6, pp.~2710--2721, 2012.
+
+\bibitem{gadlage2004single}
+M.~J. Gadlage, R.~D. Schrimpf, J.~M. Benedetto, P.~H. Eaton, D.~G. Mavis,
+  M.~Sibley, K.~Avery, and T.~L. Turflinger, ``Single event transient pulse
+  widths in digital microcircuits,'' {\em IEEE Trans. Nucl. Sci.}, vol.~51,
+  no.~6, pp.~3285--3290, 2004.
+
+\bibitem{kauppila2009bias}
+J.~S. Kauppila, A.~L. Sternberg, M.~L. Alles, A.~M. Francis, J.~Holmes, O.~A.
+  Amusan, and L.~W. Massengill, ``A bias-dependent single-event compact model
+  implemented into bsim4 and a 90 nm cmos process design kit,'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~56, no.~6, pp.~3152--3157, 2009.
+
+\bibitem{dasgupta2007effect}
+S.~DasGupta, A.~Witulski, B.~Bhuva, M.~Alles, R.~Reed, O.~Amusan, J.~Ahlbin,
+  R.~Schrimpf, and L.~Massengill, ``Effect of well and substrate potential
+  modulation on single event pulse shape in deep submicron cmos,'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~54, no.~6, pp.~2407--2412, 2007.
+
+\bibitem{Sierawski:2011tc}
+B.~D. Sierawski, {\em {The role of singly-charged particles in microelectronics
+  reliability}}.
+\newblock PhD thesis, Ph.D. dissertation, Electrical Engineering and Computer
+  Science Dept., Vanderbilt University, Nashville, TN., 2011.
+
+\bibitem{itrs:2012}
+{Semiconductor Industry Association (SIA)}, ``{International roadmap for
+  semiconductors 2012 update},'' {\em [Online] http://www.itrs.net}, 2012.
+
+\bibitem{Heidel:2006tp}
+D.~F. Heidel, K.~P. Rodbell, P.~Oldiges, M.~Gordon, H.~Tang, E.~Cannon, and
+  C.~Plettner, ``{Single-event-upset critical charge measurements and modeling
+  of 65 nm silicon-on-insulator latches and memory cells},'' {\em IEEE Trans.
+  Nucl. Sci.}, vol.~53, no.~6, pp.~3512--3517, 2006.
+
+\bibitem{Wallmark:1962vn}
+J.~T. Wallmark and S.~M. Marcus, ``{Minimum size and maximum packing density of
+  nonredundant semiconductor devices},'' {\em Proceedings of the IRE}, vol.~50,
+  no.~3, pp.~286--298, 1962.
+
+\bibitem{Ziegler:1979vh}
+J.~F. Ziegler and W.~A. Lanford, ``{Effect of cosmic rays on computer
+  memories},'' {\em {\ldots} Science}, vol.~206, no.~4420, pp.~776--788, 1979.
+
+\bibitem{Dressendorfer:1981kg}
+P.~V. Dressendorfer, J.~M. Soden, J.~J. Harrington, and T.~V. Nordstrom, ``{The
+  Effects of Test Conditions on MOS Radiation-Hardness Results},'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~28, pp.~4281--4287, Dec. 1981.
+
+\bibitem{Galloway:1990kh}
+K.~F. Galloway and R.~D. Schrimpf, ``{MOS device degradation due to total dose
+  ionizing radiation in the natural space environment: A review},'' {\em
+  Microelectronics Journal}, vol.~21, pp.~67--81, Jan. 1990.
+
+\bibitem{Fleetwood:1993vs}
+D.~M. Fleetwood, P.~Winokur, R.~Reber, T.~Meisenheimer, J.~R. Schwank, M.~R.
+  Shaneyfelt, and L.~Riewe, ``{Effects of oxide traps, interface traps, and
+  ``border traps''on metal‐oxide‐semiconductor devices},'' {\em J. Appl.
+  Phys.}, vol.~73, no.~10, pp.~5058--5074, 1993.
+
+\bibitem{Fleetwood:1995tk}
+D.~M. Fleetwood, M.~R. Shaneyfelt, and W.~Warren, ``{Border traps: issues for
+  MOS radiation response and long-term reliability},'' {\em Microelectronics
+  and {\ldots}}, Jan. 1995.
+
+\bibitem{Schott:1987cx}
+J.~T. Schott and M.~H. Zugich, ``{Pattern Imprinting in CMOS Static RAMs from
+  Co-60 Irradiation},'' {\em IEEE Trans. Nucl. Sci.}, vol.~34, pp.~1403--1407,
+  Dec. 1987.
+
+\bibitem{Fleetwood:1987cfa}
+D.~M. Fleetwood and P.~V. Dressendorfer, ``{A simple method to identify
+  radiation and annealing biases that lead to worst-case CMOS static RAM
+  postirradiation response},'' {\em IEEE Trans. Nucl. Sci.}, vol.~34,
+  pp.~1408--1413, Dec. 1987.
+
+\bibitem{Felix:2006jl}
+J.~A. Felix, P.~E. Dodd, M.~R. Shaneyfelt, J.~R. Schwank, and G.~L. Hash,
+  ``{Radiation Response and Variability of Advanced Commercial Foundry
+  Technologies},'' {\em IEEE Trans. Nucl. Sci.}, vol.~53, pp.~3187--3194, Dec.
+  2006.
+
+\bibitem{Arimura:1985wl}
+I.~Arimura, R.~A. Kennerud, and L.~Kolb, ``{Hardness Assured Device
+  Specification for 4K X 1 CMOS/SOS Static RAM},'' {\em Boeing Aerospace Co
+  Report D180-28295-2 under {\ldots}}, 1985.
+
+\bibitem{Barnaby:2006cp}
+H.~J. Barnaby, ``{Total-Ionizing-Dose Effects in Modern CMOS Technologies},''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~53, pp.~3103--3121, Dec. 2006.
+
+\bibitem{Yao:2008ce}
+X.~Yao, N.~Hindman, L.~T. Clark, K.~E. Holbert, D.~R. Alexander, and W.~M.
+  Shedd, ``{The Impact of Total Ionizing Dose on Unhardened SRAM Cell
+  Margins},'' {\em IEEE Trans. Nucl. Sci.}, vol.~55, pp.~3280--3287, Dec. 2008.
+
+\bibitem{Nair:2013to}
+D.~Nair, R.~Gale, and T.~Karp, ``{Total Ionizing Dose Effects on Data Retention
+  Capabilities of Battery-Backed CMOS SRAM},'' {\em IEEE TRANSACTIONS ON
+  NUCLEAR {\ldots}}, 2013.
+
+\bibitem{Bhuva:1987tq}
+B.~Bhuva, R.~L. Johnson, R.~S. Gyurcsik, K.~W. Fernald, S.~E. Kernstt,
+  W.~Stapor, {Campbell, AB}, and M.~Xapsos, ``{Quantification of the memory
+  imprint effect for a charged particle environment},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~34, no.~6, pp.~1414--1418, 1987.
+
+\bibitem{Brucker:1986fb}
+G.~J. Brucker, J.~Wert, and P.~Measel, ``{Transient Imprint Memory Effect in
+  MOS Memories},'' {\em IEEE Trans. Nucl. Sci.}, vol.~33, no.~6,
+  pp.~1483--1486, 1986.
+
+\bibitem{Wirth:1964kp}
+J.~L. Wirth and S.~C. Rogers, ``{The Transient Response of Transistors and
+  Diodes to Ionizing Radiation},'' {\em IEEE Trans. Nucl. Sci.}, vol.~11,
+  pp.~24--38, Nov. 1964.
+
+\bibitem{Long:1983fg}
+D.~M. Long, J.~R. Florian, and R.~H. Casey, ``{Transient Response Model for
+  Epitaxial Transistors},'' {\em IEEE Trans. Nucl. Sci.}, vol.~30,
+  pp.~4131--4134, Dec. 1983.
+
+\bibitem{Massengill:1984hn}
+L.~W. Massengill and S.~E. Diehl-Nagle, ``{Transient Radiation Upset
+  Simulations of CMOS Memory Circuits},'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~31, no.~6, pp.~1337--1343, 1984.
+
+\bibitem{Massengill:1985gd}
+L.~W. Massengill, S.~E. Diehl-Nagle, and T.~F. Wrobel, ``{Analysis of Transient
+  Radiation Upset in a 2K SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~32,
+  pp.~4026--4030, Dec. 1985.
+
+\bibitem{Massengill:1986kp}
+L.~W. Massengill, S.~E. Diehl, and J.~S. Browning, ``{Dose-Rate Upset Patterns
+  in a 16K CMOS SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~33, pp.~1541--1545,
+  Dec. 1986.
+
+\bibitem{xapsos:2006}
+M.~A. Xapsos, ``Modeling the space radiation environment,'' in {\em 2006 IEEE
+  NSREC Short Course}, (Pascataway, NJ), IEEE Publishing, 2006.
+
+\bibitem{tylka1997creme96}
+A.~J. Tylka, J.~H. Adams~Jr, P.~R. Boberg, B.~Brownstein, W.~F. Dietrich, E.~O.
+  Flueckiger, E.~L. Petersen, M.~A. Shea, D.~F. Smart, and E.~C. Smith,
+  ``Creme96: A revision of the cosmic ray effects on micro-electronics code,''
+  {\em IEEE Trans. Nucl. Sci.}, vol.~44, no.~6, pp.~2150--2160, 1997.
+
+\bibitem{parker1965passage}
+E.~N. Parker, ``The passage of energetic charged particles through
+  interplanetary space,'' {\em Planetary and Space Science}, vol.~13, no.~1,
+  pp.~9--49, 1965.
+
+\bibitem{badhwar1992improved}
+G.~Badhwar and P.~O'Neill, ``An improved model of galactic cosmic radiation for
+  space exploration missions,'' {\em International Journal of Radiation
+  Applications and Instrumentation. Part D. Nuclear Tracks and Radiation
+  Measurements}, vol.~20, no.~3, pp.~403--410, 1992.
+
+\bibitem{badhwar1996galactic}
+G.~D. Badhwar and P.~O'Neill, ``Galactic cosmic radiation model and its
+  applications,'' {\em Advances in Space Research}, vol.~17, no.~2, pp.~7--17,
+  1996.
+
+\bibitem{van1959radiation}
+J.~A. Van~Allen, C.~E. McIlwain, and G.~H. Ludwig, ``Radiation observations
+  with satellite 1958 $\varepsilon$,'' {\em Journal of Geophysical Research},
+  vol.~64, no.~3, pp.~271--286, 1959.
+
+\bibitem{sawyer1976ap}
+D.~M. Sawyer and J.~I. Vette, ``Ap-8 trapped proton environment for solar
+  maximum and solar minimum,'' {\em NASA STI/Recon Technical Report N},
+  vol.~77, p.~18983, 1976.
+
+\bibitem{vette1991ae}
+J.~I. Vette, ``The ae-8 trapped electron model environment,'' {\em NASA
+  STI/Recon Technical Report N}, vol.~92, p.~24228, 1991.
+
+\bibitem{barth2003space}
+J.~L. Barth, C.~Dyer, and E.~Stassinopoulos, ``Space, atmospheric, and
+  terrestrial radiation environments,'' {\em IEEE Trans. Nucl. Sci.}, vol.~50,
+  no.~3, pp.~466--482, 2003.
+
+\bibitem{piet2006model}
+A.~S. Piet, S.~Bourdarie, D.~Boscher, and R.~Friedel, ``A model for the
+  geostationary electron environment: Pole, from 30 kev to 5.2 mev,'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~53, no.~4, pp.~1844--1850, 2006.
+
+\bibitem{divine1983charged}
+N.~Divine and H.~Garrett, ``Charged particle distributions in jupiter's
+  magnetosphere,'' {\em Journal of Geophysical Research: Space Physics
+  (1978--2012)}, vol.~88, no.~A9, pp.~6889--6903, 1983.
+
+\bibitem{garrett2003galileo}
+H.~Garrett, I.~Jun, J.~Ratliff, R.~Evans, G.~Clough, and R.~McEntire, {\em
+  Galileo interim radiation electron model}.
+\newblock Jet Propulsion Laboratory, National Aeronautics and Space
+  Administration, 2003.
+
+\bibitem{garrett2005revised}
+H.~B. Garrett, S.~M. Levin, S.~J. Bolton, R.~W. Evans, and B.~Bhattacharya, ``A
+  revised model of jupiter's inner electron belts: Updating the divine
+  radiation model,'' {\em Geophysical research letters}, vol.~32, no.~4, 2005.
+
+\bibitem{Kobetich:1968im}
+E.~Kobetich and R.~Katz, ``{Energy Deposition by Electron Beams and δ Rays},''
+  {\em Physical Review}, vol.~170, pp.~391--396, June 1968.
+
+\bibitem{Katz:1968fo}
+R.~Katz and E.~Kobetich, ``{Formation of Etchable Tracks in Dielectrics},''
+  {\em Physical Review}, vol.~170, pp.~401--405, June 1968.
+
+\bibitem{Chunxiang:1985uo}
+Z.~Chunxiang, D.~E. Dunn, and R.~Katz, ``{Radial distribution of dose and
+  cross-sections for the inactivation of dry enzymes and viruses},'' vol.~13,
+  no.~1, p.~4, 1985.
+
+\bibitem{Fageeha:1994tc}
+O.~Fageeha, J.~Howard, and R.~C. Block, ``{Distribution of radial energy
+  deposition around the track of energetic charged particles in silicon},''
+  {\em J. Appl. Phys.}, vol.~75, no.~5, pp.~2317--2321, 1994.
+
+\bibitem{Xapsos:1992tc}
+M.~A. Xapsos, ``{Applicability of LET to single events in microelectronic
+  structures},'' {\em IEEE Trans. Nucl. Sci.}, vol.~39, pp.~1613--1621, Jan.
+  1992.
+
+\bibitem{Murat:kk}
+M.~Murat, A.~Akkerman, and J.~Barak, ``{Electron and ion tracks in silicon:
+  Spatial and temporal evolution},'' {\em IEEE Trans. Nucl. Sci.}, vol.~55,
+  no.~6, pp.~3046--3054, 2008.
+
+\bibitem{Dozier:1983wx}
+C.~M. Dozier and D.~B. Brown, ``{The use of low energy x-rays for device
+  testing - a comparison with Co-60 radiation},'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~30, pp.~4382--4387, Dec. 1983.
+
+\bibitem{Fleetwood:1986ug}
+D.~M. Fleetwood, P.~S. Winokur, L.~J. Lorence, W.~Beezhold, P.~V.
+  Dressendorfer, and J.~R. Schwank, ``{The response of MOS devices to
+  dose-enhanced low-energy radiation},'' {\em IEEE Trans. Nucl. Sci.}, vol.~33,
+  pp.~1245--1251, Dec. 1986.
+
+\bibitem{Dasgupta:2011mg}
+A.~Dasgupta, D.~M. Fleetwood, R.~A. Reed, R.~A. Weller, and M.~H. Mendenhall,
+  ``Effects of metal gates and back-end-of-line materials on x-ray dose in
+  {HfO$_2$} gate oxide,'' {\em IEEE Trans. Nucl. Sci.}, vol.~58, no.~6,
+  pp.~3139--3144, 2011.
+
+\bibitem{Schwank:1987fq}
+J.~R. Schwank, D.~M. Fleetwood, P.~S. Winokur, P.~V. Dressendorfer, D.~C.
+  Turpin, and D.~T. Sanders, ``{The role of hydrogen in radiation-induced
+  defect formation in polysilicon gate MOS devices},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~34, pp.~1152--1158, Dec. 1987.
+
+\bibitem{Fleetwood:1987cf}
+D.~M. Fleetwood and P.~V. Dressendorfer, ``{A simple method to identify
+  radiation and annealing biases that lead to worst-case CMOS static RAM
+  postirradiation response},'' {\em IEEE Trans. Nucl. Sci.}, vol.~34,
+  pp.~1408--1413, Dec. 1987.
+
+\bibitem{Weller:2010ud}
+R.~A. Weller, M.~H. Mendenhall, R.~A. Reed, R.~D. Schrimpf, K.~M. Warren, B.~D.
+  Sierawski, and L.~W. Massengill, ``{Monte Carlo simulation of single event
+  effects},'' {\em IEEE Trans. Nucl. Sci.}, vol.~57, pp.~1726--1746, Aug. 2010.
+
+\bibitem{Agostinelli:2003vd}
+S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, and G.~Barrand, ``{Geant4{---}a simulation
+  toolkit},'' {\em Nucl. Instrum. Meth. A}, vol.~506, pp.~250--303, July 2003.
+
+\bibitem{King:2010jg}
+M.~P. King, D.~Gong, C.~Liu, T.~Liu, A.~C. Xiang, J.~Ye, R.~D. Schrimpf, R.~A.
+  Reed, M.~L. Alles, and D.~M. Fleetwood, ``{Response of a 0.25 μm thin-film
+  silicon-on-sapphire CMOS technology to total ionizing dose},'' {\em Journal
+  of Instrumentation}, vol.~5, pp.~C11021--C11021, Nov. 2010.
+
+\bibitem{Haran:2008ve}
+B.~Haran, A.~Kumar, L.~Adam, J.~Chang, and V.~Basker, ``{22 nm technology
+  compatible fully functional 0.1 μm 2 6T-SRAM cell},'' {\em IEEE
+  International Electron Devices Meeting}, Jan. 2008.
+
+\end{thebibliography}

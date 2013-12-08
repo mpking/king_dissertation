@@ -1,0 +1,214 @@
+\documentclass[oneside,phd,etd]{Dissertation}
+
+% The VUPhys class is used to setup the dissertation. Here are the options to use:
+%
+%   phd     : Produces the PhD dissertation preliminary pages
+%
+% The default format is appropriate for printing, with blank pages
+% inserted after the preliminary pages in twoside mode so you can
+% send it directly to a two-sided printer. However, for ETD
+% submission the blank pages need to be removed from the final output.
+% The following option does this for you:
+%
+%   etd     : Produces a copy with no blank pages in the preliminary section
+%
+% The rest of the class options are the same as the regular book class.
+% A few to remember:
+%
+%   oneside : Produces single sided print layout (recommended for theses less than 50 pages)
+%   twoside : Produces single sided print layout (the default if you remove oneside)
+%
+% The VUPhys class provides the following macros:
+%
+%   \makepreliminarypages : Makes the preliminary pages
+%   \clearemptydoublepage : same as \cleardoublepage but doesn't put page numbers
+%                           on blank intervening pages
+%   \singlespace          : switch to single spaced lines
+%   \doublespace          : switch to double spaced lines
+%
+
+
+% --------------------------- Load Packages ---------------------------------
+
+% The comment package allows large sections to be commented out.
+% Useful for debugging.
+\usepackage{comment}
+
+% The amsmath package provides lots of functionality for equations, such 
+% as equations covering multiple lines.
+\usepackage{amsmath,amsthm,amssymb}
+
+% The bm package allows bold greek letters to be written.
+\usepackage{bm}
+
+% The textcomp package allows a text mu to be used in the document with 
+% the command: \textmu.
+\usepackage{textcomp}
+
+% The graphicx package allows the inclusion of figures.  
+\usepackage[pdftex]{graphicx}
+\graphicspath{{./images/}}
+
+% The fancyhdr package allows you to easily customize the page header.
+% The settings below produce a nice, well separated header.
+\usepackage{fancyhdr}
+  \fancyhead{}
+  \fancyhead[LO]{\slshape \rightmark}
+  \fancyhead[RO,LE]{\textbf{\thepage}}
+  \fancyhead[RE]{\slshape \leftmark}
+  \fancyfoot{}
+  \headheight = 14.5 pt
+  \pagestyle{fancy}
+  \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter \ \ #1}{}}
+  \renewcommand{\sectionmark}[1]{\markright{\thesection \ \ #1}}
+
+% The caption package allows us to change the formatting of figure captions.
+% The commands here change to the suggested caption format: single spaced and a bold tag
+\usepackage[margin=0.3in,labelfont=bf,labelsep=none]{caption}
+ \DeclareCaptionFormat{suggested}{\singlespace#1#2 #3\par\doublespace}
+ \captionsetup{format=suggested}
+
+% The subfig package allows multiple images to be put into one figure.
+\usepackage{subfigure}
+
+
+% The cite package cleans up the way citations are handled.  For example, it
+% changes the citation [1,2,3,6,7,8,9,10,11] into [1-3,6-11]. 
+\usepackage[noadjust]{cite}
+
+\usepackage{subfiles}
+
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Large}
+\titleformat{\section}
+{\normalfont\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+
+
+% The makeidx package makes the index for you.  To make an index entry,
+% go to the place in the document that should be referenced and type
+%  \index{key}
+% An index entry labeled "key" (or whatever you type) will then
+% be included and point to the correct page.
+\usepackage{makeidx}
+\makeindex
+
+% The url package allows for the nice typesetting of URLs.
+\usepackage{url}
+\urlstyle{rm}
+
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+% The hyperref package provides automatic linking and bookmarking for the table
+% of contents, index, equation references, and figure references.  It should be the 
+% last package loaded if possible.
+\usepackage[bookmarksnumbered,pdfpagelabels=true,plainpages=false,colorlinks=true,
+            linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+
+% ---------------------------- Preliminary Page Information ---------------------
+
+%This is the graduation date, not the defense date
+  \Year{2013}
+  \Month{December}
+  \Author{Michael Patrick King}
+
+  \TitleTop{Energetic Electron-Induced Single Event Upsets}
+  \TitleBottom{in Static Random Access Memory}
+
+ \Dedication{
+    For my grandfather, Edward Gray, who was my greatest teacher.
+ }
+  
+\Acknowledgments{
+The people who have contributed and supported me during my education are an uncountable set.
+
+My thanks must go out to my academic advisor Professor Robert A. Reed. He has been a source of encouragement, support, guidance, and sanity during the time I have spent at Vanderbilt. 
+I would like to thank Professor Robert A. Weller for his good humor, enthusiasm, patience, and help over these many long years and especially during the the final few weeks.
+I would like to thank Professor Ron D. Schrimpf for his guidance, encouragement, and the many discussions on a variety of topics.
+I would like to thank Professor Marcus H. Mendenhall for working with me and helping me break down my most difficult problems.
+I would like to thank Professor Richard F. Haglund for his set of very interesting lectures on the subjects of condensed matter and solid-state physics, which had me excited to learn at a very early hour.
+
+Additional thanks go to Professor Lloyd W. Massengill for his good spirits and guidance on a variety of topics, Professor T. Daniel Loveless for his friendship, and Professor Daniel M. Fleetwood for being a source of guidance, support, and being willing to share his knowledge and intuition.
+I would like to acknowledge the ISDE staff, which has been very helpful and supportive on many projects and collaborations.
+  
+To my friends from California, Tennessee, and everywhere in between, you have always been what anchors me.
+On the occasion I have lost my perspective, you have all been there with a helping hand, encouragement, good company, and humor.
+I consider myself to be a particularly fortunate man for knowing each of you.
+
+To my family who came along with me on this journey.
+Your love and unwavering faith helped me through the most difficult of times, I hope you know that. 
+Thank you all.
+
+Lastly, to my grandfather, Edward Gray.
+Thank you for teaching me to be responsible, respectable, and a good man.
+}
+
+%Advisor and PhD committee
+  \Advisor{Robert A. Reed}
+  \MemberA{Robert A. Weller}
+  \MemberB{Marcus H. Mendenhall}
+  \MemberC{Ronald D. Schrimpf}
+  \MemberD{Richard F. Haglund}
+
+\begin{document}
+
+ % Start page counting in roman numerals
+ \frontmatter
+
+ % This command makes the formal preliminary pages.
+ % Comment it out during the drafting process to save paper.
+ \makepreliminarypages
+
+ \singlespace
+
+ % Make the table of contents.
+ \tableofcontents
+ \clearemptydoublepage
+ 
+  % Make the list of tables
+ \listoftables
+ \clearemptydoublepage
+
+ % Make the list of figures
+ \listoffigures
+ \clearemptydoublepage
+
+ \doublespace
+
+ % Start regular page counting at page 1
+ \mainmatter
+
+%   Chapter 1: Introduction
+\include{tex/chap_1}
+
+%   Chapter 2: Background Stuff! Ignore file name!
+\include{tex/chap_2}
+
+%   Chapter 3: Experimental Results
+\include{tex/chap_3}
+
+% Chapter 4: Simulation results
+\include{tex/chap_4}
+
+% Chapter 5: Summary and conclusions
+\include{tex/chap_5}
+
+ % Make the bibliography.
+\cleardoublepage
+\singlespace
+ % Diss_bib.bib file exported from Papers
+\backmatter 
+\bibliographystyle{ieeetr}
+\bibliography{library}
+
+
+\end{document}
