@@ -1,10 +1,10 @@
 %!TEX root = /Users/mpking/Dropbox/writing/king_dissertation/king_dissertation_master.tex
 \chapter{Background} % (fold)
 \label{chap:background}
-The reliable operation of microelectronic memories is a primary concern for the semiconductor industry. 
+The reliable operation of electronic memories is a primary concern for the semiconductor industry. 
 Electronic components used in space applications experience harsh environments and hazards when compared to applications at the terrestrial level, including additional risk of fault or failures in electronics due to the presence of ionizing radiation.
 The interaction of ionizing radiation with microelectronics in the space environment, and at the terrestrial level, has been observed to cause both temporary and permanent damage to semiconductor devices, circuits, and systems.
-Remote satellites and exploration probes, such as the Juno spacecraft whose mission is to explore the Jovian environment and moons, cost in excessive of \$1.1 billion USD, or in the case of the James Webb Space Telescope, \$8.7 billion USD.
+Remote satellites and planetary exploration probes, such as the Juno spacecraft whose mission is to explore the Jovian environment and moons, cost in excessive of \$1.1 billion USD, or in the case of the James Webb Space Telescope, \$8.7 billion USD.
 The construction and operation of such equipment necessitates the use of cost effective electronics, placing a premium on reliability while balancing the expense of implementing and ensuring the quality of flight components.
 
 This chapter presents relevant background information, including sections covering the interaction of radiation with matter, a discussion of SRAM topology, operation, and stability, the effects of ionizing radiation in SRAMs, a brief discussion of the space radiation environment, and heavy-ion track structure.
@@ -13,17 +13,19 @@ The change of information state is due to energy deposited within a sensitive re
 The collection of generated \emph{e-h} pairs within the sensitive region then results in a the SRAM transitioning from one state to the complement, producing an erroneous information state.
 In the context of an SRAM cell this corresponds to the change in state of the memory, either from a \emph{0} to \emph{1} state or \emph{1} to a \emph{0} state.
 
-For applications in space, SEUs have been attributed to particles emanating from the galactic cosmic ray (GCR) environment and energetic protons and alpha particles, which can be found in the trapped radiation environments near Earth, in the Jovian environment, and particles emitted from the sun in solar particle events.
+For applications in space, SEUs have been attributed to particles emanating from the galactic cosmic ray (GCR) environment, energetic protons and alpha particles, which can be found in the trapped radiation environments near Earth and the Jovian environment, and particles eminating from the sun in solar particle events.
 For satellites ranging from geostationary to low Earth orbits, the primary radiation concerns are solar particle events and particles trapped by the Earth's magnetic field.
-Interplanetary probes are encounter exposure the solar particle environment, the GCR, and the radiation environment specific to the mission destination.
-The cost of entry associated with space applications introduces additional stringent reliability requirements due to the high cost of mission failure.
+Interplanetary probes are exposed to the solar particle environment, the GCR, and the radiation environment specific to the mission destination.
+
+The large financial expense associated with space applications introduces additional stringent reliability requirements due to the high cost of mission failure.
 Higher reliability requirements in the space radiation environment have often necessitated the use of electronic components that are ``radiation-hardened'' or at best ``radiation-tolerant'' devices that have increased resistance to the effects of radiation.
-Commercial-off-the-shelf parts are appealing to designers as a venue to reduce cost of production and power consumption, however, these trade-offs come with an increase sensitivity to ionizing radiation and consequently mission risk.
+Commercial-off-the-shelf parts are appealing to designers as a venue to reduce cost of production and power consumption, however, these trade-offs often come with an increase sensitivity to ionizing radiation and consequently mission risk.
 
 Conversely in the terrestrial environment, commercial enterprise relies heavily on cloud computing, routers, and servers for computation, transactions, and communications. 
 Faults in these types of systems represent unacceptable losses of time, financial transactions, and connectivity. 
 Traditionally SEUs in the terrestrial environment have been dominated by neutrons and alpha particles emitted by packaging contaminants.
-However, studies have shown that modern SRAMs fabricated in sub-65~nm technology nodes are susceptible to direct ionization effects from lightly ionizing muons, by far the most abundant particle species in the terrestrial radiation environment.
+However, recent studies have shown that modern SRAMs fabricated in sub-65~nm technology nodes are susceptible to direct ionization effects from lightly ionizing muons, by far the most abundant particle species in the terrestrial radiation environment.
+
 The particle species present in the space and terrestrial radiation environment have different characteristics and therefore introduce reliability concerns unique to the application.
 Understanding the threat and source of reliability concerns is essential for effective mitigation strategies and maintaining stable operation of critical electronic systems.
 
@@ -44,7 +46,7 @@ The nuclear stopping power component involves any nucleus--nucleus interactions,
 The total stopping power can be described as the superposition of the electronic and nuclear stopping power components.
 
 In this section, the transport of ions, electrons, and photons will be discussed.
-While nuclear processes are significant and the dominate interaction mechanism for a wide variety of particle, the focus of these discussions will revolve around electronic energy loss mechanisms.
+While nuclear processes are significant and the dominate interaction mechanism for a wide variety of particles and energies, the focus of these discussions will revolve around electronic energy loss mechanisms.
 
 \subsection{Ion Transport} % (fold)
 \label{sub:ion_transport}
@@ -64,40 +66,44 @@ The mean energy loss for an incident particle, $\overline{S}$ or LET, is describ
     L(v) = \frac{1}{2}\ln\left(\frac{2 m_e \gamma^2 c^2 \beta^2 W_{max}}{I^2}\right) - \beta^2 -\frac{\delta(\beta \gamma)}{2} - \frac{C(I,\beta \gamma)}{Z}
 \end{equation}
 Where $e$ is elementary charge, $z_{eff}$ is the effective charge state of the incident particle, $\beta$ is the relative velocity, $m_e$ is the electron mass, $c$ is the speed of light, $\gamma$ is the Lorentz factor, $\epsilon_0$ is the permittivity of free space, $I$ is the mean ionization energy, $W_{max}$ is the maximum energy transferred to an electron, $N_A$ is the Avogadro number, $\rho$, $Z$, and $A$ are the target material density, proton number, and molar mass constant, respectively.
-In Eq.~\ref{eq:let} shows that the LET of an incident particle depends many parameters of the incident particle and target medium. 
+Eq.~\ref{eq:let} shows that the LET of an incident particle depends on many parameters of the incident particle and target material. 
 Corrections terms are necessary to accurately represent the stopping power of ions at low energy.
 The $\delta(\beta \gamma)$ term corresponds to density corrections necessary for relativistic particles with kinetic energy greater than the incident particle rest mass \cite{ziegler2010srim}.
 The $C(I,\beta \gamma)$ terms corresponds to shell corrections for non-relativistic protons, accounting for detailed interactions between bound state electrons and incident protons \cite{ziegler2010srim}.
 
-From Eq.~\ref{eq:let} the LET of an incident particle in a target medium depends strongly on the effective charge state and relative velocity.
+From Eq.~\ref{eq:let} the LET of an incident particle in a target material depends strongly on the effective charge state and relative velocity.
 It can be concluded that for similar relative velocity, singly-charged particles (i.e. muons, pions, protons, electrons, and positrons) have roughly equivalent LETs.
-Some corrections must be made for singly-charge particles and their corresponding antiparticles due to the Barkas effect \cite{bichsel2010passage}.
-\begin{figure}[htbp]
+It is necessary for additional corrections to be made for singly-charge particles and their corresponding antiparticles due to the Barkas effect, most notably those of positrons and electrons \cite{bichsel2010passage}.
+Stopping power curves are shown as a function of incident ion energy per unit mass in Fig.~\ref{fig:stopping-power-vs-energy-per-mass} for protons, alpha particles, carbon, oxygen, and iron.
+The maximum value of stopping power for a given particle species is known as the Bragg peak.
+The stopping power curves shown in Fig.~\ref{fig:stopping-power-vs-energy-per-mass} are approximately maximum when the velocity of the incident particle energy approaches the Fermi velocity of the target material.
+Furthermore, equivalent stopping power can be obtained for a given ion species with different incident energies.
+This indicates that identical particle species with different energy on average lose the same amount of energy for equivalent penetration into the target material.
+Since the particle energies available at terrestrial based accelerators cannot replicate the high energy spectra of particles in the space radiation environment this principle forms the basis of most ground-based parts qualifcation testing for space applications.
+
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{stopping_vs_energy_mass.pdf}
     \end{center}
     \caption{Stopping power is plotted as a function of energy per unit mass (MeV/u) for protons, alpha particles, carbon, oxygen, and iron.}
     \label{fig:stopping-power-vs-energy-per-mass}
 \end{figure}
-Stopping power curves are shown as a function of incident ion energy per unit mass in Fig.~\ref{fig:stopping-power-vs-energy-per-mass} for protons, alpha particles, carbon, oxygen, and iron.
-The maximum value of stopping power for a given particle species is known as the Bragg peak.
-The stopping power curves shown in Fig.~\ref{fig:stopping-power-vs-energy-per-mass} are approximately maximum when the velocity of the incident particle energy approaches the Fermi velocity.
-Furthermore, equivalent stopping power can be obtained for a given ion species Fig.~\ref{fig:stopping-power-vs-energy-per-mass} different incident energies.
 
-The energy lost to the target medium generates electron-hole (\emph{e-h}) pairs in semiconductor device materials. 
+The energy lost to the target material through direct ionization generates electron-hole (\emph{e-h}) pairs in semiconductor materials. 
 The average energy to create an \emph{e-h} pair in silicon is 3.6~eV.
 In this sense, one can equate the energy lost by ionizing particles with the generation of charge in semiconductor devices.
 
-The average range of energetic ions in a target medium as its trajectory terminates can be accurately described by the continuous slowing down approximation (CSDA). 
+The average range of energetic particles in a target material as its trajectory terminates can be accurately described by the continuous slowing down approximation (CSDA). 
 The CSDA range assumes that particles transport in a straight line trajectory and variations in energy loss are negligible compared to the total stopping power \cite{bichsel1988straggling}.
-This approximation is obtained by integrating the reciprocal of the total stopping power from the Bethe-Bloch equation, Eq.~\ref{eq:let}, with respect to the incident ion energy.
+It is difficult to define a CSDA range for particles with erratic trajectories due to interactions where large energy loss and large angle deflections occur, this is an especially valid consideration for energetic electrons with energy less than 10~keV.
+This CSDA range is obtained by integrating the reciprocal of the total stopping power from the Bethe-Bloch equation, Eq.~\ref{eq:let}, with respect to the incident ion energy.
 \begin{equation}
     \label{eq:csda-range}
     R(E) = \int_{E_{abs}}^E \frac{dE'}{S(E')}
 \end{equation}
-Eq.~\ref{eq:csda-range} describes the CSDA range calculation, where $R(E)$ is the range of a particle with energy $E$ and $E_{abs}$ is the energy at which the particle is assumed to be absorbed within the target material.
+Eq.~\ref{eq:csda-range} describes the CSDA range calculation, where $R(E)$ is the range of a particle with energy $E$ and $E_{abs}$ is the energy at which the particle is assumed to be absorbed (i.e. at rest) within the target material.
 The resulting CSDA range approximations as a function of incident ion energy per unit mass for protons, alpha particles, carbon, oxygen, and iron ions is shown in Fig~\ref{fig:range-vs-energy-per-mass}.
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{range_vs_energy-mass.pdf}
     \end{center}
@@ -105,7 +111,7 @@ The resulting CSDA range approximations as a function of incident ion energy per
     \label{fig:range-vs-energy-per-mass}
 \end{figure}
 
-The range of many of these ion species at energies corresponding to the radiation belts around Earth and Jupiter, GCR, and solar wind environments is long compared to the spacing and thicknesses of modern semiconductor processes.
+The range of many of these ion species at energies corresponding to the radiation belts around Earth and Jupiter, GCR, and solar wind environments is much greater than that of the spacing, pitch, and thicknesses of modern semiconductor device structures.
 This indicates that single ionizing particle radiation events that occur at large angle of incidence can interact with and perturb multiple devices and circuits.
 
 In 1988, Stapor \emph{et al.} illustrated the potential for differences in the response of microelectronics for two incident ions with similar LET due to differences in the resulting energy deposition profiles \cite{Stapor:1988ws}. 
@@ -122,13 +128,13 @@ With the observation of low-energy proton- and muon-induced SEUs the trend towar
 \label{sub:electron_transport}
 Electrons are negatively charged elementary subatomic particles with a mass of 0.511 MeV/c$^2$.
 By comparison, the proton mass is 938.23~MeV/c$^2$ and the muon mass is 105.7~MeV/c$^2$, making the electron 1836 and 206 times lighter than other common singly-charged particles.
-Energetic electrons interact with a target medium through electromagnetic processes. 
+Energetic electrons interact with a target material predominantly through electromagnetic processes. 
 Two energy loss mechanisms are important for electrons interacting with a target medium, inelastic scattering with atomic electrons and elastic scattering with target nuclei.
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{delta-ray-scattering-salvat.png}
     \end{center}
-    \caption{Elastic and inelastic scattering of an incident electron with initial energy $E$.}
+    \caption[Elastic and inelastic scattering of an incident electron with initial energy $E$.]{Elastic and inelastic scattering of an incident electron with initial energy $E$ \cite{Salvat:ue}.}
     \label{fig:electron-scattering-elastic-inelastic}
 \end{figure}
 
@@ -137,26 +143,27 @@ These are interactions that produce \emph{e-h} pairs, ionization, or result in t
 The initial formalism of inelastic scattering with single atoms or molecules was made by Bethe in \cite{bethe1930theorie,bethe1932bremsformel} by considering a plane-wave using the Born approximation.
 This theory was later extended by Fano for inelastic scattering of electrons in condensed matter \cite{fano1964penetration}.
 The impact on the incident electron can be accurately described by the energy loss, $W$, and the polar and azimuthal scattering angles, $\phi$ and $\theta$.
+
 A cartoon of an inelastic scattering can be seen on the right hand side of Fig.~\ref{fig:electron-scattering-elastic-inelastic}. 
-The energy transferred to the atomic system os equivalent to the energy lost by the incident electron.
-Most interactions with atomic electrons result in the generation of \emph{e-h} pairs (in semiconductors).
-However, if the energy loss is in excess of the shell binding energy the interaction may result in the emission of a $\delta$-ray with energy equal to $E_s$, where this is the difference between the total energy lost by the incident electron and the $i$th shell binding energy.
-The relaxation of the excited atomic state, the vacancy of the $i$th shell state, involves the emission fluorescent radiation in the form of Auger electrons or soft X-rays with energy equal to the $i$th shell binding energy.
+The energy transferred to the atomic system is equivalent to the energy lost by the incident electron.
+Most interactions with atomic electrons result in the generation of \emph{e-h} pairs in semiconductors.
+However, if the energy loss by the incident electron is in excess of the shell binding energy the interaction may result in the emission of a $\delta$-ray with energy equal to $E_s$, where this is the difference between the total energy lost by the incident electron and the $i$th shell binding energy.
+The relaxation of the excited atomic state, the vacancy of the $i$th shell state, involves the emission of fluorescent radiation in the form of Auger electrons or soft X-rays with energy equal to the $i$th shell binding energy.
 The relatively equal masses involved in inelastic scattering, which are essentially electron--electron interactions, result in angular deflections of the incident electron.
 Angular deflections of energetic electrons transporting through material are important parameters that make determining the range of low energy electrons, lower than a few tens of keV, particularly difficult.
 
-The second important interaction mechanism for electrons in this work is defined to be the elastic scattering of incident electrons with isolated atomic nuclei.
-Here the elastic scattering event is defined to be an interaction between an energetic electron and a target nuclei where the initial and final quantum states of the target atom are the same, normally the ground state.
+The second important interaction mechanism for electrons in this work is the elastic scattering of incident electrons with isolated atomic nuclei.
+Here the elastic scattering event is defined to be an interaction between an energetic electron and a target nuclei where the initial and final quantum states of the target atom are the same, usually the ground state.
 The elastic scattering with target nuclei result in large angle deflections of incident energetic electrons.
 A cartoon of an elastic scattering event is shown on the left hand side of Fig.~\ref{fig:electron-scattering-elastic-inelastic}.
-In elastic scattering events, there is a small transfer of energy from the incident electron to the target nuclei, resulting in the emission of a recoil atom.
+In elastic scattering events, there is a small transfer of energy from the incident electron to the target nuclei, potentially resulting in the emission of a recoil atom.
 Because of the large mass of the target nuclei relative to the electron mass, the average energy lost by an incident electron in elastic scattering events is a \emph{small} fraction of its initial energy.
 For electrons with energy of 30~keV, the energy lost in elastic scattering events is on the order of a few meV \cite{Salvat:ue}.
 Scattering events, of the elastic and inelastic variety, both contribute to large angle deflections of energetic electrons.
 These large angle deflections make approximating the range of electrons in matter through methods like the CSDA range particularly difficult at low energies (less than 10~keV).
 
 Because of their small mass, electrons undergo Bremsstrahlung and Cerenkov radiative processes.
-The total stopping power of electrons is represented as the superposition of these two processes.
+The total stopping power of electrons is represented as the superposition of the collision and radiative stopping power processes.
 \begin{equation}
     \label{eq:elec-let-superpos}
     -\left(\frac{dE}{dx}\right)_{total} = S_{coll}(E) + S_{rad}(E)
@@ -167,7 +174,7 @@ Consequently, this dissertation only considers the contribution of inelastic and
 With appropriate modifications to the Bethe-Bloch formula of Eq.~\ref{eq:bethe-bloch-corr-ion} it can be shown that the maximum single electron--electron scattering event energy loss is one half of the initial electron energy, $E_i/2$.
 Electrons are therefore capable of depositing large amounts of energy within small spatial regions.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{electrons-csda-range.png}
     \end{center}
@@ -186,23 +193,16 @@ Electrons and positrons exhibit a decrease in range with increasing energy above
 Photons are elementary particles that exhibit the properties of waves and particles (known as Wave--Particle duality) and interact through the electromagnetic force.
 Three physical processes dominate energy loss by incident photons in matter, the photoelectric effect, Compton scattering, and pair production. 
 While pair production is an important interaction mechanism, this discussion focuses on the photoelectric and Compton scattering effects, which are most relevant to the work presented in Chapters~\ref{cha:experimental_investigation_of_electron_induced_seus} and \ref{ch:simulation_of_electron_induced_seus}.
-Fig.~\ref{fig:gamma_energy_vs_mat_z} shows the energy dependence of the three dominant physical processes for photons incident on material.
-\begin{figure}[htbp]
+Fig.~\ref{fig:gamma_energy_vs_mat_z} shows the energy dependence of the three dominant physical processes for photons incident in material.
+\begin{figure}[tb]
     \centering
-        \includegraphics[height=3in]
+        \includegraphics[width=5in]
         {gamma_energy_vs_matz.png}
     \caption[The energy dependence of the three major types of photon interactions are shown. The lines shows the values of material $Z$ and photon energy $\hbar \omega$ for which the two neighboring effects are approximately equal.]{The energy dependence of the three major types of photon interactions are shown. The lines shows the values of material $Z$ and photon energy $\hbar \omega$ for which the two neighboring effects are approximately equal \cite{Knoll:2010vq}.}
     \label{fig:gamma_energy_vs_mat_z}
 \end{figure}
 
 In silicon, the dominant interaction of photons with energy less than 70~keV is the photoelectric effect. 
-\begin{figure}[htbp]
-    \begin{center}
-        \includegraphics[width=4.5in]{photoabsorption.pdf}
-    \end{center}
-    \caption[Absorption of an incident photon with energy $\hbar \omega$ resulting in the generation of an energetic photo-electron and emission of fluorescent radiation.]{Absorption of an incident photon with energy $\hbar \omega$ resulting in the generation of an energetic photo-electron and emission of fluorescent radiation \cite{alpen1997radiation}.}
-    \label{fig:photoabsorption}
-\end{figure}
 The photoelectric effect is a point interaction where the incident photon is completely absorbed by a target atom, leaving the atom in an excited state.
 Fig.~\ref{fig:photoabsorption} shows a cartoon description of a photoabsorption event from \cite{alpen1997radiation}.
 An energetic photo-electron is ejected from the material band structure as a result of the excited atomic state.
@@ -217,17 +217,25 @@ where $\hbar \omega$ is the energy of the photon and $E_b$ is the binding energy
 For highly energetic photons (where $\hbar 
 \omega \gg E_b$) most of the absorbed photon energy is transferred to the photo-electron.
 
-Photons with energy in the range of 70~keV to 12~MeV interact primarily through the Compton scattering process.
-The Compton effect involves the incoherent scattering of a photon by a bound electron.
-The scattering event results in energy loss by the incident photon, corresponding to a reduction in frequency, and the generation of a \emph{recoil} electron.
-A diagram of a Compton scattering event is shown in Fig.~\ref{fig:compton_scattering_diagram2}.
-\begin{figure}[htbp]
+\begin{figure}[tb]
+    \begin{center}
+        \includegraphics[width=4.5in]{photoabsorption.pdf}
+    \end{center}
+    \caption[Absorption of an incident photon with energy $\hbar \omega$ resulting in the generation of an energetic photo-electron and emission of fluorescent radiation.]{Absorption of an incident photon with energy $\hbar \omega$ resulting in the generation of an energetic photo-electron and emission of fluorescent radiation \cite{alpen1997radiation}.}
+    \label{fig:photoabsorption}
+\end{figure}
+\begin{figure}[tb]
     \centering
         \includegraphics[width=5in]
         {compton_scattering_diagram2.png}
     \caption[Diagram of a Compton scattering event between an incident photon with energy $\hbar \omega$ and an electron.]{Diagram of a Compton scattering event between an incident photon with energy $\hbar \omega$ and an electron.}
     \label{fig:compton_scattering_diagram2}
 \end{figure}
+
+Photons with energy in the range of 70~keV to 12~MeV interact primarily through the Compton scattering process.
+The Compton effect involves the incoherent scattering of a photon by a bound electron.
+The scattering event results in energy loss by the incident photon, corresponding to a reduction in frequency, and the generation of a \emph{recoil} electron.
+A diagram of a Compton scattering event is shown in Fig.~\ref{fig:compton_scattering_diagram2}.
 Since the collision must obey both conservation of energy and momentum it can be shown that the transfer of energy from the photon can be described by
 \begin{equation}
     \label{eq:compton_energy_transfer}
@@ -247,16 +255,17 @@ The expression for total attenuation cross-section can be expressed as
 \end{equation}
 where $\tau$, $\sigma$, and $\kappa$ are the photoelectric, Compton, and pair production cross-sections, respectively.
 The total attenuation cross section, $\mu$, (in units of cm$^2$/g) versus incident photon energy in silicon is shown in Fig.~\ref{fig:atten_cs_in_si}.
-\begin{figure}[htbp]
+The discontinuity seen at 1.839~keV corresponds to the silicon \emph{K}-shell edge, this corresponds to the minimum energy required to emit an electron from the \emph{K}-shell \cite{Henke:1993tq}.
+For incident photons with energy less than 1.839~keV, interactions involve the emission of photo-electrons from the \emph{L}- or \emph{M}-shells.
+The absorption edge corresponding to the $L_1$, $L_2$, and $L_3$-shells in silicon occur at 149.7~eV, 99.8~eV, and 99.2~eV, respectively.
+
+\begin{figure}[tb]
     \begin{center}
-        \includegraphics[width=4.5in]{photon_scat_cross_section.pdf}
+        \includegraphics[width=5in]{photon_scat_cross_section.pdf}
     \end{center}
     \caption{The attenuation cross-section, $\mu$, versus incident photon energy in silicon.}
     \label{fig:atten_cs_in_si}
 \end{figure}
-The discontinuity seen at 1.839~keV corresponds to the silicon \emph{K}-shell edge, this corresponds to the minimum energy required to emit an electron from the \emph{K}-shell \cite{Henke:1993tq}.
-For incident photons with energy less than 1.839~keV, interactions involve the emission of photo-electrons from the \emph{L}- or \emph{M}-shells.
-The absorption edge corresponding to the $L_1$, $L_2$, and $L_3$-shells in silicon occur at 149.7~eV, 99.8~eV, and 99.2~eV, respectively.
 
 The attenuation of energetic photons transporting through material can be calculated using the Beer-Lambert law, which is given as
 \begin{equation}
@@ -275,19 +284,20 @@ This has enabled access to low-cost, high-speed memory for many applications.
 These attributes have made SRAMs ideal for use in microprocessor cache memory, general use registers, FPGAs, and other applications.
 
 While SRAM implementations can be expensive, in terms of area, they are typically more desirable than conventional dynamic random access memory (DRAM) in terms of speed and power consumption.
-Since an SRAM cell takes up more area than DRAM cell in the same technology node, these benefits come at the expense of increased area and cost.
+Since an SRAM cell takes up more area than DRAM cells in the same technology node, these benefits come at the expense of increased area and cost.
 Basic SRAM implementations offer significant advantages over DRAM in terms of power consumption because they do not require the refreshing of data while powered, putting SRAM in a class known as volatile memories.
 SRAMs are ideal where bandwidth, power, or both are a primary design consideration.
 
-The basic topology of a standard six transistor (6T) SRAM can be seen in Fig.~\ref{fig:SRAM_Cell}. 
-While other SRAM implementations are possible, including non-volatile topologies, this dissertation only considers the standard 6T SRAM cell.
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \centering
         \includegraphics[width=4.5in]
         {SRAM_Cell_(6_Transistors).pdf}
     \caption{Basic SRAM circuit topology consists of two cross coupled inverters and two access transistors.}
     \label{fig:SRAM_Cell}
 \end{figure}
+
+The basic topology of a standard six transistor (6T) SRAM can be seen in Fig.~\ref{fig:SRAM_Cell}. 
+While other SRAM implementations are possible, including non-volatile topologies, this dissertation only considers the standard 6T-SRAM cell.
 The basic SRAM cell stores information on two cross-coupled inverters, consisting of four transistors (M1--M4), that form a basic latch, enabling the stable states of either \emph{0} or \emph{1}.
 Two additional access transistors (M5 and M6) allow access operations to the SRAM cell.
 
@@ -298,15 +308,15 @@ A potential difference close to the supply voltage ($V_{DD}$) is quite common in
 A read operation occurs when the bit lines are left floating while the word line is asserted.
 Using peripheral circuitry (not shown), a high-speed sense amplifier compares the voltage difference between the bit line and its complement, outputs the state of the cell to subsequent buffers, and is then passed to the output bus.
 Standby mode occurs when the word line is left floating, during which time the access transistors are ``off'' and the inverters continually reinforce the present state of the SRAM cell.
-Standby mode is the ``idle state'' of any SRAM cell and results in the lowest power consumption of all stable SRAM operating modes.
+Standby mode is the ``idle state'' of an SRAM cell and results in the lowest power consumption of all standard SRAM operating modes.
 
-A common practice to lower power consumption while operating in standby mode is to reduce the supply voltage to the SRAM below the nominal supply voltage.
+A common practice to reduce power consumption while operating in standby mode is to lower the supply voltage to the SRAM below the nominal supply voltage.
 This is a method known as dynamic voltage, frequency scaling at the systems level and is used to reduce power consumption when operating frequency is a secondary priority \cite{semeraro:2002dvfs,david:2011dvfs}.
 The trade-off is typically made in applications where low-power is a primary operating parameter such as medical implant devices, mobile communications, and mobile computing.
 For these applciations SRAMs are designed to remain stable and completely functional at 70--80\% of the nominal supply voltage while maintaining valid information.
 While both bit lines are not required for proper SRAM cell operation, utilizing both the bit line and its complement increases the circuits noise margin and results in increased read and write speed.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{haran_snm_butterfly_curves.pdf}
     \end{center}
@@ -322,8 +332,8 @@ The value of $V_{out}$ is the input state of the inverter comprised of transisto
 When $V_{out}$ is low, transistors $M_3$ and $M_4$ are in the on and off states, respectively, which reinforce a high state of $V_{in}$.
 By sweeping $V_{in}$ from high to low the transistors $M_1$ and $M_2$ change to the on/off configuration, sending $V_{out}$ high which in turn forces the transistors $M_3$ and $M_4$ into the off/on configuration.
 
-The stability of an SRAM cell is generally described in terms of the SNM, which is the \emph{DC} noise an SRAM cell can tolerate while maintaining its intended state.
-The static noise margin (SNM) of an SRAM cell is the side-length, given in millivolts, of the largest inscribed square that fits between the transfer characteristics of Fig.~\ref{fig:22nm_soi_sram_butterfly_curve_snm}.
+The stability of an SRAM cell is generally described in terms of the static noise margin (SNM), which is the \emph{DC} noise an SRAM cell can tolerate while maintaining its intended state.
+The SNM of an SRAM cell is the side-length, given in millivolts, of the largest inscribed square that fits between the $V_{in}$/$V_{out}$transfer characteristics of Fig.~\ref{fig:22nm_soi_sram_butterfly_curve_snm}.
 Exceeding the SNM for an SRAM cell results in a change of information state.
 Three sets of transfer characteristics are shown in Fig.~\ref{fig:22nm_soi_sram_butterfly_curve_snm}, corresponding to supply voltages of 0.9~V (blue curves), 0.8~V (pink curves), and 0.7~V (green curves).
 Fig.~\ref{fig:22nm_soi_sram_butterfly_curve_snm} shows the SNM of an SRAM cell depends on the supply voltage, with lower $V_{DD}$ corresponding to a smaller SNM.
@@ -333,12 +343,12 @@ The decrease in switching voltage and SNM under reduced supply voltage condition
 
 \section{Radiation Effects on SRAMs} % (fold)
 \label{sec:radiation_effects_on_sram}
-This section discusses the effects of radiation effects on SRAMs. 
+This section discusses the effects of radiation on SRAMs. 
 Much of this section focuses on the concept of to SEUs with an emphasis on understanding the circuit-level response.
-The concept of critical charge is defined for the purpose of understanding the analysis and methods in Chapters \ref{cha:experimental_investigation_of_electron_induced_seus} and \ref{ch:simulation_of_electron_induced_seus}.
-Recent studies detailing the observation of low-energy proton- and muon-induced upsets will be discussed, emphasizing the trend towards increased sensitivity in modern devices.  
+The concept of critical charge is defined for the purpose of understanding the methods and analysis in Chapters \ref{cha:experimental_investigation_of_electron_induced_seus} and \ref{ch:simulation_of_electron_induced_seus}.
+Recent studies describing the observation of low-energy proton- and muon-induced upsets and the impact of those results for microelectronics will be discussed, emphasizing the trend towards increased sensitivity in modern devices. 
 The effects of TID on SRAMs will be introduced with the primary example being the ``memory pattern imprinting'' effect. 
-Relevant issues related to transient radiation environments, so-called dose-rate effects, will also be introduced.
+Relevant issues related to transient radiation environments, so-called dose-rate effects, will also be discussed.
 
 \subsection{Single-Event Upset in SRAMs} % (fold)
 \label{sub:single_event_upset_in_srams}
@@ -347,9 +357,9 @@ The electronic component consists of energy loss due to interaction with valance
 Energy loss by the incident ion results in generation of mobile carriers in the conduction band and valance band, known as \emph{e-h} pairs.
 Generated \emph{e-h} pairs are collected through the drift and diffusion carrier transport processes, resulting in a transient on affected semiconductor junctions.
 
-The physics of charge collection in semiconductor devices is a complicated topic and has been well-studied and reviewed in \cite{mclean1982charge,oldham1983charge,oldham1986revised,dodd1994three,edmonds1997charge,edmonds1998electric,hubert2000study,edmonds2010theoretical,edmonds2011proposed,edmonds2011theoretical,edmonds2011extension,hooten2012significance}.
+The physics of radiation-induced charge collection in semiconductor devices is a complicated topic and has been well-studied and reviewed in \cite{mclean1982charge,oldham1983charge,oldham1986revised,dodd1994three,edmonds1997charge,edmonds1998electric,hubert2000study,edmonds2010theoretical,edmonds2011proposed,edmonds2011theoretical,edmonds2011extension,hooten2012significance}.
 Collection of \emph{e-h} pairs due to the presence of electric fields, known as drift current, diffusion of carriers in high-level injection regions into nearby junctions, and modulation of local potentials due to the resulting transients all play significant roles in the response of semicondcutor devices to single ionizing particle events.
-By their nature, ionizing particle events generate dense regions of charge in the spatial locations where they interact making it difficult to represent the device response without the aid of computer tools, such as SPICE \cite{gadlage2004single,kauppila2009bias} and TCAD \cite{dodd1994three,dasgupta2007effect}.
+By their nature, ionizing particle events generate dense regions of charge in the spatial locations where they interact making it difficult to represent the device response without the aid of computer tools, such as SPICE \cite{gadlage2004single,kauppila2009bias,massengill:1993sc} and TCAD \cite{dodd1994three,dasgupta2007effect,massengill:1993sc}.
 
 The amount of charge generated by the passage of a incident ion through a sensitive region of a semiconductor memory is related to the average energy required to generate a single \emph{e-h} pair, in silicon this energy is 3.6~eV.
 In this sense, the energy lost by an incident particle is correlated with the amount of charge generated within the semiconductor device material.
@@ -362,24 +372,25 @@ SEU cross-sections have typically been analyzed as a function of incident ion LE
     \begin{center}
         \includegraphics[width=4in]{qcrit_concept.pdf}
     \end{center}
-    \caption{Current transients in an SRAM cell demonstrate the concept of critical charge. The transient corresponding to 0.23~pC of charge collection is insufficient to cause the SRAM cell to latch into an erroneous state. However, when the amount of collected charge is increased to 0.25~pC the resulting transient is latched into the SRAM cell, resulting in an error.}
+    \caption[Current transients in an SRAM cell demonstrate the concept of critical charge. The transient corresponding to 0.23~pC of charge collection is insufficient to cause the SRAM cell to latch into an erroneous state. However, when the amount of collected charge is increased to 0.25~pC the resulting transient is latched into the SRAM cell, resulting in an error.]{Current transients in an SRAM cell demonstrate the concept of critical charge. The transient corresponding to 0.23~pC of charge collection is insufficient to cause the SRAM cell to latch into an erroneous state. However, when the amount of collected charge is increased to 0.25~pC the resulting transient is latched into the SRAM cell, resulting in an error \cite{massengill:1993sc}.}
     \label{fig:qcrit_concept}
 \end{figure}
 
-As an example, Fig.~\ref{fig:qcrit_concept} demonstrates the concept of critical charge, which is defined as the charge required to induce an upset in an SRAM.
+As an \emph{example}, Fig.~\ref{fig:qcrit_concept} demonstrates the concept of critical charge, which is defined as the charge required to induce an upset in an SRAM cell \cite{massengill:1993sc}.
 Two transients are shown in Fig.~\ref{fig:qcrit_concept} with different amounts of total charge being collected and the resulting transient on the output of the off-state transistor in an SRAM cell.
-The top image shows a transient corresponding to 0.23~pC of charge collection within the SRAM cell.
-The state of the cell is temporarily perturbed, however, the resulting transient is insufficient to cause the SRAM cell to latch into an erroneous state.
+The top image of Fig.~\ref{fig:qcrit_concept} shows a transient corresponding to 0.23~pC of charge collection within the SRAM cell.
+The state of the cell is temporarily perturbed, however, the resulting transient is insufficient to cause the SRAM cell to latch into an erroneous information state.
 
-In the bottom image, the transient shown corresponds to 0.25~pC of charge collected in the SRAM cell. 
+In the bottom image of Fig.~\ref{fig:qcrit_concept}, the transient shown corresponds to 0.25~pC of charge collected in the SRAM cell. 
 While the magnitude of charge collection differs by only 0.02~pC, the resulting circuit response is dramatically different. 
-The resulting transient is of sufficient magnitude and duration to latch an erroneous state into the SRAM cell, resulting in an error.
+The resulting transient is of sufficient magnitude and duration to latch an erroneous state into the SRAM cell, resulting in an externally visible error.
 The critical charge of this SRAM cell would therefore be defined to be 0.25~pC since a typical SRAM cell response for the corresponding technology node  would result in an error.
+
 There are many nuances and specific details that may impact the error margins for determining critical charge such as corner to corner variations, magnitude and duration of the transient pulse, and charge collection efficiency. 
 However, Fig.~\ref{fig:qcrit_concept} is intended solely to convey the concept of critical charge, which is defined in this dissertation as a single valued metric for determining the energy deposition threshold for the onset of errors in an SRAM cell.
-We will see that the magnitude of charge collection shown in Fig.~\ref{fig:qcrit_concept} is extremely large when compared to the critical charge for sub-65~nm technology nodes.
+We will see that the magnitude of charge collection shown in Fig.~\ref{fig:qcrit_concept} is extremely large when compared to the critical charge for sub-65~nm technology nodes as discussed in Chapters~\ref{cha:experimental_investigation_of_electron_induced_seus} and \ref{ch:simulation_of_electron_induced_seus}.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{qcrit_trends.pdf}
     \end{center}
@@ -400,9 +411,12 @@ These conclusions are consistent with publications that indicate the critical ch
 
 %   Some of this seems to need to go into a different section
 While much of the energy lost by the incident ion results in the generation of \emph{e-h} pairs by direct ionization, secondary particles also deposit energy in regions surrounding the incident ion path and have been reported to contribute to the SEU response.
-The secondary particles of concern are generated by incident particles through either nuclear or Coulomb interactions.
-Several of the more common secondary particles are referred to in literature as $\delta$-rays, which are energetic secondary electrons, Coulomb scatters, which are displaced atoms from the crystal lattice, and nuclear interactions including spallation, elastic, and inelastic events.
-The generation of $\delta$-rays will be discussed thoroughly in Section~\ref{sec:evaluating_track_structure}.
+The secondary particles of concern are generated by incident particles through nuclear elastic, inelastic or spallation reactions, or Coulomb scatters, known as ``knock-ons,'' which are atoms displaced from the crystal lattice.
+Several studies have investigated the fidelity of electron/$\delta$-ray induced SEUs with mixed conclusions.
+Some reports indicate that $\delta$-rays may contribute to the overall single- and multiple-bit upset cross-section in a heavy-ion environment \cite{King:2010cu,King:2012cb}.
+Others have found that any contribution from $\delta$-rays in such an environment does not contribute significantly to a measureable upset cross-section \cite{Raine:gk,Raine:2012gi,Barak:2012im}.
+The generation and interactions of $\delta$-rays in a heavy-ion environment will be discussed thoroughly in Section~\ref{sec:evaluating_track_structure}.
+This dissertation will demonstrate SEUs for SRAMs exposed to a source of electrons/$\delta$-rays and investigate the significance and contribution of electron/$\delta$-ray induced SEUs to error-rates in the space radiation environment.
 % subsection single_event_upset_in_srams (end)
 
 \subsection{Low-Energy Proton-Induced SEUs} % (fold)
@@ -480,14 +494,15 @@ Contributions of low-energy protons to upset cross-sections, as discussed previo
 For many years, the presence of atmospheric neutrons and alpha particles (largely the result of packaging impurities) presented the only feasible source of soft errors at the terrestrial level.
 Muons, the most abundant species at the terrestrial level, have recently been shown to induce SEU in sub-65~nm SRAMs \cite{Sierawski:2010cj,Sierawski:2011tc,Sierawski:2011bn}.
 
-Like protons, muons are singly charged particles with a mass roughly 200 times that of the electron mass.
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=4.5in]{stopping_power_proton_muon_sier_diss.pdf}
     \end{center}
     \caption[Mass stopping power extracted from Geant4 for protons, pions, muons, and positrons in silicon. Alpha particle stopping power shown for reference.]{Mass stopping power extracted from Geant4 for protons, pions, muons, and positrons in silicon. Alpha particle stopping power shown for reference \cite{Sierawski:2011bn}.}
     \label{fig:stopping_power_protons_muons}
 \end{figure}
+
+Like protons, muons are singly charged particles with a mass roughly 200 times that of the electron mass.
 Fig.~\ref{fig:stopping_power_protons_muons} shows the stopping power, or mass stopping power, the rate of energy loss per unit path length, for a variety of particle species.
 The curves for protons and muons are similar having a comparable magnitude.
 The difference in the stopping power curves is due to the lower mass of the muon when compared to that of protons.
@@ -538,13 +553,6 @@ Radiation induced threshold voltage shifts in the \emph{n}MOSFET elements of CMO
 The data state of an SRAM establishes bias conditions for the transistor elements of the cross-coupled inverter when exposed to a source of ionizing radiation. 
 The resulting cell imbalance of \emph{n}MOSFET threshold voltages causes in an asymmetry in switching voltage and SNM that is dependent on the stored data state of the cell. 
 Fleetwood \emph{et al.} published a study seeking to quantify the ``worst-case'' SRAM radiation response by evaluating each possible bias condition. 
-\begin{figure}[htbp]
-    \begin{center}
-        \includegraphics[width=4.5in]{fleetwood_nmos_irrad_imbalance.pdf}
-    \end{center}
-    \caption[$\Delta V_{th}$ versus time, for \emph{n}-channel transistors irradiated to 1.0 Mrad and annealed at 25$^\circ$C.]{$\Delta V_{th}$ versus time, for \emph{n}-channel transistors irradiated to 1.0 Mrad and annealed at 25$^\circ$C \cite{Fleetwood:1987cfa}.}
-    \label{fig:sram_cell_imb_nmos_vth}
-\end{figure}
 In \cite{Fleetwood:1987cfa}, the bias conditions are evaluated to a total dose of 1~Mrad(Si) and the results can be seen in Fig.~\ref{fig:sram_cell_imb_nmos_vth}.
 During irradiation the initial threshold voltage shift, for both the ``on'' and ``off'' conditions, is negative, consistent with the build-up of charge in the gate oxide region \cite{Dressendorfer:1981kg,Galloway:1990kh}. 
 For consistency, the \emph{1} state of the SRAM cell is defined to be when Q is low, that is when the transistor M3 of Fig.~\ref{fig:SRAM_Cell} is ``on''.
@@ -552,21 +560,30 @@ Fig.~\ref{fig:sram_cell_imb_nmos_vth} indicates that the devices irradiated in t
 Additional exposure of the \emph{n}-channel devices shows a rebound effect, which is attributed to the accumulation of interface traps that very quickly begin to dominate the device response \cite{Fleetwood:1993vs,Galloway:1990kh}. 
 Fig.~\ref{fig:sram_cell_imb_nmos_vth} shows that the accumulation of interface traps continues even after irradiation, resulting in large, positive threshold voltage shifts for each bias condition.
 
+\begin{figure}[tb]
+    \begin{center}
+        \includegraphics[width=5in]{fleetwood_nmos_irrad_imbalance.pdf}
+    \end{center}
+    \caption[$\Delta V_{th}$ versus time, for \emph{n}-channel transistors irradiated to 1.0 Mrad and annealed at 25$^\circ$C.]{$\Delta V_{th}$ versus time, for \emph{n}-channel transistors irradiated to 1.0 Mrad and annealed at 25$^\circ$C \cite{Fleetwood:1987cfa}.}
+    \label{fig:sram_cell_imb_nmos_vth}
+\end{figure}
+
 The threshold voltage imbalance, $V_{imb}$, induced by bias conditions during irradiation can be quantified as
 \begin{equation}
     \label{eq:vth_imb}
     V_{imb} = V_{TM1} - V_{TM3}
 \end{equation}
 where $V_{TM1}$ is the \emph{n}MOSFET transistor with the largest threshold voltage after irradiation and $V_{TM3}$ has the less positive threshold voltage.
-\begin{figure}[htbp]
+As defined in Eq.~(\ref{eq:vth_imb}), a positive value of $V_{imb}$ implies a preferred \emph{1} state for the SRAM cell.
+Conversely, a negative value of $V_{imb}$ implies a preferred \emph{0} state for the cell.
+
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{fleetwood_nmos_irrad_imbalance_cases.pdf}
     \end{center}
     \caption{SRAM cell imbalance versus radiation and anneal time, based on the data of Fig.~\ref{fig:sram_cell_imb_nmos_vth}.}
     \label{fig:sram_cell_imb}
 \end{figure}
-As defined in Eq.~(\ref{eq:vth_imb}), a positive value of $V_{imb}$ implies a preferred \emph{1} state for the SRAM cell.
-Conversely, a negative value of $V_{imb}$ implies a preferred \emph{0} state for the cell.
 
 A plot of threshold voltage imbalance versus irradiation and annealing time from \cite{Fleetwood:1987cfa} can be seen in Fig.~\ref{fig:sram_cell_imb} for conditions where the cell is initially in a \emph{1} state during irradiation and the cell state is either retained, rewritten, or power is removed from the cell during annealing.
 Initial reports indicated that the SRAM cell was ``imprinted'' and the preferred state exclusively became that which it was irradiated under, however, Fig.~\ref{fig:sram_cell_imb} shows an initial preference for the \emph{0} state when the programmed pattern was the \emph{1} state. 
@@ -575,7 +592,7 @@ Cells irradiated in the \emph{1} state and annealed in the \emph{0} state show t
 These bias conditions correspond to the largest positive threshold voltage shift in M1 and the least positive threshold voltage shift in M3, as shown in Fig.~\ref{fig:sram_cell_imb_nmos_vth}.
 These conditions result in the largest speed and timing penalty, as well as the largest SRAM cell imbalance and are considered the ``worst-case'' conditions for TID in SRAMs.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=4.5in]{barnaby_sti_leakage_tid.pdf}
     \end{center}
@@ -595,7 +612,7 @@ The impact of charge build up in STI on transistor \emph{I-V} characteristics is
 It is important to note the lack of threshold voltage shift in Fig.~\ref{fig:tid_sti_leak}, instead a semi-static leakage increase is seen in the ``off'' region of the \emph{n}-channel device, effectively swamping the device response at sufficiently high dose and reducing the on/off current ratio by many orders of magnitude.
 This is problematic for present-generation technology nodes because increased leakage currents can interfere with proper pre-charging and small signal development on bit-lines \cite{Yao:2008ce}.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{snm_shift_postrad_yao_etal.pdf}
     \end{center}

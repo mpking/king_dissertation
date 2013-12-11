@@ -172,6 +172,11 @@ K.~M. Warren, R.~A. Weller, B.~D. Sierawski, R.~A. Reed, M.~H. Mendenhall,
   Response of a 0.25 μm CMOS SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~54,
   no.~4, pp.~898--903, 2007.
 
+\bibitem{Salvat:ue}
+F.~Salvat, J.~Fern{\'a}ndez-Varea, and J.~Sempau, ``{PENELOPE-2008: A code
+  system for Monte Carlo simulation of electron and photon transport},'' {\em
+  [Online] http://www.oecd-nea.org/science/pubs/2009/nea6416-penelope.pdf}.
+
 \bibitem{bethe1930theorie}
 H.~Bethe, ``Zur theorie des durchgangs schneller korpuskularstrahlen durch
   materie,'' {\em Annalen der Physik}, vol.~397, no.~3, pp.~325--400, 1930.
@@ -183,11 +188,6 @@ H.~Bethe, ``Bremsformel f{\"u}r elektronen relativistischer geschwindigkeit,''
 \bibitem{fano1964penetration}
 U.~Fano, ``Penetration of protons, alpha particles, and mesons,'' {\em Studies
   in Penetration of Charged Particles in Matter}, no.~39, p.~287, 1964.
-
-\bibitem{Salvat:ue}
-F.~Salvat, J.~Fern{\'a}ndez-Varea, and J.~Sempau, ``{PENELOPE-2008: A code
-  system for Monte Carlo simulation of electron and photon transport},'' {\em
-  [Online] http://www.oecd-nea.org/science/pubs/2009/nea6416-penelope.pdf}.
 
 \bibitem{Knoll:2010vq}
 G.~Knoll, ``{Radiation detection and measurement},'' 2010.
@@ -288,6 +288,10 @@ J.~S. Kauppila, A.~L. Sternberg, M.~L. Alles, A.~M. Francis, J.~Holmes, O.~A.
   Amusan, and L.~W. Massengill, ``A bias-dependent single-event compact model
   implemented into bsim4 and a 90 nm cmos process design kit,'' {\em IEEE
   Trans. Nucl. Sci.}, vol.~56, no.~6, pp.~3152--3157, 2009.
+
+\bibitem{massengill:1993sc}
+L.~W. Massengill, ``Seu modeling and prediction techniques,'' in {\em 1993 IEEE
+  NSREC Short Course}, (Pascataway, NJ), IEEE Publishing, 1993.
 
 \bibitem{dasgupta2007effect}
 S.~DasGupta, A.~Witulski, B.~Bhuva, M.~Alles, R.~Reed, O.~Amusan, J.~Ahlbin,

@@ -12,45 +12,45 @@ Warning--empty journal in garrett2012galileo
 Warning--empty year in Salvat:ue
 Warning--empty journal in Knoll:2010vq
 Warning--empty journal in Chunxiang:1985uo
-You've used 106 entries,
+You've used 107 entries,
             1876 wiz_defined-function locations,
-            1088 strings with 24773 characters,
-and the built_in function-call counts, 36932 in all, are:
-= -- 3753
-> -- 1626
+            1092 strings with 24876 characters,
+and the built_in function-call counts, 37097 in all, are:
+= -- 3766
+> -- 1630
 < -- 0
-+ -- 584
-- -- 478
-* -- 2870
-:= -- 5142
-add.period$ -- 109
-call.type$ -- 106
-change.case$ -- 103
++ -- 586
+- -- 479
+* -- 2882
+:= -- 5166
+add.period$ -- 110
+call.type$ -- 107
+change.case$ -- 104
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1747
-empty$ -- 3021
-format.name$ -- 478
-if$ -- 8852
+cite$ -- 111
+duplicate$ -- 1760
+empty$ -- 3045
+format.name$ -- 479
+if$ -- 8892
 int.to.chr$ -- 0
-int.to.str$ -- 106
-missing$ -- 107
-newline$ -- 324
-num.names$ -- 106
-pop$ -- 182
+int.to.str$ -- 107
+missing$ -- 108
+newline$ -- 327
+num.names$ -- 107
+pop$ -- 188
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1487
+skip$ -- 1489
 stack$ -- 0
 substring$ -- 3156
-swap$ -- 927
+swap$ -- 928
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 364
-width$ -- 109
-write$ -- 1080
+while$ -- 365
+width$ -- 110
+write$ -- 1090
 (There were 4 warnings)
