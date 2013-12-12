@@ -61,10 +61,11 @@ The total energy deposited in these volumes exceeds the estimation of critical e
         \label{fig:50nm_cube_silicon}
 \end{figure}
 
-Deeper inspection shows that there is significant difficulty in accurately calibrating the sensitive volume model and estimating critical charge for sub-45~nm SRAM under reduced bias conditions.
+Deeper inspection shows that there is significant difficulty in accurately calibrating the sensitive volume model and estimating critical charge for sub-45~nm SRAMs under reduced bias conditions.
 A comparison of simulation and experimental normalized cross-sections is shown in Fig.~\ref{fig:sim-vs-exp-norm-cross-section}.
 This comparison shows that MRED agrees with experimental results within a factor of 2--5 for an applied bias between 0.5~V and 0.7~V.
 Simulation results underestimate the normalized upset cross-section for applied bias conditions less than 0.55~V and are conservative under higher bias conditions.
+To date, the bias dependence of sensitive volume geometries has not been investigated for SRAMs frabricated in advanced technology nodes.
 
 \begin{figure}[tb]
     \begin{center}
@@ -74,14 +75,14 @@ Simulation results underestimate the normalized upset cross-section for applied 
     \label{fig:sim-vs-exp-norm-cross-section}
 \end{figure}
 
-The sensitive volume geometry chosen was a static, uncalibrated model for the simulation results reported in Figs.~\ref{fig:50kev_xrays_ppt} and \ref{fig:sim-vs-exp-norm-cross-section}.
-Given that the sensitivity of the SRAM cell is expected to increase under reduced bias conditions the dimensions of the simulated sensitive volume are a potential source of error.
+The sensitive volume geometry chosen in this research was a static, uncalibrated model for the simulation results reported in Figs.~\ref{fig:50kev_xrays_ppt} and \ref{fig:sim-vs-exp-norm-cross-section}.
+Given that the sensitivity of the SRAM cell is expected to increase under reduced bias conditions the dimensions of the simulated sensitive volume are a potential source of error in the above simulation results.
 Additionally, the use of a \emph{simple} model (see Equation~\ref{eq:qcrit}) was used to estimate the critical charge of the 45~nm SRAM.
 Increased fidelity in approximating the critical charge can yield significant differences in the extrapolated critical charge values shown in Fig.~\ref{fig:sim-vs-exp-norm-cross-section}.
-It is clear from these results that a static collection volume, one that is invariant with respect to supply voltage, cannot accurately reproduce the bias-dependent cross-section response of SRAMs that are sensitive to electron-induced SEUs.
+It is clear from these results that a static collection volume, one that is invariant with respect to supply voltage, cannot accurately reproduce the complete bias-dependent cross-section response of SRAMs that are sensitive to electron-induced SEUs.
 Without extensive effort, readily available SEU data, and process details, it is difficult to simultaneously calibrate a bias dependent sensitive volume geometry, charge collection model, and critical charge parameters to achieve an exhaustive model of SRAMs in any technology node.
 Despite the simple approximations and geometrical assumptions, Fig.~\ref{fig:sim-vs-exp-norm-cross-section} shows very good agreement with experimental results over a range of bias conditions where the fidelity of those estimations is reasonable.
-Trends showing decreased sensitivity of 45~nm SRAMs at higher supply voltage is observed in simulation data and the normalized cross-section results are comparable with that of the experimental results.
+Trends showing decreased sensitivity of 45~nm SRAMs at higher supply voltage conditions is observed in simulation data and the normalized cross-section results are comparable with that of the experimental results.
 
 These simulation results confirm that energy deposition from energetic electrons generated in photoabsorption events is the most likely explanation for the experimentally observed upsets in Fig.~\ref{fig:xray_exp_seus}. %
 % section simulation_of_x_ray_energy_deposition_in_srams (end)
@@ -117,7 +118,7 @@ Since the simulated part is unshielded, these simulations represent a ``worst-ca
     \begin{center}
         \includegraphics[width=5in]{nasa-jovian-missions-elec-env.pdf}
     \end{center}
-    \caption{The differential flux specetrum of incident electron energies in the Jovian environment is shown for the Jovian and Europa tour segments of NASAs Juno spacecraft mission \cite{garrett2012galileo}.}
+    \caption[The differential flux specetrum of incident electron energies in the Jovian environment is shown for the Jovian and Europa tour segments of NASAs Juno spacecraft mission.]{The differential flux specetrum of incident electron energies in the Jovian environment is shown for the Jovian and Europa tour segments of NASAs Juno spacecraft mission \cite{garrett2012galileo}.}
     \label{fig:nasa-jovian-missions-elec-env}
 \end{figure}
 
@@ -131,19 +132,20 @@ Since the simulated part is unshielded, these simulations represent a ``worst-ca
 
 MRED was used to model the interaction of the electron particle spectrum with the semiconductor materials. 
 The material structure is identical to the structure from Fig.~\ref{fig:50kev_xrays_ppt}, corresponding to a 45~nm bulk SRAM.
-Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} shows the resulting simulated event rates (left axis) as a function of generated charge (bottom axis) within the sensitive volume of a single SRAM cell for the near-Earth and Jovian environments. 
+Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} shows the resulting simulated event rates (left/right axis) as a function of generated charge (bottom axis) or energy deposited (top axis) within the sensitive volume of a single 45~nm SRAM cell for the near-Earth and Jovian environments. 
 Electron energy deposition events rarely exceed 10~keV, which is consistent with Fig.~\ref{fig:50kev_xrays_ppt} and \cite{King:2010cu, King:2012cb}. 
 Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} demonstrates the rare nature of electron-induced SEU events in the near-Earth space radiation environment, indicating that many years of flight time may elapse before the observation of such an event is expected for a typical 45~nm bulk SRAM operating under nominal bias conditions.  
 Conclusions are similar when evaluating error rate estimations for the Jovian environment.
-Electron-induced SEU event rates for the Europa tour segment of the Juno spacecraft mission to the Jovian environment are higher than those of the near-Earth electron environment at all estimated supply voltage conditions considered in this dissertation.
-The difference is most significant at reduced bias conditions where electron-induced SEU error rates are higher than those of the geosynchronous environment by more than an order of magnitude.
+Althought slightly higher than error-rate estimations for the GEO environment, only rare events deposit sufficient energy to upset 45~nm SRAMs in the Europa tour phase of the Juno spacecraft mission to the Jovian environment.
+Furthermore, Electron-induced SEU event rates for the Europa tour segment of the Juno spacecraft mission to the Jovian environment are higher than those of the near-Earth electron environment at all estimated supply voltage conditions considered in this dissertation.
+The differences between the Jovian and near-Earth environments is most significant at reduced bias conditions where electron-induced SEU error rates are higher than those of the geosynchronous environment by more than an order of magnitude.
 
-Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} shows that the event rate depends strongly on the critical charge of the SRAM; a reduction of critical charge from 0.4~fC to 0.2~fC results in a change in event rate of approximately two orders of magnitude. 
+Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} shows that the electron-induced SEU event rates depends strongly on the critical charge of the SRAM; a reduction of critical charge from 0.4~fC to 0.2~fC results in a change in event rate of approximately two orders of magnitude. 
 Employing more sensitive SRAM technologies or operating at reduced supply voltage conditions has a direct and significant impact on SRAM error rates. 
 In contrast, total error rate predictions for a 65~nm SRAM at geosynchronous orbit in the solar minimum environment are on the order of 2.4$\times$10$^{-6}$~Mbit$^{-1}$~sec$^{-1}$ \cite{Sierawski:2009ka}.
 At geosynchronous orbit in ``worst-day'' conditions, error rates for the same 65~nm SRAM are as high as 3.6$\times$10$^{-3}$~Mbit$^{-1}$~sec$^{-1}$ \cite{Sierawski:2009ka}.
-Furthermore, the estimated error rates in Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} suggest that entering the Juno spacecraft into a power-saving or quiescent mode would significantly increase the likelihood of SEUs contributing to anomalous behavior of the onboard electronics.
-This indicates that the error rates at geosynchronous orbit of larger technology nodes with higher critical charge are roughly 2.5--5 orders of magnitude higher than estimates of electron-induced error rates at nominal bias conditions.%
+This indicates that the error rates at geosynchronous orbit of larger technology nodes with higher critical charge are roughly 2.5--5 orders of magnitude higher than estimates of electron-induced error rates at nominal bias conditions.
+Furthermore, the estimated error rates in Fig.~\ref{fig:geo_max_rate_pred_ae8_ppt} suggest that entering the Juno spacecraft into a power-saving or quiescent mode would significantly increase the likelihood of SEUs contributing to anomalous behavior in the onboard electronics systems.
 % section electron_induced_seu_event_rates (end)
 
 \section{Impact of Delta-rays on Microelectronics} % (fold)

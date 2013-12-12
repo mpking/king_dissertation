@@ -10,8 +10,12 @@ This demonstrates that test chips remained stable during X-ray irradiation.
 Thus, errors are not due to ``weak bits'' or photocurrents resulting from the collective energy deposition of the X-rays. 
 Instead, experimental results and analysis strongly suggest that the observed errors are the result of single energetic electron scattering events within SRAM cells. 
 
-The event rate of electron-induced SEU is low at geosynchronous orbits for the devices that were evaluated. Moreover, electron-induced upsets only occur at measurable rates under reduced bias conditions for present-generation technology. 
-This suggests that the overall contribution of energetic electrons to error rates is small in present-generation technology.
+The event rate of electron-induced SEU is low under nominal bias conditions at geosynchronous orbits for the devices that were evaluated. 
+Similarly, electron-induced SEUs in the Jovian environment are predicted to be rare events occuring only slightly more frequently than in the near-Earth environment.
+However, operating microelectronic systems in power-saving or quiescent mode would significantly increase the likelihood of electron-induced SEUs contributing to anomalous behavior in the onboard electronics systems while within the Jovian electron belts.
+
+Moreover, electron-induced upsets have only been observed to occur at measurable rates under reduced bias conditions for SRAMs fabricated in present-generation technology nodes. 
+This suggests that the overall contribution of energetic electrons to error rates is small in current-generation technology.
 The conclusion being that electronics designed to operate with ultra-low power likely will exhibit higher relative sensitivity to energetic electron induced upsets. 
 This represents an additional design concern for both space and terrestrial environments, to avoid unexpectedly high upset/error rates from lightly ionizing particles.
 
@@ -20,6 +24,5 @@ Error rates of $\delta$-ray and electron-induced upsets for SRAMs in ground-base
 A comparison of MRED with the Katz model demonstrates average track structure models alone are inadequate in capturing the SEU response of small sensitive geometries with low critical charge that are susceptible to electron/$\delta$-ray effects.
 The probability of $\delta$-ray related effects exhibits a strong dependence on the incident ion species, energy, and LET.
 Additionally, the probability of $\delta$-ray induced effects exhibits a strong dependence on radial distance from the incident ion trajectory.
-% TODO What are these implications?
 These results have strong implications for ground-based parts qualification testing and space radiation environments, where varying incident ion energy and LET result in differing contributions from $\delta$-rays to device and circuit level effects.
 % chapter summary_and_conclusions (end)

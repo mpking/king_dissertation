@@ -710,16 +710,14 @@ It is important to note that the dose-rates used in transient radiation experime
 The signature of errors corresponding to railspan collapse, clusters of errors far from the $V_{SS}$ supply line, is useful for easily identifying the physical mechanism contributing to errors in SRAM experiments.
 % subsection railspan_collapse (end)
 
-
 % section radiation_effects_on_sram (end)
-
 
 \section{Radiation Environments} % (fold)
 \label{sec:radiation_environments}
-Understanding the sources of ionizing radiation and modeling fluctuations in the concentration of particle species is essential for accurately predicting error rates in modern electronics.
-Table~\ref{table:rad_env} shows some important characteristics for the environments of primary concern in the space radiation environment.
-Each of these environments has unique signature in terms of the particle species, energy, and flux.
-Consequently, the presence of radiation in each environment has unique implications for electronics.
+Understanding the sources of ionizing radiation and modeling fluctuations in the concentration and flux of particle species is essential for accurately predicting error rates in modern electronics in the space radiation environment.
+Table~\ref{table:rad_env} shows some important characteristics for the predominant particle species present in some of the common space radiation environments.
+Each of these environments has unique signature in terms of the species, the energy, and the flux of those particles present.
+Consequently, the presence of radiation in each environment has specific implications for electronics unique to those environments.
 \begin{table}[tb]
     \caption[Particle Radiations in Near-Earth Orbit and Some Properties]{Particle Radiations in Near-Earth Orbit and Some Properties \cite{Xapsos:2013cu}}
     \centering
@@ -737,13 +735,13 @@ Consequently, the presence of radiation in each environment has unique implicati
         \label{table:rad_env}
     %\end{centering}
 \end{table}
-The CREME96 and CR\`EME-MC codes exist as a means to provide critical information regarding the environments.
-The use of these codes provides a rudimentary framework for evaluating the potential risk of flying certain types of electronics in the different environments.
+The CREME96 and CR\`EME-MC codes exist as a means to provide critical information regarding the environments shown in Table~\ref{table:rad_env}.
+The use of these codes provides a rudimentary framework for evaluating the potential risk of flying certain types of microelectronics in the different environments.
 The following section addresses the particle species present in each environment and their impact on electronic systems.
 
 \subsection{Solar Particle Environment} % (fold)
 \label{sub:solar_wind}
-Solar particle events result in the ejection of large fluxes of relatively low energy charged emitted from the sun into interplanetary space.
+Solar particle events result in the ejection of large quantity of relatively low energy charged emitted from the sun into interplanetary space.
 There are two types of solar particle events, solar flares and coronal mass ejections (CME), each of which have distinct signatures and release energetic particles.
 Solar flares occur when energy stored in the coronal magnetic field becomes too large and releases a burst of energy, which in turn accelerates charged particles away from the sun.
 Such events tend to last for hours and emit a large measure of charged particles.
@@ -753,10 +751,6 @@ CMEs tend to be proton rich and last for several days.
 The dominant interaction mechanisms of electronics with particles in the solar particle environment are TID, displacement damage, and SEEs.
 Of the two types of solar particle events, CMEs are responsible for major disruptions in interplanetary space and large scale geomagnetic disturbances on earth that can in turn result in disruption of communications and electronics.
 
-All elements are present in solar particle events at some detectable level of concentration, although they consist primarily ($>$ 99.9\%) of solar protons, helium, and electrons.
-Despite the small composition the presence of heavy ions in the solar particle environment is a non-negligible population of particle species, particularly when evaluating the impact of radiation on electronics.
-Solar particle events have been observed to vary over time with fairly predictable intervals where activity levels are at a minimum and maximum.
-A plot of daily solar proton fluence can be seen in Fig.~\ref{fig:proton_fluence_vs_year}.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[width=5in]{xapsos_proton_fluence_vs_year_SPE.pdf}
@@ -764,7 +758,14 @@ A plot of daily solar proton fluence can be seen in Fig.~\ref{fig:proton_fluence
     \caption[Daily fluences of $>$ 0.88 MeV protons due to solar particle events between approximately 1974 and 2002.]{Daily fluences of $>$ 0.88 MeV protons due to solar particle events between approximately 1974 and 2002 \cite{xapsos:2006}.}
     \label{fig:proton_fluence_vs_year}
 \end{figure}
+
+All naturally occuring elements are present in solar particle events at some detectable level of concentration, although they consist primarily ($>$ 99.9\%) of solar protons, helium, and electrons.
+Despite the small composition the presence of heavy ions in the solar particle environment is a non-negligible population of particle species, particularly when evaluating the impact of radiation on electronics.
+Solar particle events have been observed to vary over time with fairly predictable intervals where activity levels are at a minimum and maximum.
+A plot of daily solar proton fluence can be seen in Fig.~\ref{fig:proton_fluence_vs_year}.
 The CREME96 models were adapted to account for variations in solar activity and provide accurate representation of particle fluxes present in the near-earth environment.
+Fig.~\ref{fig:spe-geo-worst-day-100-mils} shows the particle flux spectra from CREME96 for a geosynchronous orbit during ``worst-day'' conditions with 100~mils of aluminum shielding \cite{tylka1997creme96}.
+Particle energies in solar flares and CME events may approach 1~GeV/u with peak fluxes higher than 10$^5$~cm$^{-2}$~s$^{-1}$.
 \begin{figure}[htbp]
     \begin{center}
         \includegraphics[width=5in]{sierawski_spe_geo_worst_day_100_mils.pdf}
@@ -772,43 +773,42 @@ The CREME96 models were adapted to account for variations in solar activity and 
     \caption[The particle flux spectra computed by CREME96 for a Near-Earth Interplanetary or Geosynchronous orbit during the worst day scenario with 100 mils of aluminum shielding. Common species shown, all others omitted.]{The particle flux spectra computed by CREME96 for a Near-Earth Interplanetary or Geosynchronous orbit during the worst day scenario with 100 mils of aluminum shielding. Common species shown, all others omitted \cite{Sierawski:2011tc}.}
     \label{fig:spe-geo-worst-day-100-mils}
 \end{figure}
-Fig.~\ref{fig:spe-geo-worst-day-100-mils} shows the particle flux spectra from CREME96 for a geosynchronous orbit during the ``worst-day'' with 100~mils of aluminum shielding \cite{tylka1997creme96}.
-Particle energies in solar particle events may approach 1~GeV/u with peak fluxes higher than 10$^5$~cm$^{-2}$~s$^{-1}$.
 % subsection solar_wind (end)
 
 \subsection{Galactic Cosmic Rays} % (fold)
 \label{sub:galactic_cosmic_rays}
 Galactic cosmic rays (GCR) are high-energy particles, primarily hadrons, that originate from outside our solar system.
 These energetic, charged particles are stripped of electrons by the interstellar medium and accelerated to high energies.
-The primary concern for electron systems exposed to the GCR environment are SEEs.
+The primary concern for microelectronic systems exposed to the GCR environment are SEEs.
 
 A basic description of the GCR environment is given in Table~\ref{table:rad_env}.
 All naturally occurring elements are present in the GCR environment up to uranium.
 The particle spectrum is represented by approximately 90\% protons, 9\% helium, while heavier elements from lithium through iron and nickel make up the remaining 1\% of particle species.
-A large decrease in abundance occurs for atomic numbers higher than iron, this is known as the ``iron knee''.
+A large decrease in abundance occurs for atomic numbers higher than iron, this feature of the GCR spectrum is known as the ``iron knee''.
 The relative abundance of elements through Z=28 is shown in Fig.~\ref{fig:gcr-abundance-vs-atomic-num}.
 \begin{figure}[htbp]
     \begin{center}
-        \includegraphics[height=5in]{xapsos-gcr-abundance-vs-atomic-num.pdf}
+        \includegraphics[height=6in]{xapsos-gcr-abundance-vs-atomic-num.pdf}
     \end{center}
-    \caption[Abundances of GCR up through Z = 28.]{Abundances of GCR up through Z = 28 \cite{xapsos:2006}.}
+    \caption[Abundances of particles species in the GCR spectrum up through Z = 28.]{Abundances of particles species in the GCR spectrum up through Z = 28 \cite{xapsos:2006}.}
     \label{fig:gcr-abundance-vs-atomic-num}
 \end{figure}
 
 The local interstellar medium is a relativity constant, isotropic flux at the heliosphere boundary.
 The presence of a magnetic field from the sun impedes the flux of low-energy ($<$20~MeV/u) particles in the GCR spectrum entering the solar system.
-Additionally, the solar wind modulates the flux of particles in regions of interplanetary space.
-Consequently, increased solar activity levels result in a lower flux of particles and lower solar activity levels result in an increase in the GCR flux in interplanetary space flux \cite{parker1965passage,badhwar1992improved}.
+Additionally, the solar wind modulates the flux of particles from the GCR in regions of interplanetary space.
+Consequently, increased solar activity levels result in a lower flux of particles emanating from the GCR environment and lower solar activity levels result in an increase in the GCR flux in interplanetary space \cite{parker1965passage,badhwar1992improved}.
 The impact of solar activity on the differential energy spectra of common elements in the GCR environment is shown in Fig.~\ref{fig:gcr-fluence-vs-energy}.
-\begin{figure}[htbp]
+Together, the combination of solar particles and the GCR environment make up the interplanetary radiation environment.
+The region of consideration for particles originating from these sources ranges from geosynchronous orbits to the free space between planets.
+
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{xapsos_gcr_fluence_vs_energy.pdf}
     \end{center}
     \caption[GCR energy spectra for protons, helium, oxygen and iron during solar maximum and solar minimum conditions.]{GCR energy spectra for protons, helium, oxygen and iron during solar maximum and solar minimum conditions \cite{badhwar1996galactic}.}
     \label{fig:gcr-fluence-vs-energy}
 \end{figure}
-Together, the combination of solar particles and the GCR environment make up the interplanetary radiation environment.
-The region of consideration for particles originating from these sources ranges from geosynchronous orbits to the free space between planets.
 
 The CREME96 and CR\`EME-MC tools represent efforts attempting to provide a reliable framework for analyzing the susceptibility of modern electronics to particles from the GCR environment.
 These codes provide a consistent metric for analyzing the flux and LET of particles exposed to the GCR environment and provide a means of analysis for estimating error/event rates.
@@ -816,25 +816,26 @@ These codes provide a consistent metric for analyzing the flux and LET of partic
 
 \subsection{Trapped Particle Environments} % (fold)
 \label{sub:trapped_particle_environment}
-Energetic charged particles are held in place around planets with significant magnetic fields.
+Energetic charged particles are captured by and present around planets with significant magnetic fields.
 Orbiting satellites, manned, and robotic space exploration missions encounter the trapped particle environment for the extent of the mission lifetime.
-The near-Earth radiation environment is of primary importance for orbiting communications, weather, GPS, and defense satellites.
+The near-Earth radiation environment is of primary importance for orbiting communications, weather, GPS, defense, and scientific satellites.
 The near-Earth environment also has significance due to the presence of the international space station where mission criteria must additionally consider the biological and electronic impact of radiation on systems and the human presence on the ISS.
 
 The Jovian environment is of interest to scientists and researchers interested in looking at geological processes on several of the moons.
 To date, NASA has planned several future missions that send remote sensing satellite probes to the Jovian environment to investigate its moons, Io and Europa, in addition to studies of Jupiter itself.
-The trapped particle environment around Jupiter is particularly difficult for mission reliability due to the presence of high-flux, high-energy charged particles trapped in the planets magnetosphere.
+The trapped particle environment around Jupiter is particularly difficult from a mission reliability perspective due to the presence of high-flux, high-energy charged particles trapped in the planets magnetosphere.
 
-This section will focus exclusively on the near-Earth environment and Jovian environment.
+The following discussion will focus exclusively on the near-Earth environment and Jovian environment.
 
 \subsubsection{Earth Radiation Belts} % (fold)
 \label{ssub:van_allen_radiation_belts}
-The Earth's magnetic field acts as a barrier to charged particles but also acts to trap particles in stable orbits.
-The particles populating the radiation fields surrounding the Earth originate from solar particle events and the GCR environment.
+The Earth's magnetic field acts as a barrier to electromagnetic radiation but also acts to trap charged particles in stable orbits around the planet.
+The regions where charged particles can be found around the planet are known as radiation belts.
+The particles populating the radiation fields surrounding the Earth originate from solar particle events and the GCR environment, although for some time an ill-conceived high altitude nuclear weapons test referred to as operation Starfish Prime did introduce and modify the particle species and structure of the radiation belts.
 The discovery of the radiation belts surrounding Earth is credited to Van Allen who performed the initial analysis of data identifying the particle populations and mapping their intensities \cite{van1959radiation}.
 Since their discovery, additional studies of the trapped particle environments surrounding Earth have been performed, identifying the particle species present, flux, and variation in particle population based on solar and military activities \cite{sawyer1976ap,vette1991ae}.
-The initial AE-8 and AP-8 models allowed designers to account for TID, SEE, displacement damage, and charging effects.
-As electronics have become increasingly sensitive to ionizing particle events it has become increasingly difficult to utilize the AE-8 and AP-8 models.
+The initial AE-8 and AP-8 models allowed designers to account for TID, SEE, displacement damage, and spacecraft charging effects.
+As electronics have become increasingly sensitive to ionizing particle events it has become increasingly difficult to utilize the AE-8 and AP-8 models accurately.
 Efforts continue to refine the trapped particle environment models to account for sources of error and uncertainty and much progress has been made for the AE-9 and AP-9 models \cite{barth2003space,Xapsos:2013cu,Bourdarie:kj}.
 
 A basic description of common particles found in the trapped particle environment can be seen in Table~\ref{table:rad_env}.
@@ -855,16 +856,17 @@ Contour plots of the particle populations for electrons and protons can be seen 
     \caption[The trapped proton population with energies $>$ 10 MeV as predicted by the AP-8 model for solar maximum conditions.]{The trapped proton population with energies $>$ 10 MeV as predicted by the AP-8 model for solar maximum conditions \cite{xapsos:2006}.}
     \label{fig:earth-trapped-protons}
 \end{figure}
-
-Trapped electrons around the Earth vary in energy from 10~keV to 10~MeV and are usually associated with TID, DD, and ESD/charging effects in electronic systems.
-The differential flux of electrons as a function of time is shown in Fig.~\ref{fig:elec-geo-flux-vs-year}.
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{xapsos_elec_geo_flux_vs_year_energy_curves.pdf}
     \end{center}
     \caption[Time and energy dependence of the mean electron flux at geostationary altitudes over about 2.5 solar cycles.]{Time and energy dependence of the mean electron flux at geostationary altitudes over about 2.5 solar cycles \cite{piet2006model}.}
     \label{fig:elec-geo-flux-vs-year}
 \end{figure}
+
+
+Trapped electrons around the Earth vary in energy from 10~keV to 10~MeV and are usually associated with TID, DD, and ESD/charging effects in electronic systems.
+The differential flux of electrons as a function of time is shown in Fig.~\ref{fig:elec-geo-flux-vs-year}.
 Fig.~\ref{fig:elec-geo-flux-vs-year} shows that for low-energy electrons ($<$1~MeV) electron flux at geostationary orbits have been relatively constant over time and do not vary significantly with solar activity.
 This is not the case for high-energy($>$1~MeV) electrons, which vary as a function of time and solar activity.
 Trapped electrons and protons exhibit regions of high flux in two distinct regions separated by the reduced flux slot region.
@@ -874,7 +876,7 @@ This is not true for the slot regions, where variation in solar activity may  mo
 The outer radiation belts exhibit a more significant dependence on solar activity varying in energy both flux by several orders of magnitude day to day.
 
 Shielding has been used to great effect for electron environments near earth and in interplanetary space.
-Only electrons with energy greater than 1~MeV are capable of transporting through 100~mils of aluminum and interacting with electronic systems.
+Only electrons with energy greater than 1~MeV are capable of transporting through 100~mils of aluminum and interacting with microelectronic systems.
 In geostationary orbits, this amount of shielding provides fairly complete protection for electronic systems against TID and DD as very little of the trapped electron environment is capable of transporting through the shielding and impacting nominal system operation.
 % subsubsection van_allen_radiation_belts (end)
 
@@ -886,24 +888,25 @@ The Jovian electron environment has been well studied by the galileo interim rad
 Additional efforts have extended the original GIRE model to a maximum energy of several hundred MeV and a maximum radius of 50 Jovian radii \cite{garrett2003galileo,garrett2005revised}.
 The current version of the model, denoted as GIRE2, describes the omnidirectional flux of energetic electrons in the Jovian equatorial plane at distances large enough to extrapolate information for planned NASA missions to study the Jovian moons.
 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{gire2-line-plots-diffflux-jovianradii.pdf}
     \end{center}
     \caption[Line plots of the differential electron fluxes as predicted by the inner region GIRE and GIRE2 models.]{Line plots of the differential electron fluxes as predicted by the inner region GIRE and GIRE2 models \cite{garrett2012galileo}.}
     \label{fig:gire2-diff-flux}
 \end{figure}
-The differential flux spectrum as a function Jovian radii is shown in Fig.~\ref{fig:gire2-diff-flux} with line plots indicating the flux of electrons of a given energy.
-The energy spectrum of trapped electrons electrons in the Jovian environment ranges from approximately 10~keV to 100~MeV.
-Similar to the trapped electron environment around Earth, there is significant variation in the estimated electron flux for high-energy ($>$10~MeV) with increasing distance.
-Differences in the inner and outer radiation belts are due to distinct characteristics of the magnetic field surrounding Jupiter \cite{garrett2012galileo}. 
-\begin{figure}[htbp]
+\begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{electron-gire.png}
     \end{center}
     \caption{Integral flux spectrum for electrons in the Jovian environment.}
     \label{fig:jovian-int-flux-spectrum}
 \end{figure}
+
+The differential flux spectrum as a function of distance, given in Jovian radii, is shown in Fig.~\ref{fig:gire2-diff-flux} with line plots indicating the flux of electrons of a given energy.
+The energy spectrum of trapped electrons electrons in the Jovian environment ranges from approximately 10~keV to 100~MeV.
+Similar to the trapped electron environment around Earth, there is significant variation in the estimated electron flux for high-energy ($>$10~MeV) with increasing distance.
+Differences in the inner and outer radiation belts are due to distinct characteristics of the magnetic field surrounding Jupiter and are influenced heavily by fluctuations in solar activity \cite{garrett2012galileo}. 
 The integral electron flux spectrum for planned missions to the moon Europa can be seen in Fig.~\ref{fig:jovian-int-flux-spectrum}.
 Shielding may provide protection for spacecraft electronic systems for the extremely high flux of electrons below 1~MeV. 
 However, the flux of high-energy electrons is a non-negligible potentially serious threat for mission reliability. 

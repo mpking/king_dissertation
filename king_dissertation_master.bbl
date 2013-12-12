@@ -1,9 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{garrett2012galileo}
-H.~Garrett, M.~Kokorowski, I.~Jun, and R.~Evans, ``Galileo interim radiation
-  electron model: update2012,'' 2012.
-
 \bibitem{Rodbell:2007vl}
 K.~P. Rodbell, D.~F. Heidel, H.~Tang, M.~Gordon, P.~Oldiges, and C.~Murray,
   ``{Low-energy proton-induced single-event-upsets in 65 nm node,
@@ -471,6 +467,10 @@ A.~S. Piet, S.~Bourdarie, D.~Boscher, and R.~Friedel, ``A model for the
 N.~Divine and H.~Garrett, ``Charged particle distributions in jupiter's
   magnetosphere,'' {\em Journal of Geophysical Research: Space Physics
   (1978--2012)}, vol.~88, no.~A9, pp.~6889--6903, 1983.
+
+\bibitem{garrett2012galileo}
+H.~Garrett, M.~Kokorowski, I.~Jun, and R.~Evans, ``Galileo interim radiation
+  electron model: update2012,'' 2012.
 
 \bibitem{garrett2003galileo}
 H.~Garrett, I.~Jun, J.~Ratliff, R.~Evans, G.~Clough, and R.~McEntire, {\em
