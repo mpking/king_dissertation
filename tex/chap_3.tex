@@ -87,13 +87,14 @@ The DUT is very thin and on the bottom of the figure.
 Photo-electrons have random trajectories. 
 The few electrons that transport through the air gap to the DUT stop within the first few micrometers of the back end of line (BEOL) materials (metallization and dielectric layers) \cite{Dasgupta:2011mg}.
 Therefore, only X-rays absorbed within the DUT itself generate photo-electrons that can interact with the device material in the sensitive volume of the device.
-\begin{figure}[tb]
+An example of this type of interaction is shown in Fig.~\ref{fig:photoabsorption_opendx} where the absorption of an incident 10~keV X-ray leads to the generation of an initially free, nearly ballistic electron that deposits 9.3~keV of energy when it scatters within the sensitive volume of a 45~nm SRAM.
+
+\begin{figure}[htbp]
     \centering
         \includegraphics[width=3.75in]{image_1_box_2_flat3d.pdf}
         \caption{A 10~keV X-ray is normally incident on the simulated device structure of a 45~nm SRAM. It subsequently undergoes photoabsorption resulting in the generation of a energetic electron. The resulting electron then transports through the device material, depositing energy in excess of 9.3~keV within the sensitive volume of the SRAM.}
         \label{fig:photoabsorption_opendx}
 \end{figure}
-An example of this type of interaction is shown in Fig.~\ref{fig:photoabsorption_opendx} where the absorption of an incident 10~keV X-ray leads to the generation of an initially free, nearly ballistic electron that deposits 9.3~keV of energy when it scatters within the sensitive volume of a 45~nm SRAM.
 
 The electron fluence spectrum corresponding to a monoenergetic beam of 50~keV X-rays in the ``forward'' and ``reverse'' beam direction is plotted on the right hand side of Fig.~\ref{fig:aracor_spectrum}.
 The most frequent energy corresponds to the incident X-ray energy in the forward direction, which corresponds to photo-electrons generated in the BEOL materials and the active silicon region.
@@ -120,7 +121,7 @@ The X-ray flux is calculated by integrating over the attenuated energy spectrum 
     \phi_{total} = \sum_{i=0}^{\infty} \phi(E_{i})
 \end{equation}
 where $\phi(E_{i})$ is the flux of photons with energy $E_{i}$, and $\phi_{total}$ represents a cumulative photon flux. 
-Evaluating Eq.~(\ref{eq:cum_pho_flux}) with the attenuated photon spectrum yields a cumulative photon flux of 1.5$\times$10$^{12}$~cm$^{-2}$~s$^{-1}$.
+Evaluating Eq.~\ref{eq:cum_pho_flux} with the attenuated photon spectrum yields a cumulative photon flux of 1.5$\times$10$^{12}$~cm$^{-2}$~s$^{-1}$.
 Similarly, the electron flux corresponding to 50~keV X-rays is calculated to be 1.16$\times$10$^{6}$~cm$^{-2}$~s$^{-1}$.
 % section experimental_setup_and_methods (end)
 
@@ -176,7 +177,7 @@ Table~\ref{table:exp_times} shows the experimental supply voltage conditions, ex
     \caption{Experimental errors induced during irradiation with X-rays in an ARACOR 4100 X-ray irradiator. The bias sensitivity of critical charge in SRAMs provides strong evidence of energetic electron-induced upsets in modern SRAMs.}
     \label{fig:xray_exp_seus}
 \end{figure}
-Fig.~\ref{fig:xray_exp_seus} plots the normalized cross-section, as described in Eq.~(\ref{eq:norm_cs}), as a function of supply voltage for SRAM test chips exposed to X-rays.
+Fig.~\ref{fig:xray_exp_seus} plots the normalized cross-section, as described in Eq.~\ref{eq:norm_cs}, as a function of supply voltage for SRAM test chips exposed to X-rays.
 Fig.~\ref{fig:xray_exp_seus} shows that errors are observed when these devices are biased between 0.35~V and 0.8~V while exposed to X-rays. 
 The resulting upset cross-section of all test chips exhibits an exponential dependence on applied bias because of the voltage dependence on critical charge. 
 This is consistent with well established test procedures used for assessing the single-event error rates for protons and muons \cite{Rodbell:2007vl, Sierawski:2010cj}. 
@@ -192,7 +193,7 @@ The generated photocurrent produced by the collective effect of the X-ray source
     I_{PC} = q V \dot{D}_{SiO_2} \dot{R}_{SiO_2}
 \end{equation}
 where $q$ is elementary charge, $V$ is the volume of an SRAM cell, $\dot{D}_{SiO_2}$ is the dose-rate in SiO$_2$, and $\dot{R}_{SiO_2}$ is the density of electron-hole pairs generated per rad(SiO$_2$). 
-The generated collective photocurrent in an individual SRAM cell is calculated with Eq.~(\ref{eq:photocurrent}) to be approximately 1~fA. 
+The generated collective photocurrent in an individual SRAM cell is calculated with Eq.~\ref{eq:photocurrent} to be approximately 1~fA. 
 SPICE simulations were performed for 28~nm SRAM test chips A and B for each experimental bias condition. 
 The simulation results indicate restoring currents are greater than 100 nA at the lowest experimental supply voltage, 0.35~V. 
 \begin{figure}[tb]
@@ -212,7 +213,7 @@ Furthermore, the probability of coincident photon events contributing to the err
     Pr(X_1||X_2) = (\phi A_{cell} \tau)^2
 \end{equation}
 where $\phi$ is the incident photon flux, $A_{cell}$ is the cell area, and $\tau$ is the characteristic time for an upset event (assumed to be 10~ns). 
-Evaluation of Eq.~(\ref{eq:prob_coincidence}) for the 28~nm and 45~nm SRAMs results in probabilities of 6.45$\times$10$^{-10}$ and 1.9$\times$10$^{-9}$, respectively, of coincident photons contributing a single upset to the experimental results. 
+Evaluation of Eq.~\ref{eq:prob_coincidence} for the 28~nm and 45~nm SRAMs results in probabilities of 6.45$\times$10$^{-10}$ and 1.9$\times$10$^{-9}$, respectively, of coincident photons contributing a single upset to the experimental results. 
 The contribution of coincident photons to the observed upsets on the time scale considered is therefore negligible.
 
 Lastly, it is important to monitor the TID accumulated by the test chip, since this can lead to degradation of the memory and result in a loss of functionality \cite{Fleetwood:1987cf}. 
@@ -258,7 +259,7 @@ Low-energy positively charged muons with a known energy distribution were normal
 The muon beam energy characterization at TRIUMF is described in \cite{Sierawski:2010cj}. 
 The incident muon energy was varied by means of a tunable momentum filter \cite{Sierawski:2010cj, Sierawski:2011bn}. 
 The timing sequence for applied bias during experiments with low-energy muons is identical to that of Fig.~\ref{fig:exp_timing_diagram}.
-Parts were exposed to a total fluence of 6.2$\times$10$^8$~cm$^{-2}$. A normalized upset cross-section is obtained for muons and low-energy proton experiments from Eq.~(\ref{eq:norm_cs}).
+Parts were exposed to a total fluence of 6.2$\times$10$^8$~cm$^{-2}$. A normalized upset cross-section is obtained for muons and low-energy proton experiments from Eq.~\ref{eq:norm_cs}.
 
 Figs.~\ref{fig:28nm_xray_muon_proton} and \ref{fig:45nm_xray_muon_proton} show SEU data from low-energy proton and muon experiments plotted alongside electron-induced SEU data from Fig.~\ref{fig:xray_exp_seus} for 28~nm and 45~nm test chips. 
 All test chip samples exhibit exponential SEU cross-section dependence on applied bias, consistent with previous results \cite{Rodbell:2007vl, Sierawski:2010cj}. 

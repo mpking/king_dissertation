@@ -243,7 +243,7 @@ Since the collision must obey both conservation of energy and momentum it can be
 \end{equation}
 where $\hbar \omega$ is the energy of the incident photon, $m_{e}c^2$ is the electron rest energy, and $\theta$ is the scattering angle of the photon as seen in Fig.~\ref{fig:compton_scattering_diagram2}.
 
-Eq.~(\ref{eq:compton_energy_transfer}) shows thats for small scattering angles (where $\theta \approx 0$) very little energy is transferred to the generated recoil electron.
+Eq.~\ref{eq:compton_energy_transfer} shows thats for small scattering angles (where $\theta \approx 0$) very little energy is transferred to the generated recoil electron.
 The maximum energy transfer occurs when the incident photon is back-scattered (where $\theta \approx \pi$) and the recoil electron has initial momentum along the incident photons original trajectory.
 The initial energy of all recoil electrons generated in Compton scattering events fall within the Compton continuum, an energy range bounded by the minimum and maximum energy transferred in a scattering event.
 
@@ -470,7 +470,7 @@ The sensitivity of SRAMs to low-energy protons was initially observed under redu
 Further study showed sensitivity of 45~nm SRAMs at normal incidence and under nominal bias conditions \cite{Rodbell:2007vl,Heidel:2009vx}.
 A plot showing the SEU cross-section dependence on applied bias, in arbitrary units, can be seen in Fig.~\ref{fig:seu_cs_vs_appl_bias_protons} for 1~MeV and 1.5~MeV protons (also more energetic alpha particles are shown).
 A gentle gradient can be observed in the SEU cross-section for low-energy protons (the curve corresponding to 1~MeV protons) as a function of applied bias.
-Recalling the discussion regarding Eq.~(\ref{eq:qcrit}), the critical charge of elementary 6T-SRAM cell should depend on the supply voltage.
+Recalling the discussion regarding Eq.~\ref{eq:qcrit}, the critical charge of elementary 6T-SRAM cell should depend on the supply voltage.
 Here the bias dependence manifests as a linear slope (although significantly less than unity) in the measured SEU cross-section.
 Heidel and Rodbell both reported the critical charge for SRAMs fabricated in the 65~nm SOI technology node to have a critical charge between 0.21~fC and 0.27~fC \cite{Heidel:2006tp,Rodbell:2007vl}.
 The values of critical charge from \cite{Heidel:2006tp,Rodbell:2007vl} are consistent with the estimations for SRAMs in the 65~nm technology node made by Sierawski and shown in Fig.~\ref{fig:qcrit_trends}.
@@ -526,7 +526,7 @@ Consequently, the lowest energy muons do not contribute to the upset cross-secti
 Fig.~\ref{fig:muon_upsets_bias_dep} shows the SEU response of a 65~nm SRAM as a function of supply voltage for incident muons with average energy of approximately 400~keV. 
 For a nominal supply voltage of 1.2~V, few errors are observed. 
 As the applied bias is reduced, there is a corresponding increase in the number of muon-induced upsets. 
-As discussed regarding Eq.~(\ref{eq:qcrit}) and the bias dependence of low-energy protons in Section~\ref{sub:low_energy_proton_induced_seus}, reduction in supply voltage results in a corresponding reduction in critical charge.
+As discussed regarding Eq.~\ref{eq:qcrit} and the bias dependence of low-energy protons in Section~\ref{sub:low_energy_proton_induced_seus}, reduction in supply voltage results in a corresponding reduction in critical charge.
 Consequently, reduction in critical charge with decreasing supply voltage makes the SRAM test chip vulnerable to a wider range of incident muon energies, which explains the bias dependence shown in Fig.~\ref{fig:muon_upsets_bias_dep}.
 \begin{figure}[htbp]
     \begin{center}
@@ -574,7 +574,7 @@ The threshold voltage imbalance, $V_{imb}$, induced by bias conditions during ir
     V_{imb} = V_{TM1} - V_{TM3}
 \end{equation}
 where $V_{TM1}$ is the \emph{n}MOSFET transistor with the largest threshold voltage after irradiation and $V_{TM3}$ has the less positive threshold voltage.
-As defined in Eq.~(\ref{eq:vth_imb}), a positive value of $V_{imb}$ implies a preferred \emph{1} state for the SRAM cell.
+As defined in Eq.~\ref{eq:vth_imb}, a positive value of $V_{imb}$ implies a preferred \emph{1} state for the SRAM cell.
 Conversely, a negative value of $V_{imb}$ implies a preferred \emph{0} state for the cell.
 
 \begin{figure}[tb]
@@ -718,7 +718,10 @@ Understanding the sources of ionizing radiation and modeling fluctuations in the
 Table~\ref{table:rad_env} shows some important characteristics for the predominant particle species present in some of the common space radiation environments.
 Each of these environments has unique signature in terms of the species, the energy, and the flux of those particles present.
 Consequently, the presence of radiation in each environment has specific implications for electronics unique to those environments.
-\begin{table}[tb]
+The CREME96 and CR\`EME-MC codes exist as a means to provide critical information regarding the environments shown in Table~\ref{table:rad_env}.
+The use of these codes provides a rudimentary framework for evaluating the potential risk of flying certain types of microelectronics in the different environments.
+The following section addresses the particle species present in each environment and their impact on electronic systems.
+\begin{table}[htbp]
     \caption[Particle Radiations in Near-Earth Orbit and Some Properties]{Particle Radiations in Near-Earth Orbit and Some Properties \cite{Xapsos:2013cu}}
     \centering
         \begin{tabular}{C{0.75in}|C{1.1in}C{1.1in}C{1.1in}C{1.1in}}
@@ -735,9 +738,6 @@ Consequently, the presence of radiation in each environment has specific implica
         \label{table:rad_env}
     %\end{centering}
 \end{table}
-The CREME96 and CR\`EME-MC codes exist as a means to provide critical information regarding the environments shown in Table~\ref{table:rad_env}.
-The use of these codes provides a rudimentary framework for evaluating the potential risk of flying certain types of microelectronics in the different environments.
-The following section addresses the particle species present in each environment and their impact on electronic systems.
 
 \subsection{Solar Particle Environment} % (fold)
 \label{sub:solar_wind}

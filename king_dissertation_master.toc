@@ -15,18 +15,18 @@
 \contentsline {subsection}{\numberline {2.3.5}Impact of Transient Radiation on SRAMs}{45}{subsection.2.3.5}
 \contentsline {section}{\numberline {2.4}Radiation Environments}{48}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Solar Particle Environment}{50}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Galactic Cosmic Rays}{52}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Trapped Particle Environments}{54}{subsection.2.4.3}
-\contentsline {subsubsection}{Earth Radiation Belts}{56}{subsubsection*.38}
-\contentsline {subsubsection}{Jovian Electron Environment}{59}{subsubsection*.42}
-\contentsline {section}{\numberline {2.5}Ionizing Particle Track Structure}{60}{section.2.5}
+\contentsline {subsection}{\numberline {2.4.2}Galactic Cosmic Rays}{53}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Trapped Particle Environments}{55}{subsection.2.4.3}
+\contentsline {subsubsection}{Earth Radiation Belts}{57}{subsubsection*.38}
+\contentsline {subsubsection}{Jovian Electron Environment}{60}{subsubsection*.42}
+\contentsline {section}{\numberline {2.5}Ionizing Particle Track Structure}{61}{section.2.5}
 \contentsline {chapter}{\numberline {3}Experimental Investigation of Electron-Induced SEUs}{69}{chapter.3}
 \contentsline {section}{\numberline {3.1}Experimental Setup and Methods}{70}{section.3.1}
-\contentsline {section}{\numberline {3.2}Experimental Results}{76}{section.3.2}
-\contentsline {section}{\numberline {3.3}Comparison to Low-Energy Proton and Muon SEUs}{80}{section.3.3}
-\contentsline {chapter}{\numberline {4}Simulation of Electron-Induced SEUs}{88}{chapter.4}
-\contentsline {section}{\numberline {4.1}Simulation of X-ray Energy Deposition in SRAMs}{89}{section.4.1}
-\contentsline {section}{\numberline {4.2}Electron-Induced SEU Event Rates}{94}{section.4.2}
-\contentsline {section}{\numberline {4.3}Impact of Delta-rays on Microelectronics}{100}{section.4.3}
-\contentsline {chapter}{\numberline {5}Summary and Conclusions}{110}{chapter.5}
-\contentsline {chapter}{Bibliography}{112}{section*.69}
+\contentsline {section}{\numberline {3.2}Experimental Results}{78}{section.3.2}
+\contentsline {section}{\numberline {3.3}Comparison to Low-Energy Proton and Muon SEUs}{82}{section.3.3}
+\contentsline {chapter}{\numberline {4}Simulation of Electron-Induced SEUs}{86}{chapter.4}
+\contentsline {section}{\numberline {4.1}Simulation of X-ray Energy Deposition in SRAMs}{87}{section.4.1}
+\contentsline {section}{\numberline {4.2}Electron-Induced SEU Event Rates}{92}{section.4.2}
+\contentsline {section}{\numberline {4.3}Impact of Delta-rays on Microelectronics}{98}{section.4.3}
+\contentsline {chapter}{\numberline {5}Summary and Conclusions}{108}{chapter.5}
+\contentsline {chapter}{Bibliography}{110}{section*.69}
