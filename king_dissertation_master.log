@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 JAN 2014 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 JAN 2014 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**king_dissertation_master.tex -recorder
+**king_dissertation_master
 (./king_dissertation_master.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -1239,7 +1239,7 @@ Here is how much of TeX's memory you used:
  12241 multiletter control sequences out of 15000+600000
  12996 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,43p,1030b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,43p,1016b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
