@@ -8,49 +8,50 @@ A level-1 auxiliary file: tex/chap_4.aux
 A level-1 auxiliary file: tex/chap_5.aux
 The style file: ieeetr.bst
 Database file #1: library.bib
+Warning--empty year in jwstfaq
 Warning--empty year in Salvat:ue
 Warning--empty journal in Knoll:2010vq
 Warning--empty journal in garrett2012galileo
 Warning--empty journal in Chunxiang:1985uo
-You've used 107 entries,
+You've used 109 entries,
             1876 wiz_defined-function locations,
-            1092 strings with 24876 characters,
-and the built_in function-call counts, 37097 in all, are:
-= -- 3766
-> -- 1630
+            1101 strings with 25208 characters,
+and the built_in function-call counts, 37360 in all, are:
+= -- 3787
+> -- 1638
 < -- 0
-+ -- 586
-- -- 479
-* -- 2882
-:= -- 5166
-add.period$ -- 110
-call.type$ -- 107
-change.case$ -- 104
++ -- 590
+- -- 481
+* -- 2898
+:= -- 5209
+add.period$ -- 112
+call.type$ -- 109
+change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1760
-empty$ -- 3045
-format.name$ -- 479
-if$ -- 8892
+cite$ -- 114
+duplicate$ -- 1778
+empty$ -- 3079
+format.name$ -- 481
+if$ -- 8953
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 108
-newline$ -- 327
-num.names$ -- 107
-pop$ -- 188
+int.to.str$ -- 109
+missing$ -- 110
+newline$ -- 333
+num.names$ -- 109
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1489
+skip$ -- 1491
 stack$ -- 0
 substring$ -- 3156
-swap$ -- 928
+swap$ -- 930
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 365
-width$ -- 110
-write$ -- 1090
-(There were 4 warnings)
+warning$ -- 5
+while$ -- 367
+width$ -- 112
+write$ -- 1105
+(There were 5 warnings)

@@ -1,10 +1,10 @@
 %!TEX root = /Users/mpking/Dropbox/writing/king_dissertation/king_dissertation_master.tex
 \chapter{Background} % (fold)
 \label{chap:background}
-The reliable operation of electronic memories is a primary concern for the semiconductor industry. 
+Reliable operation of electronic memories is a primary concern for the semiconductor industry. 
 Electronic components used in space applications experience harsh environments and hazards when compared to applications at the terrestrial level, including additional risk of fault or failures in electronics due to the presence of ionizing radiation.
 The interaction of ionizing radiation with microelectronics in the space environment, and at the terrestrial level, has been observed to cause both temporary and permanent damage to semiconductor devices, circuits, and systems.
-Remote satellites and planetary exploration probes, such as the Juno spacecraft whose mission is to explore the Jovian environment and moons, cost in excessive of \$1.1 billion USD, or in the case of the James Webb Space Telescope, \$8.7 billion USD.
+Remote satellites and planetary exploration probes, such as the Juno spacecraft whose mission is to explore the Jovian environment and moons, cost in excessive of \$1.1 billion USD \cite{junopresskit}, or in the case of the James Webb Space Telescope, \$8.7 billion USD \cite{jwstfaq}.
 The construction and operation of such equipment necessitates the use of cost effective electronics, placing a premium on reliability while balancing the expense of implementing and ensuring the quality of flight components.
 
 This chapter presents relevant background information, including sections covering the interaction of radiation with matter, a discussion of SRAM topology, operation, and stability, the effects of ionizing radiation in SRAMs, a brief discussion of the space radiation environment, and heavy-ion track structure.
@@ -23,10 +23,10 @@ Commercial-off-the-shelf parts are appealing to designers as a venue to reduce c
 
 Conversely in the terrestrial environment, commercial enterprise relies heavily on cloud computing, routers, and servers for computation, transactions, and communications. 
 Faults in these types of systems represent unacceptable losses of time, financial transactions, and connectivity. 
-Traditionally SEUs in the terrestrial environment have been dominated by neutrons and alpha particles emitted by packaging contaminants.
-However, recent studies have shown that modern SRAMs fabricated in sub-65~nm technology nodes are susceptible to direct ionization effects from lightly ionizing muons, by far the most abundant particle species in the terrestrial radiation environment.
+Traditionally, SEUs in the terrestrial environment have been dominated by neutrons and alpha particles emitted by packaging contaminants \cite{Tang:2007vi,Tang:2009ji,Sierawski:2010cj,Sierawski:2011tc}.
+However, recent studies have shown that modern SRAMs fabricated in sub-65~nm technology nodes are susceptible to direct ionization effects from lightly ionizing muons \cite{Sierawski:2010cj,Sierawski:2011bn,Sierawski:2011tc}, by far the most abundant particle species in the terrestrial radiation environment \cite{Wallmark:1962vn,Sierawski:2010cj,grieder2001cosmic}.
 
-The particle species present in the space and terrestrial radiation environment have different characteristics and therefore introduce reliability concerns unique to the application.
+The particle spectrum present in the space and terrestrial radiation environment have different characteristics and therefore introduce reliability concerns unique to the application.
 Understanding the threat and source of reliability concerns is essential for effective mitigation strategies and maintaining stable operation of critical electronic systems.
 
 The following sections address a broad range of topics related to SRAM operation and the effects of ionizing radiation on SRAM cells. 
