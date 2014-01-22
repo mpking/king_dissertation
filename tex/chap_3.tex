@@ -81,7 +81,8 @@ The majority of photo-electrons generated in the attenuator are reabsorbed befor
     \label{fig:air_gap}
 \end{figure}
 
-Fig.~\ref{fig:air_gap} shows the transport of maximal energy, 50~keV, photo-electrons generated at the Al-to-air interface. 
+MRED was used to evaluate the transport of maximal energy, 50~keV, photo-electrons generated at the Al-to-air interface. 
+Representative electron trajectories from those simulations are shown in Fig.~\ref{fig:air_gap}.
 The Al is on top and the air gap is the large rectangle.
 The DUT is very thin and on the bottom of the figure.
 Photo-electrons have random trajectories. 
@@ -180,7 +181,7 @@ Table~\ref{table:exp_times} shows the experimental supply voltage conditions, ex
 Fig.~\ref{fig:xray_exp_seus} plots the normalized cross-section, as described in Eq.~\ref{eq:norm_cs}, as a function of supply voltage for SRAM test chips exposed to X-rays.
 Fig.~\ref{fig:xray_exp_seus} shows that errors are observed when these devices are biased between 0.35~V and 0.8~V while exposed to X-rays. 
 The resulting upset cross-section of all test chips exhibits an exponential dependence on applied bias because of the voltage dependence on critical charge. 
-This is consistent with well established test procedures used for assessing the single-event error rates for protons and muons \cite{Rodbell:2007vl, Sierawski:2010cj}. 
+This is consistent with well established test procedures used for assessing the SEU cross section and error rates for protons and muons \cite{Rodbell:2007vl, Sierawski:2010cj} and previous SEU results for alpha particles and heavier ions \cite{buehler1990alpha,barak1999scaling,barak2004use}. 
 In the case of Test Chip B, upsets were observed within 10\% of the nominal supply voltage of 0.9~V, which is within the designed operating voltage range for the SRAM. 
 Each of the SRAM test chips exhibits a cross-section less than the total cell area at all supply voltages, resulting in normalized cross-sections less than unity.
 All observed errors had unique memory addresses, strongly suggesting that errors occurred randomly within the memory array during experiments and were not caused by repeated bit-flips in ``weak'' cells.
@@ -236,14 +237,14 @@ To this purpose, the data set presented in Fig.~\ref{fig:xray_exp_seus} is compa
     \begin{center}
         \includegraphics[width=5in]{28nm_xray_proton_muon_comp.pdf}
     \end{center}
-    \caption{SEU cross-section dependence on supply voltage for electron-induced SEU cross-sections observed during X-ray irradiation, compared to low-energy protons and muons in 28~nm~(\ref{fig:28nm_xray_muon_proton}) SRAMs. Results show that under nominal bias conditions protons and muons are capable of inducing upsets in 28~nm SRAMs while this sensitivity is absent for energetic X-ray electrons generated during X-ray exposure. Under reduced bias conditions, electron-induced SEUs exhibit a larger dependence on supply voltage than muons and protons in the 28~nm technology nodes.}
+    \caption{SEU cross-section dependence on supply voltage for electron-induced SEU cross-sections observed during X-ray irradiation, compared to low-energy protons and muons in 28~nm SRAMs. Results show that under nominal bias conditions protons and muons are capable of inducing upsets in 28~nm SRAMs while this sensitivity is absent for energetic X-ray electrons generated during X-ray exposure. Under reduced bias conditions, electron-induced SEUs exhibit a larger dependence on supply voltage than muons and protons in the 28~nm technology nodes.}
     \label{fig:28nm_xray_muon_proton}
 \end{figure}
 \begin{figure}[tb]
     \begin{center}
         \includegraphics[width=5in]{45nm_xray_proton_muon_comp.pdf}
     \end{center}
-    \caption{SEU cross-section dependence on supply voltage for electron-induced SEU cross-sections observed during X-ray irradiation, compared to low-energy protons and muons in 45~nm~(\ref{fig:45nm_xray_muon_proton}) SRAMs. Results show that under nominal bias conditions protons and muons are capable of inducing upsets in 45~nm SRAMs while this sensitivity is absent for energetic X-ray electrons generated during X-ray exposure. Under reduced bias conditions, electron-induced SEUs exhibit a larger dependence on supply voltage than muons and protons in the 45~nm technology nodes.}
+    \caption{SEU cross-section dependence on supply voltage for electron-induced SEU cross-sections observed during X-ray irradiation, compared to low-energy protons and muons in 45~nm SRAMs. Results show that under nominal bias conditions protons and muons are capable of inducing upsets in 45~nm SRAMs while this sensitivity is absent for energetic X-ray electrons generated during X-ray exposure. Under reduced bias conditions, electron-induced SEUs exhibit a larger dependence on supply voltage than muons and protons in the 45~nm technology nodes.}
     \label{fig:45nm_xray_muon_proton}
 \end{figure}
 

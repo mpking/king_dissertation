@@ -92,13 +92,39 @@ B.~D. Sierawski, R.~A. Reed, M.~H. Mendenhall, R.~A. Weller, R.~D. Schrimpf,
 
 \bibitem{junopresskit}
 {National Aeronautics and Space Administration -- Jet Propulsion Laboratory},
-  ``Juno launch - press kit,'' {\em [Online]
-  http://www.jpl.nasa.gov/news/press_kits/JunoLaunch.pdf}, Aug., 2011.
+  ``{Juno Launch - Press Kit},'' {\em [Online]
+  http://www.jpl.nasa.gov/news/press\_kits/JunoLaunch.pdf}, Aug., 2011.
 
 \bibitem{jwstfaq}
-{National Aeronautics and Space Administration}, ``James webb space telescope
-  -- frequently asked questions,'' {\em [Online]
+{National Aeronautics and Space Administration}, ``{James Webb Space Telescope
+  -- Frequently Asked Questions},'' {\em [Online]
   http://jwst.nasa.gov/faq.html}.
+
+\bibitem{Tang:2007vi}
+H.~Tang, C.~Murray, G.~Fiorenza, K.~P. Rodbell, and M.~Gordon, ``{Importance of
+  BEOL Modeling in Single Event Effect Analysis},'' {\em IEEE Trans. Nucl.
+  Sci.}, vol.~54, no.~6 Part 1, pp.~2162--2167, 2007.
+
+\bibitem{Tang:2009ji}
+H.~Tang, C.~Murray, G.~Fiorenza, K.~P. Rodbell, and D.~F. Heidel, ``{Modeling
+  of alpha-induced single event upsets for 45 nm node SOI devices using
+  realistic C4 and 3D circuit geometries},'' {\em IEEE Trans. Nucl. Sci.},
+  vol.~56, no.~6, pp.~3093--3097, 2009.
+
+\bibitem{Sierawski:2011tc}
+B.~D. Sierawski, {\em {The role of singly-charged particles in microelectronics
+  reliability}}.
+\newblock PhD thesis, Ph.D. dissertation, Electrical Engineering and Computer
+  Science Dept., Vanderbilt University, Nashville, TN., 2011.
+
+\bibitem{Wallmark:1962vn}
+J.~T. Wallmark and S.~M. Marcus, ``{Minimum size and maximum packing density of
+  nonredundant semiconductor devices},'' {\em Proceedings of the IRE}, vol.~50,
+  no.~3, pp.~286--298, 1962.
+
+\bibitem{grieder2001cosmic}
+P.~K. Grieder, {\em Cosmic rays at Earth}.
+\newblock Access Online via Elsevier, 2001.
 
 \bibitem{ziegler2010srim}
 J.~F. Ziegler, M.~D. Ziegler, and J.~P. Biersack, ``Srim--the stopping and
@@ -109,6 +135,22 @@ J.~F. Ziegler, M.~D. Ziegler, and J.~P. Biersack, ``Srim--the stopping and
 \bibitem{bichsel2010passage}
 H.~Bichsel, D.~Groom, and S.~Klein, ``Passage of particles through matter,''
   {\em Physics Letters B}, vol.~592, p.~2004, 2010.
+
+\bibitem{pehl1968accurate}
+R.~Pehl, F.~Goulding, D.~Landis, and M.~Lenzlinger, ``Accurate determination of
+  the ionization energy in semiconductor detectors,'' {\em Nuclear Instruments
+  and Methods}, vol.~59, no.~1, pp.~45--55, 1968.
+
+\bibitem{ryan1973precision}
+R.~Ryan, ``Precision measurements of the ionization energy and its temperature
+  variation in high purity silicon radiation detectors,'' {\em IEEE Trans.
+  Nucl. Sci.}, vol.~20, no.~1, pp.~473--480, 1973.
+
+\bibitem{scholze2000determination}
+F.~Scholze, H.~Henneken, P.~Kuschnerus, H.~Rabus, M.~Richter, and G.~Ulm,
+  ``Determination of the electron--hole pair creation energy for semiconductors
+  from the spectral responsivity of photodiodes,'' {\em Nucl. Instrum. Meth.
+  A}, vol.~439, no.~2, pp.~208--215, 2000.
 
 \bibitem{bichsel1988straggling}
 H.~Bichsel, ``Straggling in thin silicon detectors,'' {\em Reviews of Modern
@@ -195,6 +237,15 @@ H.~Bethe, ``Bremsformel f{\"u}r elektronen relativistischer geschwindigkeit,''
 U.~Fano, ``Penetration of protons, alpha particles, and mesons,'' {\em Studies
   in Penetration of Charged Particles in Matter}, no.~39, p.~287, 1964.
 
+\bibitem{segre1964nuclei}
+E.~Segre, {\em Nuclei and particles: an introduction to nuclear and subnuclear
+  physics}.
+\newblock WA Benjamin New York, 1964.
+
+\bibitem{1982spre.reptR....B}
+M.~J. {Berger} and S.~M. {Seltzer}, ``{Stopping powers and ranges of electrons
+  and positrons},'' tech. rep., Dec. 1982.
+
 \bibitem{Knoll:2010vq}
 G.~Knoll, ``{Radiation detection and measurement},'' 2010.
 
@@ -206,6 +257,10 @@ E.~L. Alpen, {\em Radiation biophysics}.
 B.~L. Henke, E.~M. Gullikson, and J.~C. Davis, ``{X-Ray Interactions:
   Photoabsorption, Scattering, Transmission, and Reflection at E = 50-30,000
   eV, Z = 1-92},'' {\em Atomic data and nuclear data tables}, 1993.
+
+\bibitem{ingle1988spectrochemical}
+J.~Ingle and S.~Crouch, ``Spectrochemical measurements,'' {\em Spectrochemical
+  Analysis (Prentice Hall, New Jersey, USA, 1988)}, 1988.
 
 \bibitem{semeraro:2002dvfs}
 G.~Semeraro, G.~Magklis, R.~Balasubramonian, D.~H. Albonesi, S.~Dwarkadas, and
@@ -305,26 +360,70 @@ S.~DasGupta, A.~Witulski, B.~Bhuva, M.~Alles, R.~Reed, O.~Amusan, J.~Ahlbin,
   modulation on single event pulse shape in deep submicron cmos,'' {\em IEEE
   Trans. Nucl. Sci.}, vol.~54, no.~6, pp.~2407--2412, 2007.
 
-\bibitem{Sierawski:2011tc}
-B.~D. Sierawski, {\em {The role of singly-charged particles in microelectronics
-  reliability}}.
-\newblock PhD thesis, Ph.D. dissertation, Electrical Engineering and Computer
-  Science Dept., Vanderbilt University, Nashville, TN., 2011.
+\bibitem{Warren:2007vm}
+K.~M. Warren, B.~D. Sierawski, R.~A. Weller, and R.~A. Reed, ``{Predicting
+  thermal neutron-induced soft errors in static memories using TCAD and
+  physics- {\ldots}},'' {\em IEEE Elec. Dev. Lett.}, Jan. 2007.
+
+\bibitem{kauppila2011pvsram}
+A.~Kauppila, B.~L. Bhuva, J.~Kauppila, L.~W. Massengill, and W.~Holman,
+  ``Impact of process variations on sram single event upsets,'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~58, no.~3, pp.~834--839, 2011.
+
+\bibitem{kauppila2011pvcs}
+A.~Kauppila, B.~Bhuva, L.~Massengill, W.~Holman, and D.~Ball, ``Impact of
+  process variations and charge sharing on the single-event-upset response of
+  flip-flops,'' {\em IEEE Trans. Nucl. Sci.}, vol.~58, no.~6, pp.~2658--2663,
+  2011.
+
+\bibitem{buehler1990alpha}
+M.~Buehler and B.~Blaes, ``Alpha-particle sensitive test srams,'' {\em IEEE
+  Trans. Nucl. Sci.}, vol.~37, no.~6, pp.~1849--1854, 1990.
+
+\bibitem{roth1993monitoring}
+D.~Roth, P.~McNulty, W.~Abdel-Kader, L.~Strauss, and E.~Stassinopoulos,
+  ``Monitoring seu parameters at reduced bias [cmos sram],'' {\em Nuclear
+  Science, IEEE Transactions on}, vol.~40, no.~6, pp.~1721--1724, 1993.
+
+\bibitem{barak1999scaling}
+J.~Barak, J.~Levinson, A.~Akkerman, E.~Adler, A.~Zentner, D.~David,
+  Y.~Lifshitz, M.~Hass, B.~Fischer, M.~Schlogl, {\em et~al.}, ``Scaling of seu
+  mapping and cross section, and proton induced seu at reduced supply
+  voltage,'' {\em IEEE Trans. Nucl. Sci.}, vol.~46, no.~6, pp.~1342--1353,
+  1999.
+
+\bibitem{barak2004use}
+J.~Barak, A.~Haran, E.~Adler, M.~Azoulay, J.~Levinson, A.~Zentner, D.~David,
+  B.~Fischer, M.~Heiss, and D.~Betel, ``Use of light-ion-induced seu in devices
+  under reduced bias to evaluate their seu cross section,'' {\em IEEE Trans.
+  Nucl. Sci.}, vol.~51, no.~6, pp.~3486--3493, 2004.
 
 \bibitem{itrs:2012}
 {Semiconductor Industry Association (SIA)}, ``{International roadmap for
   semiconductors 2012 update},'' {\em [Online] http://www.itrs.net}, 2012.
+
+\bibitem{reed1994implications}
+R.~Reed, P.~McNulty, and W.~Abdel-Kader, ``Implications of angle of incidence
+  in seu testing of modern circuits,'' {\em IEEE Trans. Nucl. Sci.}, vol.~41,
+  no.~6, pp.~2049--2054, 1994.
+
+\bibitem{reed1997heavy}
+R.~Reed, M.~Carts, P.~Marshall, C.~Marshall, O.~Musseau, P.~McNulty, D.~Roth,
+  S.~Buchner, J.~Melinger, and T.~Corbiere, ``Heavy ion and proton-induced
+  single event multiple upset,'' {\em IEEE Trans. Nucl. Sci.}, vol.~44, no.~6,
+  pp.~2224--2229, 1997.
+
+\bibitem{reed2002evidence}
+R.~A. Reed, P.~W. Marshall, H.~S. Kim, P.~J. McNulty, B.~Fodness, T.~Jordan,
+  R.~Reedy, C.~Tabbert, M.~S. Liu, W.~Heikkila, {\em et~al.}, ``Evidence for
+  angular effects in proton-induced single-event upsets,'' {\em IEEE Trans.
+  Nucl. Sci.}, vol.~49, no.~6, pp.~3038--3044, 2002.
 
 \bibitem{Heidel:2006tp}
 D.~F. Heidel, K.~P. Rodbell, P.~Oldiges, M.~Gordon, H.~Tang, E.~Cannon, and
   C.~Plettner, ``{Single-event-upset critical charge measurements and modeling
   of 65 nm silicon-on-insulator latches and memory cells},'' {\em IEEE Trans.
   Nucl. Sci.}, vol.~53, no.~6, pp.~3512--3517, 2006.
-
-\bibitem{Wallmark:1962vn}
-J.~T. Wallmark and S.~M. Marcus, ``{Minimum size and maximum packing density of
-  nonredundant semiconductor devices},'' {\em Proceedings of the IRE}, vol.~50,
-  no.~3, pp.~286--298, 1962.
 
 \bibitem{Ziegler:1979vh}
 J.~F. Ziegler and W.~A. Lanford, ``{Effect of cosmic rays on computer
@@ -423,15 +522,26 @@ L.~W. Massengill, S.~E. Diehl, and J.~S. Browning, ``{Dose-Rate Upset Patterns
   in a 16K CMOS SRAM},'' {\em IEEE Trans. Nucl. Sci.}, vol.~33, pp.~1541--1545,
   Dec. 1986.
 
-\bibitem{xapsos:2006}
-M.~A. Xapsos, ``Modeling the space radiation environment,'' in {\em 2006 IEEE
-  NSREC Short Course}, (Pascataway, NJ), IEEE Publishing, 2006.
-
 \bibitem{tylka1997creme96}
 A.~J. Tylka, J.~H. Adams~Jr, P.~R. Boberg, B.~Brownstein, W.~F. Dietrich, E.~O.
   Flueckiger, E.~L. Petersen, M.~A. Shea, D.~F. Smart, and E.~C. Smith,
   ``Creme96: A revision of the cosmic ray effects on micro-electronics code,''
   {\em IEEE Trans. Nucl. Sci.}, vol.~44, no.~6, pp.~2150--2160, 1997.
+
+\bibitem{keys2008review}
+A.~S. Keys, J.~H. Adams, M.~C. Patrick, M.~A. Johnson, and J.~D. Cressler, ``A
+  review of nasa's radiation-hardened electronics for space environments
+  project,'' in {\em 2008 Space Conf}, 2008.
+
+\bibitem{sierawski2010creme}
+B.~Sierawski, M.~Mendenhall, R.~Weller, R.~Reed, J.~Adams, J.~Watts, and
+  A.~Barghouty, ``Cr{\`e}me-mc: A physics-based single event effects tool,'' in
+  {\em 2010 IEEE Nucl. Sci. Symp. Conf. Rec. (NSS/MIC)}, pp.~1258--1261, IEEE,
+  2010.
+
+\bibitem{xapsos:2006}
+M.~A. Xapsos, ``Modeling the space radiation environment,'' in {\em 2006 IEEE
+  NSREC Short Course}, (Pascataway, NJ), IEEE Publishing, 2006.
 
 \bibitem{parker1965passage}
 E.~N. Parker, ``The passage of energetic charged particles through
