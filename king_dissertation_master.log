@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 JAN 2014 19:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 JAN 2014 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,7 +1224,7 @@ Chapter 5.
 
 
 
-]) [119] (./king_dissertation_master.bbl [120
+]) [119] [120] (./king_dissertation_master.bbl [121
 
 
 
@@ -1241,36 +1241,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--97
 12 [On-line]
  []
 
-[121] [122]
+[122] [123]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [123]
+ [124]
 Underfull \hbox (badness 1939) in paragraph at lines 233--235
 []\OT1/cmr/m/n/12 H. Bethe, ``Brems-formel f^^?ur elek-tro-nen rel-a-tivis-tis-
 cher geschwindigkeit,''
  []
 
-[124] [125] [126]
+[125] [126] [127]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [127] [128]
+ [128] [129]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no — in font cmr12!
- [129]
+ [130]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ´ in font cmr12!
- [130]
+ [131]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
- [131]
+ [132]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
 
 (./king_dissertation_master.aux (./tex/chap_1.aux) (./tex/chap_2.aux)
@@ -1283,8 +1283,8 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  ) 
 Here is how much of TeX's memory you used:
- 9489 strings out of 493315
- 150768 string characters out of 6137904
+ 9490 strings out of 493315
+ 150776 string characters out of 6137904
  268673 words of memory out of 5000000
  12292 multiletter control sequences out of 15000+600000
  12996 words of font info for 47 fonts, out of 8000000 for 9000
@@ -1307,10 +1307,10 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 13/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on king_dissertation_master.pdf (146 pages, 8006580 bytes).
+Output written on king_dissertation_master.pdf (147 pages, 8007073 bytes).
 PDF statistics:
- 2746 PDF objects out of 2984 (max. 8388607)
- 2279 compressed objects within 23 object streams
- 408 named destinations out of 1000 (max. 500000)
+ 2751 PDF objects out of 2984 (max. 8388607)
+ 2283 compressed objects within 23 object streams
+ 409 named destinations out of 1000 (max. 500000)
  600 words of extra memory for PDF output out of 10000 (max. 10000000)
 

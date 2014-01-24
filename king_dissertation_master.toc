@@ -29,4 +29,4 @@
 \contentsline {section}{\numberline {4.2}Electron-Induced SEU Event Rates}{97}{section.4.2}
 \contentsline {section}{\numberline {4.3}Impact of Delta-rays on Microelectronics}{107}{section.4.3}
 \contentsline {chapter}{\numberline {5}Summary and Conclusions}{118}{chapter.5}
-\contentsline {chapter}{Bibliography}{120}{section*.74}
+\contentsline {chapter}{Bibliography}{121}{section*.74}
