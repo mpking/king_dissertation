@@ -405,10 +405,10 @@ However, Fig.~\ref{fig:qcrit_concept} is intended solely to convey the concept o
 We will see that the magnitude of charge collection shown in Fig.~\ref{fig:qcrit_concept} is extremely large when compared to the critical charge for sub-65~nm technology nodes as discussed in Chapters~\ref{cha:experimental_investigation_of_electron_induced_seus} and \ref{ch:simulation_of_electron_induced_seus}.
 
 The first attempts to quanitfy the critical charge of SRAMs developed circuit models from known topologies and process information to be used in SPICE simulations \cite{buehler1990alpha,roth1993monitoring}.
-The SPICE simulations used double exponential current pulses were injected into the SRAM cell to emulate the current transient response and evaluate whether cells were likely to upset, this methodology has proven very robust over the years and is still commonly used.
-In a similar fashion, Buehler \emph{et al.} used SPICE simulations and analysis to show the SRAM cell critical charge dependence on supply voltage, those results are shown in Fig.~\ref{fig:qcrit_vdd_dep} \cite{buehler1990alpha}.
+SPICE simulations were performed using double exponential current pulses to emulate the current transient response of an SRAM cell and evaluate whether cells were likely to upset, this methodology has proven very robust over the years and is still commonly used.
+In a similar fashion, Buehler \emph{et al.} used this SPICE simulation technique and analysis to show the SRAM cell critical charge dependence on supply voltage, those results are shown in Fig.~\ref{fig:qcrit_vdd_dep} \cite{buehler1990alpha}.
 Small decreases in supply voltage are shown to result in linear modulation of the SRAM cell critical charge.
-This trend continues until a large discrepancy between applied and nominal supply voltage results in SRAM cell instability causing spontaneous errors in the memory array as shown by the change in slope of Fig.~\ref{fig:qcrit_vdd_dep} around 1.9~V.
+This trend continues until a large discrepancy between applied and nominal supply voltage results in SRAM cell instability, causing spontaneous errors in the memory array as shown by the change in slope of Fig.~\ref{fig:qcrit_vdd_dep} around 1.9~V.
 Understanding the lower limit of critical charge also informs regions of stable operation for an SRAM as the memory operates normally and maintains valid data for supply voltage conditions above this threshold.
 While the magnitude of critical charge in Fig.~\ref{fig:qcrit_vdd_dep} is large compared to SRAMs fabricated in sub-65~nm technology nodes, the conceptual discussion above is still valid serves as an informative case study.
 \begin{figure}[tb]
