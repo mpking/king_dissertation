@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 JAN 2014 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 JAN 2014 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -622,414 +622,413 @@ Chapter 2.
 
 
 ] [6] [7] [8] [9]
-<./images/stopping_vs_energy_mass.pdf, id=682, 1445.4pt x 1084.05pt>
+<./images/stopping_vs_energy_mass.pdf, id=684, 1445.4pt x 1084.05pt>
 File: ./images/stopping_vs_energy_mass.pdf Graphic file (type pdf)
 
 <use ./images/stopping_vs_energy_mass.pdf>
 Package pdftex.def Info: ./images/stopping_vs_energy_mass.pdf used on input lin
 e 94.
-(pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
+(pdftex.def)             Requested size: 433.62pt x 325.21751pt.
  [10]
-<./images/range_vs_energy-mass.pdf, id=703, 1445.4pt x 1084.05pt>
+<./images/range_vs_energy-mass.pdf, id=707, 1445.4pt x 1084.05pt>
 File: ./images/range_vs_energy-mass.pdf Graphic file (type pdf)
 
 <use ./images/range_vs_energy-mass.pdf>
 Package pdftex.def Info: ./images/range_vs_energy-mass.pdf used on input line 1
 20.
-(pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
+(pdftex.def)             Requested size: 433.62pt x 325.21751pt.
  [11 <./images/stopping_vs_energy_mass.pdf>] [12 <./images/range_vs_energy-mass
 .pdf>]
-<./images/delta-ray-scattering-salvat.png, id=752, 443.6575pt x 194.7275pt>
+<./images/delta-ray-scattering-salvat.png, id=753, 443.6575pt x 194.7275pt>
 File: ./images/delta-ray-scattering-salvat.png Graphic file (type png)
 
 <use ./images/delta-ray-scattering-salvat.png>
 Package pdftex.def Info: ./images/delta-ray-scattering-salvat.png used on input
  line 148.
-(pdftex.def)             Requested size: 361.34999pt x 158.59898pt.
+(pdftex.def)             Requested size: 433.62pt x 190.32056pt.
  [13] [14 <./images/delta-ray-scattering-salvat.png>] [15]
-<./images/electrons-csda-range.png, id=790, 700.6175pt x 491.8375pt>
+<./images/electrons-csda-range.png, id=792, 700.6175pt x 491.8375pt>
 File: ./images/electrons-csda-range.png Graphic file (type png)
 
 <use ./images/electrons-csda-range.png>
 Package pdftex.def Info: ./images/electrons-csda-range.png used on input line 1
-92.
-(pdftex.def)             Requested size: 361.34999pt x 253.67062pt.
- [16 <./images/electrons-csda-range.png (PNG copy)>]
-<./images/gamma_energy_vs_matz.png, id=806, 1394.20876pt x 919.435pt>
+93.
+(pdftex.def)             Requested size: 433.62pt x 304.41075pt.
+ [16]
+<./images/gamma_energy_vs_matz.png, id=809, 1394.20876pt x 919.435pt>
 File: ./images/gamma_energy_vs_matz.png Graphic file (type png)
 
 <use ./images/gamma_energy_vs_matz.png>
 Package pdftex.def Info: ./images/gamma_energy_vs_matz.png used on input line 2
-13.
-(pdftex.def)             Requested size: 361.34999pt x 238.28987pt.
- [17]
-<./images/photoabsorption.pdf, id=816, 807.015pt x 565.11125pt>
+14.
+(pdftex.def)             Requested size: 433.62pt x 285.94785pt.
+ [17 <./images/electrons-csda-range.png (PNG copy)>] [18 <./images/gamma_energy
+_vs_matz.png>]
+<./images/photoabsorption.pdf, id=824, 807.015pt x 565.11125pt>
 File: ./images/photoabsorption.pdf Graphic file (type pdf)
 
 <use ./images/photoabsorption.pdf>
-Package pdftex.def Info: ./images/photoabsorption.pdf used on input line 235.
-(pdftex.def)             Requested size: 325.215pt x 227.73058pt.
+Package pdftex.def Info: ./images/photoabsorption.pdf used on input line 236.
+(pdftex.def)             Requested size: 433.62pt x 303.64651pt.
 
-<./images/compton_scattering_diagram2.png, id=819, 1131.22626pt x 551.05875pt>
+<./images/compton_scattering_diagram2.png, id=827, 1131.22626pt x 551.05875pt>
 File: ./images/compton_scattering_diagram2.png Graphic file (type png)
 
 <use ./images/compton_scattering_diagram2.png>
 Package pdftex.def Info: ./images/compton_scattering_diagram2.png used on input
- line 243.
-(pdftex.def)             Requested size: 361.34999pt x 176.02287pt.
- [18 <./images/gamma_energy_vs_matz.png>] [19 <./images/photoabsorption.pdf>]
-<./images/photon_scat_cross_section.pdf, id=850, 1445.4pt x 1084.05pt>
+ line 244.
+(pdftex.def)             Requested size: 433.62pt x 211.22913pt.
+ [19 <./images/photoabsorption.pdf>] [20 <./images/compton_scattering_diagram2.
+png>]
+<./images/photon_scat_cross_section.pdf, id=857, 1445.4pt x 1084.05pt>
 File: ./images/photon_scat_cross_section.pdf Graphic file (type pdf)
 
 <use ./images/photon_scat_cross_section.pdf>
 Package pdftex.def Info: ./images/photon_scat_cross_section.pdf used on input l
 ine 277.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [20 <./images/compton_scattering_diagram2.png>] [21 <./images/photon_scat_cros
-s_section.pdf>]
-<./images/SRAM_Cell_(6_Transistors).pdf, id=879, 988.69376pt x 769.87625pt>
+ [21 <./images/photon_scat_cross_section.pdf>]
+<./images/SRAM_Cell_(6_Transistors).pdf, id=880, 988.69376pt x 769.87625pt>
 File: ./images/SRAM_Cell_(6_Transistors).pdf Graphic file (type pdf)
 
 <use ./images/SRAM_Cell_(6_Transistors).pdf>
 Package pdftex.def Info: ./images/SRAM_Cell_(6_Transistors).pdf used on input l
 ine 307.
-(pdftex.def)             Requested size: 325.215pt x 253.23763pt.
- [22 <./images/SRAM_Cell_(6_Transistors).pdf>]
-<./images/haran_snm_butterfly_curves.pdf, id=898, 904.37875pt x 720.6925pt>
+(pdftex.def)             Requested size: 433.62pt x 337.64235pt.
+ [22] [23 <./images/SRAM_Cell_(6_Transistors).pdf>]
+<./images/haran_snm_butterfly_curves.pdf, id=905, 904.37875pt x 720.6925pt>
 File: ./images/haran_snm_butterfly_curves.pdf Graphic file (type pdf)
 
 <use ./images/haran_snm_butterfly_curves.pdf>
 Package pdftex.def Info: ./images/haran_snm_butterfly_curves.pdf used on input 
 line 334.
-(pdftex.def)             Requested size: 361.34999pt x 287.95299pt.
- [23] [24 <./images/haran_snm_butterfly_curves.pdf>] [25] [26]
-<./images/qcrit_concept.pdf, id=953, 280.04625pt x 416.55624pt>
+(pdftex.def)             Requested size: 433.62pt x 345.54358pt.
+ [24] [25 <./images/haran_snm_butterfly_curves.pdf>] [26] [27]
+<./images/qcrit_concept.pdf, id=960, 280.04625pt x 416.55624pt>
 File: ./images/qcrit_concept.pdf Graphic file (type pdf)
 
 <use ./images/qcrit_concept.pdf>
 Package pdftex.def Info: ./images/qcrit_concept.pdf used on input line 387.
 (pdftex.def)             Requested size: 289.07999pt x 430.01114pt.
- [27] [28 <./images/qcrit_concept.pdf>]
-<./images/buehler_qcrit_vdd_dep.pdf, id=1001, 748.7975pt x 632.3625pt>
+
+<./images/buehler_qcrit_vdd_dep.pdf, id=980, 748.7975pt x 632.3625pt>
 File: ./images/buehler_qcrit_vdd_dep.pdf Graphic file (type pdf)
 
 <use ./images/buehler_qcrit_vdd_dep.pdf>
 Package pdftex.def Info: ./images/buehler_qcrit_vdd_dep.pdf used on input line 
-416.
-(pdftex.def)             Requested size: 361.34999pt x 305.16124pt.
-
-<./images/barak_seu_bias_dep_2.pdf, id=1017, 898.35625pt x 712.6625pt>
+412.
+(pdftex.def)             Requested size: 433.62pt x 366.19156pt.
+ [28] [29 <./images/qcrit_concept.pdf>] [30 <./images/buehler_qcrit_vdd_dep.pdf
+>]
+<./images/barak_seu_bias_dep_2.pdf, id=1030, 898.35625pt x 712.6625pt>
 File: ./images/barak_seu_bias_dep_2.pdf Graphic file (type pdf)
 
 <use ./images/barak_seu_bias_dep_2.pdf>
 Package pdftex.def Info: ./images/barak_seu_bias_dep_2.pdf used on input line 4
-36.
+29.
 (pdftex.def)             Requested size: 361.34999pt x 286.65848pt.
- [29] [30 <./images/buehler_qcrit_vdd_dep.pdf>] <./images/qcrit_trends.pdf, id=
-1040, 400.49625pt x 290.08376pt>
+ [31]
+<./images/qcrit_trends.pdf, id=1047, 400.49625pt x 290.08376pt>
 File: ./images/qcrit_trends.pdf Graphic file (type pdf)
 
 <use ./images/qcrit_trends.pdf>
-Package pdftex.def Info: ./images/qcrit_trends.pdf used on input line 445.
+Package pdftex.def Info: ./images/qcrit_trends.pdf used on input line 448.
 (pdftex.def)             Requested size: 361.34999pt x 261.74576pt.
- [31 <./images/barak_seu_bias_dep_2.pdf>]
-[32 <./images/qcrit_trends.pdf>]
-<./images/sram_cell_failures_proton_angle.pdf, id=1101, 943.525pt x 734.745pt>
+ [32 <./images/barak_seu_bias_dep_2.pdf>]
+[33 <./images/qcrit_trends.pdf>]
+<./images/sram_cell_failures_proton_angle.pdf, id=1108, 943.525pt x 734.745pt>
 File: ./images/sram_cell_failures_proton_angle.pdf Graphic file (type pdf)
 
 <use ./images/sram_cell_failures_proton_angle.pdf>
 Package pdftex.def Info: ./images/sram_cell_failures_proton_angle.pdf used on i
-nput line 480.
-(pdftex.def)             Requested size: 361.34999pt x 281.3922pt.
- [33] [34 <./images/sram_cell_failures_proton_angle.pdf>]
-<./images/proton_upset_cs_vs_energy.pdf, id=1138, 927.465pt x 737.75626pt>
+nput line 483.
+(pdftex.def)             Requested size: 433.62pt x 337.67288pt.
+ [34] [35 <./images/sram_cell_failures_proton_angle.pdf>]
+<./images/proton_upset_cs_vs_energy.pdf, id=1145, 927.465pt x 737.75626pt>
 File: ./images/proton_upset_cs_vs_energy.pdf Graphic file (type pdf)
 
 <use ./images/proton_upset_cs_vs_energy.pdf>
 Package pdftex.def Info: ./images/proton_upset_cs_vs_energy.pdf used on input l
-ine 494.
-(pdftex.def)             Requested size: 361.34999pt x 287.44235pt.
- [35 <./images/proton_upset_cs_vs_energy.pdf>]
-<./images/65nm_sram_vdd_dep.pdf, id=1156, 936.49875pt x 763.85374pt>
+ine 497.
+(pdftex.def)             Requested size: 433.62pt x 344.93307pt.
+ [36 <./images/proton_upset_cs_vs_energy.pdf>]
+<./images/65nm_sram_vdd_dep.pdf, id=1168, 936.49875pt x 763.85374pt>
 File: ./images/65nm_sram_vdd_dep.pdf Graphic file (type pdf)
 
 <use ./images/65nm_sram_vdd_dep.pdf>
-Package pdftex.def Info: ./images/65nm_sram_vdd_dep.pdf used on input line 511.
+Package pdftex.def Info: ./images/65nm_sram_vdd_dep.pdf used on input line 518.
 
-(pdftex.def)             Requested size: 361.34999pt x 294.74313pt.
- [36 <./images/65nm_sram_vdd_dep.pdf>]
-[37]
-<./images/stopping_power_proton_muon_sier_diss.pdf, id=1202, 1171.37625pt x 818
+(pdftex.def)             Requested size: 433.62pt x 353.68475pt.
+ [37] [38 <./images/65nm_sram_vdd_dep.pdf>] [39]
+<./images/stopping_power_proton_muon_sier_diss.pdf, id=1214, 1171.37625pt x 818
 .05624pt>
 File: ./images/stopping_power_proton_muon_sier_diss.pdf Graphic file (type pdf)
 
  <use ./images/stopping_power_proton_muon_sier_diss.pdf>
 Package pdftex.def Info: ./images/stopping_power_proton_muon_sier_diss.pdf used
- on input line 549.
-(pdftex.def)             Requested size: 325.215pt x 227.11938pt.
- [38]
-<./images/muon_upsets_tech_generation.png, id=1212, 776.9025pt x 797.98125pt>
+ on input line 551.
+(pdftex.def)             Requested size: 433.62pt x 302.82585pt.
+ [40 <./images/stopping_power_proton_muon_sier_diss.pdf>]
+<./images/muon_upsets_tech_generation.png, id=1235, 776.9025pt x 797.98125pt>
 File: ./images/muon_upsets_tech_generation.png Graphic file (type png)
 
 <use ./images/muon_upsets_tech_generation.png>
 Package pdftex.def Info: ./images/muon_upsets_tech_generation.png used on input
- line 565.
-(pdftex.def)             Requested size: 325.215pt x 334.0418pt.
- [39 <./images/stopping_power_proton_muon_sier_diss.pdf>] [40 <./images/muon_up
-sets_tech_generation.png>]
-<./images/muon_upsets_vdd_dep.pdf, id=1241, 890.32625pt x 604.2575pt>
+ line 567.
+(pdftex.def)             Requested size: 361.34999pt x 371.15485pt.
+ [41 <./images/muon_upsets_tech_generation.png>]
+<./images/muon_upsets_vdd_dep.pdf, id=1248, 890.32625pt x 604.2575pt>
 File: ./images/muon_upsets_vdd_dep.pdf Graphic file (type pdf)
 
 <use ./images/muon_upsets_vdd_dep.pdf>
 Package pdftex.def Info: ./images/muon_upsets_vdd_dep.pdf used on input line 58
-3.
-(pdftex.def)             Requested size: 325.215pt x 220.72273pt.
- [41 <./images/muon_upsets_vdd_dep.pdf>]
-[42]
-<./images/fleetwood_nmos_irrad_imbalance.pdf, id=1284, 1215.54124pt x 883.3pt>
+5.
+(pdftex.def)             Requested size: 433.62pt x 294.29082pt.
+ [42] [43 <./images/muon_upsets_vdd_dep.pdf>] [44]
+<./images/fleetwood_nmos_irrad_imbalance.pdf, id=1296, 1215.54124pt x 883.3pt>
 File: ./images/fleetwood_nmos_irrad_imbalance.pdf Graphic file (type pdf)
 
 <use ./images/fleetwood_nmos_irrad_imbalance.pdf>
 Package pdftex.def Info: ./images/fleetwood_nmos_irrad_imbalance.pdf used on in
-put line 616.
-(pdftex.def)             Requested size: 361.34999pt x 262.57947pt.
- [43 <./images/fleetwood_nmos_irrad_imbalance.pdf>]
-<./images/fleetwood_nmos_irrad_imbalance_cases.pdf, id=1304, 1156.32pt x 820.06
+put line 618.
+(pdftex.def)             Requested size: 433.62pt x 315.08998pt.
+ [45 <./images/fleetwood_nmos_irrad_imbalance.pdf>]
+<./images/fleetwood_nmos_irrad_imbalance_cases.pdf, id=1316, 1156.32pt x 820.06
 375pt>
 File: ./images/fleetwood_nmos_irrad_imbalance_cases.pdf Graphic file (type pdf)
 
  <use ./images/fleetwood_nmos_irrad_imbalance_cases.pdf>
 Package pdftex.def Info: ./images/fleetwood_nmos_irrad_imbalance_cases.pdf used
- on input line 633.
-(pdftex.def)             Requested size: 361.34999pt x 256.26929pt.
- [44 <./images/fleetwood_nmos_irrad_imbalance_cases.pdf>]
-<./images/barnaby_sti_leakage_tid.pdf, id=1327, 973.6375pt x 742.775pt>
+ on input line 635.
+(pdftex.def)             Requested size: 433.62pt x 307.52315pt.
+ [46 <./images/fleetwood_nmos_irrad_imbalance_cases.pdf>]
+<./images/barnaby_sti_leakage_tid.pdf, id=1347, 973.6375pt x 742.775pt>
 File: ./images/barnaby_sti_leakage_tid.pdf Graphic file (type pdf)
 
 <use ./images/barnaby_sti_leakage_tid.pdf>
 Package pdftex.def Info: ./images/barnaby_sti_leakage_tid.pdf used on input lin
-e 648.
-(pdftex.def)             Requested size: 325.215pt x 248.09729pt.
- [45 <./images/barnaby_sti_leakage_tid.pdf>]
-<./images/snm_shift_postrad_yao_etal.pdf, id=1355, 843.15pt x 737.75626pt>
+e 659.
+(pdftex.def)             Requested size: 361.34999pt x 275.66115pt.
+ [47]
+<./images/snm_shift_postrad_yao_etal.pdf, id=1359, 843.15pt x 737.75626pt>
 File: ./images/snm_shift_postrad_yao_etal.pdf Graphic file (type pdf)
 
 <use ./images/snm_shift_postrad_yao_etal.pdf>
 Package pdftex.def Info: ./images/snm_shift_postrad_yao_etal.pdf used on input 
-line 668.
+line 669.
 (pdftex.def)             Requested size: 361.34999pt x 316.18208pt.
- [46]
-<./images/sram_switch_pnt_yao_etal.pdf, id=1374, 942.52126pt x 621.32124pt>
+ [48 <./images/barnaby_sti_leakage_tid.pdf>]
+<./images/sram_switch_pnt_yao_etal.pdf, id=1385, 942.52126pt x 621.32124pt>
 File: ./images/sram_switch_pnt_yao_etal.pdf Graphic file (type pdf)
 
 <use ./images/sram_switch_pnt_yao_etal.pdf>
 Package pdftex.def Info: ./images/sram_switch_pnt_yao_etal.pdf used on input li
-ne 684.
+ne 685.
 (pdftex.def)             Requested size: 289.07999pt x 190.55978pt.
 
-<./images/sram_switch_pnt_postrad_yao_etal.pdf, id=1375, 942.52126pt x 691.5837
+<./images/sram_switch_pnt_postrad_yao_etal.pdf, id=1386, 942.52126pt x 691.5837
 6pt>
 File: ./images/sram_switch_pnt_postrad_yao_etal.pdf Graphic file (type pdf)
  <use ./images/sram_switch_pnt_postrad_yao_etal.pdf>
 Package pdftex.def Info: ./images/sram_switch_pnt_postrad_yao_etal.pdf used on 
-input line 689.
+input line 690.
 (pdftex.def)             Requested size: 289.07999pt x 212.10936pt.
- [47 <./images/snm_shift_postrad_yao_etal.pdf>] [48 <./images/sram_switch_pnt_y
+ [49 <./images/snm_shift_postrad_yao_etal.pdf>] [50 <./images/sram_switch_pnt_y
 ao_etal.pdf> <./images/sram_switch_pnt_postrad_yao_etal.pdf>]
-<./images/photocurrents_local_well_bulk.pdf, id=1429, 950.55125pt x 755.82375pt
+<./images/photocurrents_local_well_bulk.pdf, id=1440, 950.55125pt x 755.82375pt
 >
 File: ./images/photocurrents_local_well_bulk.pdf Graphic file (type pdf)
  <use ./images/photocurrents_local_well_bulk.pdf>
 Package pdftex.def Info: ./images/photocurrents_local_well_bulk.pdf used on inp
-ut line 721.
+ut line 722.
 (pdftex.def)             Requested size: 289.07999pt x 229.86276pt.
 
-<./images/photocurrents_local_well.pdf, id=1430, 956.57375pt x 754.82pt>
+<./images/photocurrents_local_well.pdf, id=1441, 956.57375pt x 754.82pt>
 File: ./images/photocurrents_local_well.pdf Graphic file (type pdf)
 
 <use ./images/photocurrents_local_well.pdf>
 Package pdftex.def Info: ./images/photocurrents_local_well.pdf used on input li
-ne 725.
+ne 726.
 (pdftex.def)             Requested size: 289.07999pt x 228.10628pt.
- [49]
-<./images/SRAM_array_interconnect_resistance.pdf, id=1445, 777.90625pt x 608.27
+ [51]
+<./images/SRAM_array_interconnect_resistance.pdf, id=1456, 777.90625pt x 608.27
 25pt>
 File: ./images/SRAM_array_interconnect_resistance.pdf Graphic file (type pdf)
  <use ./images/SRAM_array_interconnect_resistance.pdf>
 Package pdftex.def Info: ./images/SRAM_array_interconnect_resistance.pdf used o
-n input line 740.
+n input line 741.
 (pdftex.def)             Requested size: 325.215pt x 254.30324pt.
 
-<./images/mass_vss_railspan_collapse_bitmap.pdf, id=1451, 312.16624pt x 865.232
+<./images/mass_vss_railspan_collapse_bitmap.pdf, id=1462, 312.16624pt x 865.232
 5pt>
 File: ./images/mass_vss_railspan_collapse_bitmap.pdf Graphic file (type pdf)
  <use ./images/mass_vss_railspan_collapse_bitmap.pdf>
 Package pdftex.def Info: ./images/mass_vss_railspan_collapse_bitmap.pdf used on
- input line 752.
+ input line 753.
 (pdftex.def)             Requested size: 156.44475pt x 433.62pt.
 
-Underfull \hbox (badness 4024) in paragraph at lines 754--754
+Underfull \hbox (badness 4024) in paragraph at lines 755--755
 []\OT1/cmr/bx/n/12 Figure 2.28 |\OT1/cmr/m/n/12 Up-set bit-map with no pre-test
  to-tal dose for (a)
  []
 
-[50] [51 <./images/photocurrents_local_well_bulk.pdf> <./images/photocurrents_l
-ocal_well.pdf>] [52 <./images/SRAM_array_interconnect_resistance.pdf>] [53 <./i
-mages/mass_vss_railspan_collapse_bitmap.pdf>] [54] [55]
-<./images/xapsos_proton_fluence_vs_year_SPE.pdf, id=1535, 976.64874pt x 671.508
+[52] [53 <./images/photocurrents_local_well_bulk.pdf> <./images/photocurrents_l
+ocal_well.pdf>] [54 <./images/SRAM_array_interconnect_resistance.pdf>] [55 <./i
+mages/mass_vss_railspan_collapse_bitmap.pdf>] [56] [57]
+<./images/xapsos_proton_fluence_vs_year_SPE.pdf, id=1546, 976.64874pt x 671.508
 74pt>
 File: ./images/xapsos_proton_fluence_vs_year_SPE.pdf Graphic file (type pdf)
  <use ./images/xapsos_proton_fluence_vs_year_SPE.pdf>
 Package pdftex.def Info: ./images/xapsos_proton_fluence_vs_year_SPE.pdf used on
- input line 807.
+ input line 808.
 (pdftex.def)             Requested size: 361.34999pt x 248.45435pt.
 
-<./images/sierawski_spe_geo_worst_day_100_mils.pdf, id=1541, 829.0975pt x 499.8
+<./images/sierawski_spe_geo_worst_day_100_mils.pdf, id=1552, 829.0975pt x 499.8
 675pt>
 File: ./images/sierawski_spe_geo_worst_day_100_mils.pdf Graphic file (type pdf)
 
  <use ./images/sierawski_spe_geo_worst_day_100_mils.pdf>
 Package pdftex.def Info: ./images/sierawski_spe_geo_worst_day_100_mils.pdf used
- on input line 822.
+ on input line 823.
 (pdftex.def)             Requested size: 361.34999pt x 217.8601pt.
- [56 <./images/xapsos_proton_fluence_vs_year_SPE.pdf>]
-<./images/xapsos-gcr-abundance-vs-atomic-num.pdf, id=1558, 635.37375pt x 821.06
+ [58 <./images/xapsos_proton_fluence_vs_year_SPE.pdf>]
+<./images/xapsos-gcr-abundance-vs-atomic-num.pdf, id=1570, 635.37375pt x 821.06
 75pt>
 File: ./images/xapsos-gcr-abundance-vs-atomic-num.pdf Graphic file (type pdf)
  <use ./images/xapsos-gcr-abundance-vs-atomic-num.pdf>
 Package pdftex.def Info: ./images/xapsos-gcr-abundance-vs-atomic-num.pdf used o
-n input line 842.
+n input line 843.
 (pdftex.def)             Requested size: 335.5443pt x 433.62pt.
- [57 <./images/sierawski_spe_geo_worst_day_100_mils.pdf>]
-<./images/xapsos_gcr_fluence_vs_energy.pdf, id=1576, 1050.92625pt x 809.0225pt>
+ [59 <./images/sierawski_spe_geo_worst_day_100_mils.pdf>]
+<./images/xapsos_gcr_fluence_vs_energy.pdf, id=1588, 1050.92625pt x 809.0225pt>
 File: ./images/xapsos_gcr_fluence_vs_energy.pdf Graphic file (type pdf)
 <use ./images/xapsos_gcr_fluence_vs_energy.pdf>
 Package pdftex.def Info: ./images/xapsos_gcr_fluence_vs_energy.pdf used on inpu
-t line 858.
+t line 859.
 (pdftex.def)             Requested size: 361.34999pt x 278.17487pt.
- [58] [59 <./images/xapsos-gcr-abundance-vs-atomic-num.pdf>] [60 <./images/xaps
+ [60] [61 <./images/xapsos-gcr-abundance-vs-atomic-num.pdf>] [62 <./images/xaps
 os_gcr_fluence_vs_energy.pdf>]
-[61] <./images/xapsos_elec_spec_earth.pdf, id=1629, 1056.94875pt x 670.505pt>
+[63] <./images/xapsos_elec_spec_earth.pdf, id=1640, 1056.94875pt x 670.505pt>
 File: ./images/xapsos_elec_spec_earth.pdf Graphic file (type pdf)
 
 <use ./images/xapsos_elec_spec_earth.pdf>
 Package pdftex.def Info: ./images/xapsos_elec_spec_earth.pdf used on input line
- 898.
+ 899.
 (pdftex.def)             Requested size: 361.34999pt x 229.22711pt.
 
-<./images/xapsos_trapped_proton_env_earth.pdf, id=1632, 1114.1625pt x 697.60625
+<./images/xapsos_trapped_proton_env_earth.pdf, id=1643, 1114.1625pt x 697.60625
 pt>
 File: ./images/xapsos_trapped_proton_env_earth.pdf Graphic file (type pdf)
  <use ./images/xapsos_trapped_proton_env_earth.pdf>
 Package pdftex.def Info: ./images/xapsos_trapped_proton_env_earth.pdf used on i
-nput line 905.
+nput line 906.
 (pdftex.def)             Requested size: 361.34999pt x 226.25098pt.
 
-<./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf, id=1635, 1107.13625pt
+<./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf, id=1646, 1107.13625pt
  x 776.9025pt>
 File: ./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf Graphic file (typ
 e pdf)
  <use ./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf>
 Package pdftex.def Info: ./images/xapsos_elec_geo_flux_vs_year_energy_curves.pd
-f used on input line 912.
+f used on input line 913.
 (pdftex.def)             Requested size: 361.34999pt x 253.56908pt.
 
-[62 <./images/xapsos_elec_spec_earth.pdf>] [63 <./images/xapsos_trapped_proton_
-env_earth.pdf>] [64 <./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf>]
-<./images/gire2-line-plots-diffflux-jovianradii.pdf, id=1690, 819.06pt x 555.07
+[64 <./images/xapsos_elec_spec_earth.pdf>] [65 <./images/xapsos_trapped_proton_
+env_earth.pdf>] [66 <./images/xapsos_elec_geo_flux_vs_year_energy_curves.pdf>]
+<./images/gire2-line-plots-diffflux-jovianradii.pdf, id=1701, 819.06pt x 555.07
 375pt>
 File: ./images/gire2-line-plots-diffflux-jovianradii.pdf Graphic file (type pdf
 )
  <use ./images/gire2-line-plots-diffflux-jovianradii.pdf>
 Package pdftex.def Info: ./images/gire2-line-plots-diffflux-jovianradii.pdf use
-d on input line 944.
+d on input line 945.
 (pdftex.def)             Requested size: 361.34999pt x 244.88536pt.
 
-<./images/nasa-jovian-missions-elec-env.pdf, id=1693, 1445.4pt x 1084.05pt>
+<./images/nasa-jovian-missions-elec-env.pdf, id=1704, 1445.4pt x 1084.05pt>
 File: ./images/nasa-jovian-missions-elec-env.pdf Graphic file (type pdf)
 
 <use ./images/nasa-jovian-missions-elec-env.pdf>
 Package pdftex.def Info: ./images/nasa-jovian-missions-elec-env.pdf used on inp
-ut line 951.
+ut line 952.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [65 <./images/gire2-line-plots-diffflux-jovianradii.pdf>] [66 <./images/nasa-j
+ [67 <./images/gire2-line-plots-diffflux-jovianradii.pdf>] [68 <./images/nasa-j
 ovian-missions-elec-env.pdf>]
-<./images/katz_dose_in_emulsion.pdf, id=1736, 464.73625pt x 880.28876pt>
+<./images/katz_dose_in_emulsion.pdf, id=1747, 464.73625pt x 880.28876pt>
 File: ./images/katz_dose_in_emulsion.pdf Graphic file (type pdf)
 
 <use ./images/katz_dose_in_emulsion.pdf>
 Package pdftex.def Info: ./images/katz_dose_in_emulsion.pdf used on input line 
-988.
+989.
 (pdftex.def)             Requested size: 286.16211pt x 542.025pt.
- [67] [68 <./images/katz_dose_in_emulsion.pdf>]
-<./images/stapor_1988_let_26_Cu_ions.pdf, id=1777, 376.40625pt x 615.29875pt>
+ [69] [70 <./images/katz_dose_in_emulsion.pdf>]
+<./images/stapor_1988_let_26_Cu_ions.pdf, id=1790, 376.40625pt x 615.29875pt>
 File: ./images/stapor_1988_let_26_Cu_ions.pdf Graphic file (type pdf)
 
 <use ./images/stapor_1988_let_26_Cu_ions.pdf>
 Package pdftex.def Info: ./images/stapor_1988_let_26_Cu_ions.pdf used on input 
-line 1016.
+line 1017.
 (pdftex.def)             Requested size: 289.07999pt x 472.57974pt.
- [69] [70 <./images/stapor_1988_let_26_Cu_ions.pdf>]
-<./images/haran-transistors.png, id=1808, 193.6836pt x 129.1224pt>
+ [71] [72 <./images/stapor_1988_let_26_Cu_ions.pdf>]
+<./images/haran-transistors.png, id=1819, 193.6836pt x 129.1224pt>
 File: ./images/haran-transistors.png Graphic file (type png)
 
 <use ./images/haran-transistors.png>
-Package pdftex.def Info: ./images/haran-transistors.png used on input line 1041
+Package pdftex.def Info: ./images/haran-transistors.png used on input line 1042
 .
 (pdftex.def)             Requested size: 180.67499pt x 120.45694pt.
 
-<./images/haran-sram.png, id=1809, 163.3302pt x 171.039pt>
+<./images/haran-sram.png, id=1820, 163.3302pt x 171.039pt>
 File: ./images/haran-sram.png Graphic file (type png)
 
 <use ./images/haran-sram.png>
-Package pdftex.def Info: ./images/haran-sram.png used on input line 1046.
+Package pdftex.def Info: ./images/haran-sram.png used on input line 1047.
 (pdftex.def)             Requested size: 180.67499pt x 189.20306pt.
- [71 <./images/haran-transistors.png> <./images/haran-sram.png>]) [72]
+ [73 <./images/haran-transistors.png> <./images/haran-sram.png>]) [74]
 \openout2 = `tex/chap_3.aux'.
 
  (./tex/chap_3.tex
 Chapter 3.
-[73
+[75
 
 
 
-] <./images/exp_setup.pdf, id=1837, 605.26125pt x 395.4775pt>
+] <./images/exp_setup.pdf, id=1848, 605.26125pt x 395.4775pt>
 File: ./images/exp_setup.pdf Graphic file (type pdf)
 
 <use ./images/exp_setup.pdf>
 Package pdftex.def Info: ./images/exp_setup.pdf used on input line 24.
-(pdftex.def)             Requested size: 325.215pt x 212.49863pt.
+(pdftex.def)             Requested size: 361.34999pt x 236.10556pt.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ® in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ® in font cmr12!
- [74 <./images/exp_setup.pdf>]
-<./images/timing_diagram_ppt.pdf, id=1870, 1445.4pt x 1084.05pt>
+ [76 <./images/exp_setup.pdf>]
+<./images/timing_diagram_ppt.pdf, id=1882, 1445.4pt x 1084.05pt>
 File: ./images/timing_diagram_ppt.pdf Graphic file (type pdf)
 
 <use ./images/timing_diagram_ppt.pdf>
 Package pdftex.def Info: ./images/timing_diagram_ppt.pdf used on input line 42.
 
-(pdftex.def)             Requested size: 325.215pt x 243.90073pt.
- [75]
-<./images/aracor_spectrum_elec_fluence.pdf, id=1876, 1445.4pt x 1084.05pt>
+(pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
+ [77]
+<./images/aracor_spectrum_elec_fluence.pdf, id=1888, 1445.4pt x 1084.05pt>
 File: ./images/aracor_spectrum_elec_fluence.pdf Graphic file (type pdf)
 
 <use ./images/aracor_spectrum_elec_fluence.pdf>
 Package pdftex.def Info: ./images/aracor_spectrum_elec_fluence.pdf used on inpu
 t line 56.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [76 <./images/timing_diagram_ppt.pdf>] [77 <./images/aracor_spectrum_elec_flue
+ [78 <./images/timing_diagram_ppt.pdf>] [79 <./images/aracor_spectrum_elec_flue
 nce.pdf>]
-<./images/e-air-50keV-100events_cropped.pdf, id=1931, 140.525pt x 360.34625pt>
+<./images/e-air-50keV-100events_cropped.pdf, id=1942, 140.525pt x 360.34625pt>
 File: ./images/e-air-50keV-100events_cropped.pdf Graphic file (type pdf)
 
 <use ./images/e-air-50keV-100events_cropped.pdf>
 Package pdftex.def Info: ./images/e-air-50keV-100events_cropped.pdf used on inp
 ut line 78.
-(pdftex.def)             Requested size: 140.91704pt x 361.34999pt.
- [78 <./images/e-air-50keV-100events_cropped.pdf>]
-<./images/image_1_box_2_flat3d.pdf, id=1947, 145.92758pt x 237.3925pt>
+(pdftex.def)             Requested size: 169.09872pt x 433.62pt.
+ [80 <./images/e-air-50keV-100events_cropped.pdf>]
+<./images/image_1_box_2_flat3d.pdf, id=1959, 145.92758pt x 237.3925pt>
 File: ./images/image_1_box_2_flat3d.pdf Graphic file (type pdf)
 
 <use ./images/image_1_box_2_flat3d.pdf>
@@ -1037,194 +1036,194 @@ Package pdftex.def Info: ./images/image_1_box_2_flat3d.pdf used on input line 9
 5.
 (pdftex.def)             Requested size: 271.0125pt x 440.94054pt.
 
-<./images/delta_vot_vs_dose_ppt.pdf, id=1951, 1445.4pt x 1084.05pt>
+<./images/delta_vot_vs_dose_ppt.pdf, id=1963, 1445.4pt x 1084.05pt>
 File: ./images/delta_vot_vs_dose_ppt.pdf Graphic file (type pdf)
 
 <use ./images/delta_vot_vs_dose_ppt.pdf>
 Package pdftex.def Info: ./images/delta_vot_vs_dose_ppt.pdf used on input line 
 110.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [79] [80 <./images/image_1_box_2_flat3d.pdf>] [81 <./images/delta_vot_vs_dose_
+ [81] [82 <./images/image_1_box_2_flat3d.pdf>] [83 <./images/delta_vot_vs_dose_
 ppt.pdf>]
-<./images/xray_exp_sram_errors.pdf, id=1999, 1445.4pt x 1084.05pt>
+<./images/xray_exp_sram_errors.pdf, id=2017, 1445.4pt x 1084.05pt>
 File: ./images/xray_exp_sram_errors.pdf Graphic file (type pdf)
 
 <use ./images/xray_exp_sram_errors.pdf>
 Package pdftex.def Info: ./images/xray_exp_sram_errors.pdf used on input line 1
-77.
-(pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [82] [83]
-<./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf, id=2019, 1445.4pt x 1084.05pt>
+82.
+(pdftex.def)             Requested size: 433.62pt x 325.21751pt.
+ [84] [85] [86 <./images/xray_exp_sram_errors.pdf>]
+<./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf, id=2054, 1445.4pt x 1084.05pt>
 File: ./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf Graphic file (type pdf)
 <use ./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf>
 Package pdftex.def Info: ./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf used on
- input line 202.
+ input line 207.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [84 <./images/xray_exp_sram_errors.pdf>] [85 <./images/28nm_sram_bc_cs_vs_modr
-ow_dw_p35v.pdf>] [86]
-<./images/28nm_xray_proton_muon_comp.pdf, id=2063, 1445.4pt x 1084.05pt>
+ [87] [88 <./images/28nm_sram_bc_cs_vs_modrow_dw_p35v.pdf>]
+<./images/28nm_xray_proton_muon_comp.pdf, id=2081, 1445.4pt x 1084.05pt>
 File: ./images/28nm_xray_proton_muon_comp.pdf Graphic file (type pdf)
 
 <use ./images/28nm_xray_proton_muon_comp.pdf>
 Package pdftex.def Info: ./images/28nm_xray_proton_muon_comp.pdf used on input 
-line 238.
+line 243.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
 
-<./images/45nm_xray_proton_muon_comp.pdf, id=2064, 1445.4pt x 1084.05pt>
+<./images/45nm_xray_proton_muon_comp.pdf, id=2082, 1445.4pt x 1084.05pt>
 File: ./images/45nm_xray_proton_muon_comp.pdf Graphic file (type pdf)
 
 <use ./images/45nm_xray_proton_muon_comp.pdf>
 Package pdftex.def Info: ./images/45nm_xray_proton_muon_comp.pdf used on input 
-line 245.
+line 250.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [87 <./images/28nm_xray_proton_muon_comp.pdf>] [88 <./images/45nm_xray_proton_
-muon_comp.pdf>]) [89] [90]
+ [89] [90 <./images/28nm_xray_proton_muon_comp.pdf>] [91 <./images/45nm_xray_pr
+oton_muon_comp.pdf>]) [92]
 \openout2 = `tex/chap_4.aux'.
 
 
 (./tex/chap_4.tex
 Chapter 4.
-[91
+[93
 
 
 
 ]
-<./images/full_aracor_spectrum_xrays_ppt.pdf, id=2146, 1445.4pt x 1084.05pt>
+<./images/full_aracor_spectrum_xrays_ppt.pdf, id=2160, 1445.4pt x 1084.05pt>
 File: ./images/full_aracor_spectrum_xrays_ppt.pdf Graphic file (type pdf)
 
 <use ./images/full_aracor_spectrum_xrays_ppt.pdf>
 Package pdftex.def Info: ./images/full_aracor_spectrum_xrays_ppt.pdf used on in
-put line 33.
+put line 29.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [92] [93 <./images/full_aracor_spectrum_xrays_ppt.pdf>]
-<./images/50-nm-cube-10kev-electron-2pt1kev.png, id=2185, 479.8728pt x 452.4102
+ [94] [95 <./images/full_aracor_spectrum_xrays_ppt.pdf>]
+<./images/50-nm-cube-10kev-electron-2pt1kev.png, id=2198, 479.8728pt x 452.4102
 pt>
 File: ./images/50-nm-cube-10kev-electron-2pt1kev.png Graphic file (type png)
  <use ./images/50-nm-cube-10kev-electron-2pt1kev.png>
 Package pdftex.def Info: ./images/50-nm-cube-10kev-electron-2pt1kev.png used on
- input line 55.
+ input line 51.
 (pdftex.def)             Requested size: 234.87749pt x 221.44131pt.
 
-<./images/50-nm-cube-10kev-electron-2pt6kev.png, id=2186, 980.66376pt x 940.513
+<./images/50-nm-cube-10kev-electron-2pt6kev.png, id=2199, 980.66376pt x 940.513
 75pt>
 File: ./images/50-nm-cube-10kev-electron-2pt6kev.png Graphic file (type png)
  <use ./images/50-nm-cube-10kev-electron-2pt6kev.png>
 Package pdftex.def Info: ./images/50-nm-cube-10kev-electron-2pt6kev.png used on
- input line 59.
+ input line 55.
 (pdftex.def)             Requested size: 234.87749pt x 225.25432pt.
- [94] [95 <./images/50-nm-cube-10kev-electron-2pt1kev.png> <./images/50-nm-cube
--10kev-electron-2pt6kev.png>]
-<./images/sim-vs-exp-norm-cross-section.pdf, id=2203, 1445.4pt x 1084.05pt>
+
+<./images/sim-vs-exp-norm-cross-section.pdf, id=2205, 1445.4pt x 1084.05pt>
 File: ./images/sim-vs-exp-norm-cross-section.pdf Graphic file (type pdf)
 
 <use ./images/sim-vs-exp-norm-cross-section.pdf>
 Package pdftex.def Info: ./images/sim-vs-exp-norm-cross-section.pdf used on inp
-ut line 73.
+ut line 69.
 (pdftex.def)             Requested size: 361.34999pt x 271.01184pt.
- [96 <./images/sim-vs-exp-norm-cross-section.pdf>] [97]
-<./images/geo_max_rate_pred_ae8_spec_ppt.pdf, id=2232, 1445.4pt x 1084.05pt>
+ [96] [97 <./images/50-nm-cube-10kev-electron-2pt1kev.png> <./images/50-nm-cube
+-10kev-electron-2pt6kev.png>]
+[98 <./images/sim-vs-exp-norm-cross-section.pdf>]
+<./images/geo_max_rate_pred_ae8_spec_ppt.pdf, id=2240, 1445.4pt x 1084.05pt>
 File: ./images/geo_max_rate_pred_ae8_spec_ppt.pdf Graphic file (type pdf)
 
 <use ./images/geo_max_rate_pred_ae8_spec_ppt.pdf>
 Package pdftex.def Info: ./images/geo_max_rate_pred_ae8_spec_ppt.pdf used on in
-put line 100.
+put line 96.
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
- [98 <./images/geo_max_rate_pred_ae8_spec_ppt.pdf>]
-<./images/jov-eur-elec-flux-env.pdf, id=2257, 1445.4pt x 1084.05pt>
+ [99] [100 <./images/geo_max_rate_pred_ae8_spec_ppt.pdf>]
+<./images/jov-eur-elec-flux-env.pdf, id=2270, 1445.4pt x 1084.05pt>
 File: ./images/jov-eur-elec-flux-env.pdf Graphic file (type pdf)
 
 <use ./images/jov-eur-elec-flux-env.pdf>
 Package pdftex.def Info: ./images/jov-eur-elec-flux-env.pdf used on input line 
-120.
+116.
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
 
-<./images/eur-prot-flux-env.pdf, id=2258, 1445.4pt x 1084.05pt>
+<./images/eur-prot-flux-env.pdf, id=2271, 1445.4pt x 1084.05pt>
 File: ./images/eur-prot-flux-env.pdf Graphic file (type pdf)
 
 <use ./images/eur-prot-flux-env.pdf>
-Package pdftex.def Info: ./images/eur-prot-flux-env.pdf used on input line 128.
+Package pdftex.def Info: ./images/eur-prot-flux-env.pdf used on input line 124.
 
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
 
-<./images/geo_max_rate_pred_ae8_ppt.pdf, id=2260, 1445.4pt x 1084.05pt>
+<./images/geo_max_rate_pred_ae8_ppt.pdf, id=2273, 1445.4pt x 1084.05pt>
 File: ./images/geo_max_rate_pred_ae8_ppt.pdf Graphic file (type pdf)
 
 <use ./images/geo_max_rate_pred_ae8_ppt.pdf>
 Package pdftex.def Info: ./images/geo_max_rate_pred_ae8_ppt.pdf used on input l
-ine 141.
+ine 137.
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
- [99] [100 <./images/jov-eur-elec-flux-env.pdf>] [101 <./images/eur-prot-flux-e
-nv.pdf>] [102 <./images/geo_max_rate_pred_ae8_ppt.pdf>]
-<./images/europa-jovian-elec-rate-pred.pdf, id=2328, 1445.4pt x 1084.05pt>
+ [101] [102 <./images/jov-eur-elec-flux-env.pdf>] [103 <./images/eur-prot-flux-
+env.pdf>] [104 <./images/geo_max_rate_pred_ae8_ppt.pdf>]
+<./images/europa-jovian-elec-rate-pred.pdf, id=2340, 1445.4pt x 1084.05pt>
 File: ./images/europa-jovian-elec-rate-pred.pdf Graphic file (type pdf)
 
 <use ./images/europa-jovian-elec-rate-pred.pdf>
 Package pdftex.def Info: ./images/europa-jovian-elec-rate-pred.pdf used on inpu
-t line 161.
+t line 157.
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
 
-<./images/europa-elec-prot-rate-pred.pdf, id=2333, 1445.4pt x 1084.05pt>
+<./images/europa-elec-prot-rate-pred.pdf, id=2345, 1445.4pt x 1084.05pt>
 File: ./images/europa-elec-prot-rate-pred.pdf Graphic file (type pdf)
 
 <use ./images/europa-elec-prot-rate-pred.pdf>
 Package pdftex.def Info: ./images/europa-elec-prot-rate-pred.pdf used on input 
-line 171.
+line 167.
 (pdftex.def)             Requested size: 433.62pt x 325.21751pt.
- [103] [104 <./images/europa-jovian-elec-rate-pred.pdf>] [105 <./images/europa-
-elec-prot-rate-pred.pdf>] [106]
+ [105] [106 <./images/europa-jovian-elec-rate-pred.pdf>] [107 <./images/europa-
+elec-prot-rate-pred.pdf>] [108]
+[109]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-[107]
-<./images/560MeVN_track_2_copy_final.png, id=2410, 667.49374pt x 736.7525pt>
+<./images/560MeVN_track_2_copy_final.png, id=2420, 667.49374pt x 736.7525pt>
 File: ./images/560MeVN_track_2_copy_final.png Graphic file (type png)
 
 <use ./images/560MeVN_track_2_copy_final.png>
 Package pdftex.def Info: ./images/560MeVN_track_2_copy_final.png used on input 
-line 231.
+line 227.
 (pdftex.def)             Requested size: 360.11534pt x 397.48499pt.
- [108]
-<./images/25_MeVpU_He_energyDist_vs_katz-eps-converted-to.pdf, id=2415, 236.885
+ [110]
+<./images/25_MeVpU_He_energyDist_vs_katz-eps-converted-to.pdf, id=2427, 236.885
 pt x 169.63374pt>
 File: ./images/25_MeVpU_He_energyDist_vs_katz-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use ./images/25_MeVpU_He_energyDist_vs_katz-eps-converted-to.pdf>
 Package pdftex.def Info: ./images/25_MeVpU_He_energyDist_vs_katz-eps-converted-
-to.pdf used on input line 243.
+to.pdf used on input line 239.
 (pdftex.def)             Requested size: 361.34999pt x 258.7726pt.
 
-<./images/25_MeVpU_Ne_energyDist_vs_katz-eps-converted-to.pdf, id=2416, 231.866
+<./images/25_MeVpU_Ne_energyDist_vs_katz-eps-converted-to.pdf, id=2428, 231.866
 26pt x 167.62625pt>
 File: ./images/25_MeVpU_Ne_energyDist_vs_katz-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use ./images/25_MeVpU_Ne_energyDist_vs_katz-eps-converted-to.pdf>
 Package pdftex.def Info: ./images/25_MeVpU_Ne_energyDist_vs_katz-eps-converted-
-to.pdf used on input line 253.
+to.pdf used on input line 249.
 (pdftex.def)             Requested size: 361.34999pt x 261.258pt.
- [109]
-[110] <./images/prob_comp_apl_fig3_ap.pdf, id=2441, 240.65909pt x 170.5572pt>
+ [111]
+[112 <./images/560MeVN_track_2_copy_final.png>] [113 <./images/25_MeVpU_He_ener
+gyDist_vs_katz-eps-converted-to.pdf>] [114 <./images/25_MeVpU_Ne_energyDist_vs_
+katz-eps-converted-to.pdf>] [115]
+<./images/prob_comp_apl_fig3_ap.pdf, id=2484, 240.65909pt x 170.5572pt>
 File: ./images/prob_comp_apl_fig3_ap.pdf Graphic file (type pdf)
 
 <use ./images/prob_comp_apl_fig3_ap.pdf>
 Package pdftex.def Info: ./images/prob_comp_apl_fig3_ap.pdf used on input line 
-305.
+301.
 (pdftex.def)             Requested size: 361.34999pt x 256.0928pt.
- [111] [112]) [113] [114 <./images/560MeVN_track_2_copy_final.png>] [115 <./ima
-ges/25_MeVpU_He_energyDist_vs_katz-eps-converted-to.pdf>] [116 <./images/25_MeV
-pU_Ne_energyDist_vs_katz-eps-converted-to.pdf>] [117 <./images/prob_comp_apl_fi
-g3_ap.pdf>]
+ [116 <./images/prob_comp_apl_fig3_ap.pdf>] [117]) [118]
 \openout2 = `tex/chap_5.aux'.
 
  (./tex/chap_5.tex
 Chapter 5.
-[118
+[119
 
 
 
-]) [119] [120] (./king_dissertation_master.bbl [121
+] [120]) [121] (./king_dissertation_master.bbl [122
 
 
 
@@ -1241,36 +1240,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--97
 12 [On-line]
  []
 
-[122] [123]
+[123] [124]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [124]
+ [125]
 Underfull \hbox (badness 1939) in paragraph at lines 233--235
 []\OT1/cmr/m/n/12 H. Bethe, ``Brems-formel f^^?ur elek-tro-nen rel-a-tivis-tis-
 cher geschwindigkeit,''
  []
 
-[125] [126] [127]
+[126] [127] [128]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- [128] [129]
+ [129] [130]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no — in font cmr12!
- [130]
+ [131]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ´ in font cmr12!
- [131]
+ [132]
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
- [132]
+ [133]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
 
 (./king_dissertation_master.aux (./tex/chap_1.aux) (./tex/chap_2.aux)
@@ -1283,9 +1282,9 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  ) 
 Here is how much of TeX's memory you used:
- 9490 strings out of 493315
- 150776 string characters out of 6137904
- 268673 words of memory out of 5000000
+ 9491 strings out of 493315
+ 150784 string characters out of 6137904
+ 269073 words of memory out of 5000000
  12292 multiletter control sequences out of 15000+600000
  12996 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1307,10 +1306,10 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 13/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on king_dissertation_master.pdf (147 pages, 8007069 bytes).
+Output written on king_dissertation_master.pdf (148 pages, 8007848 bytes).
 PDF statistics:
- 2751 PDF objects out of 2984 (max. 8388607)
- 2283 compressed objects within 23 object streams
- 409 named destinations out of 1000 (max. 500000)
+ 2759 PDF objects out of 2984 (max. 8388607)
+ 2290 compressed objects within 23 object streams
+ 410 named destinations out of 1000 (max. 500000)
  600 words of extra memory for PDF output out of 10000 (max. 10000000)
 

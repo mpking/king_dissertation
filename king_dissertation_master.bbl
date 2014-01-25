@@ -646,6 +646,11 @@ D.~M. Fleetwood, P.~S. Winokur, L.~J. Lorence, W.~Beezhold, P.~V.
   dose-enhanced low-energy radiation},'' {\em IEEE Trans. Nucl. Sci.}, vol.~33,
   pp.~1245--1251, Dec. 1986.
 
+\bibitem{Weller:2010ud}
+R.~A. Weller, M.~H. Mendenhall, R.~A. Reed, R.~D. Schrimpf, K.~M. Warren, B.~D.
+  Sierawski, and L.~W. Massengill, ``{Monte Carlo simulation of single event
+  effects},'' {\em IEEE Trans. Nucl. Sci.}, vol.~57, pp.~1726--1746, Aug. 2010.
+
 \bibitem{Dasgupta:2011mg}
 A.~Dasgupta, D.~M. Fleetwood, R.~A. Reed, R.~A. Weller, and M.~H. Mendenhall,
   ``Effects of metal gates and back-end-of-line materials on x-ray dose in
@@ -663,11 +668,6 @@ D.~M. Fleetwood and P.~V. Dressendorfer, ``{A simple method to identify
   radiation and annealing biases that lead to worst-case CMOS static RAM
   postirradiation response},'' {\em IEEE Trans. Nucl. Sci.}, vol.~34,
   pp.~1408--1413, Dec. 1987.
-
-\bibitem{Weller:2010ud}
-R.~A. Weller, M.~H. Mendenhall, R.~A. Reed, R.~D. Schrimpf, K.~M. Warren, B.~D.
-  Sierawski, and L.~W. Massengill, ``{Monte Carlo simulation of single event
-  effects},'' {\em IEEE Trans. Nucl. Sci.}, vol.~57, pp.~1726--1746, Aug. 2010.
 
 \bibitem{Agostinelli:2003vd}
 S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
